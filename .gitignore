@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+addgpts.js
+getgpts.js
+generatereadme.js
+generatereadme.ts

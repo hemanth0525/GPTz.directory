@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
+    "target": "es2018",
+    "module": "commonjs",
     "strict": true,
-    "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
@@ -19,8 +21,25 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": ["node"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "dataset.js",
+    "fine_tune.js",
+    "**/*.ts",
+    "train-model.js",
+    "lib/firebase.ts",
+    "trainModel.js"
+  ],
+  "exclude": ["node_modules"],
+  "type": "command",
+  "commands": {
+    "command": "typescript.restartTsServer"
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib"
 }

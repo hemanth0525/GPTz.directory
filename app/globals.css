@@ -2,26 +2,235 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--background) 0%, #000 100%);
+}
+
+:root {
+  --background: 240 27% 5%;
+  --foreground: 0 0% 95%;
+  --card: 240 24% 8%;
+  --card-foreground: 0 0% 95%;
+  --popover: 240 24% 8%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 252 100% 70%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 192 100% 70%;
+  --secondary-foreground: 240 24% 8%;
+  --muted: 240 24% 20%;
+  --muted-foreground: 240 10% 70%;
+  --accent: 312 100% 70%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 100% 65%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 240 24% 20%;
+  --input: 240 24% 20%;
+  --ring: 252 100% 70%;
+  --radius: 0.5rem;
+}
+
+html {
+  cursor: url("./cursor.png"), auto;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+a,
+button,
+[role="button"],
+select,
+[aria-haspopup="listbox"],
+option,
+select:hover,
+option:hover,
+select:focus,
+option:focus,
+dropdown,
+[role="menu"],
+[role="menuitem"],
+[role="listbox"],
+[role="option"],
+[role="combobox"] {
+  cursor: url("./pointer.png"), pointer;
+}
+
+input,
+textarea {
+  cursor: url("./ibeam.cur"), text;
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.2);
+  color: hsl(var(--primary));
+}
+
+.space-bg {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-attachment: fixed;
+}
+
+.star {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
   }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cursorPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes cursorRing {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.glow-text {
+  text-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary),
+    0 0 30px var(--primary);
+}
+
+.neon-border {
+  box-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary),
+    0 0 15px var(--primary);
+}
+
+.glass-effect {
+  background: rgba(30, 30, 45, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 15px var(--primary);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.grid-bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: hsl(var(--background));
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--card));
+  border: 2px solid hsl(var(--background));
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #69d4ff;
+  border: 2px solid hsl(var(--background));
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #69d4ff50;
+  border: 2px solid #69d4ff30;
+  cursor: url("./pointer.png"), pointer;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+a:hover,
+button:hover,
+[role="button"]:hover,
+.select-trigger:hover {
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 6px #69d4ff80);
+}
+
+::-moz-selection {
+  background: #69d4ff50;
+  color: white;
+}
+
+::selection {
+  background: #69d4ff50;
+  color: white;
+}
+
+input,
+textarea,
+[contenteditable] {
+  caret-color: #69d4ff;
 }
