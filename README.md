@@ -6,8 +6,14 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 300+ AI tools and GPTS...
 
+
+## Blockchain & Cryptocurrency
+
+- [ChainGPT](https://gptz.directory/gpt/chaingpt)
+
 ## Categories
 
+- [Blockchain & Cryptocurrency](#blockchain--cryptocurrency)
 - [3D Modeling & Design](#3d-modeling--design)
 - [AI Art & Design](#ai-art--design)
 - [AI Assistants](#ai-assistants)
@@ -686,4 +692,4 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 ## Writing & Content Creation
 
-- [Smart Write by Neo](https://gptz.directory/gpt/smart-write-by-neo)
+- [Smart Write by Neo](https://gptz.directory/gpt/smart-write-by-neo)
