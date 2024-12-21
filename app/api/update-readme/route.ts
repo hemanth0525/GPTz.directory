@@ -61,7 +61,7 @@ export async function POST(request: Request) {
                 manager.content.push(line)
                 manager.content.push('')
                 allCategories.forEach(cat => {
-                    manager.content.push(`- [${cat}](#${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')})`)
+                    manager.content.push(`- [${cat}](#${cat.toLowerCase().replace(/&/g, '-').replace(/[^a-z0-9]+/g, '-')})`)
                 })
                 return
             }
