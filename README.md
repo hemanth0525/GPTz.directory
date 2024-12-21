@@ -8,6 +8,8 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 ## Categories
 
+- [blockchain & cryptocurrency](#blockchain-cryptocurrency)
+
 - [3D Modeling & Design](#3d-modeling--design)
 - [AI Art & Design](#ai-art--design)
 - [AI Assistants](#ai-assistants)
