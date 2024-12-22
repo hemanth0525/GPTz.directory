@@ -4,104 +4,8 @@ Explore our curated collection of GPTs across various categories.
 
 A curated directory of AI tools and GPTs, helping you discover and explore the latest in artificial intelligence technology. From AI writing assistants to image generators, find the perfect AI tool for your needs.
 
-300+ AI tools and GPTS...
+0+ AI tools and GPTS...
 
-## Categories
-
-- [3D Modeling & Design](#3d-modeling--design)
-- [Accessibility Tools](#accessibility-tools)
-- [Advertising](#advertising)
-- [Advertising & Marketing](#advertising--marketing)
-- [AI Art & Design](#ai-art--design)
-- [AI Assistants](#ai-assistants)
-- [AI Chatbots](#ai-chatbots)
-- [AI Coding & Development](#ai-coding--development)
-- [AI Music & Audio](#ai-music--audio)
-- [AI Video & Animation](#ai-video--animation)
-- [AI Voice Generation](#ai-voice-generation)
-- [AI Writing & Editing](#ai-writing--editing)
-- [Analytics](#analytics)
-- [Audio Processing](#audio-processing)
-- [Augmented Reality (AR)](#augmented-reality-ar)
-- [Automation](#automation)
-- [Big Data Analytics](#big-data-analytics)
-- [Blockchain & Cryptocurrency](#blockchain--cryptocurrency)
-- [Business](#business)
-- [Business Intelligence](#business-intelligence)
-- [Business Management](#business-management)
-- [Chatbot](#chatbot)
-- [Cloud Computing](#cloud-computing)
-- [Code Assistant](#code-assistant)
-- [Coding & Development](#coding--development)
-- [Collaboration](#collaboration)
-- [Communication](#communication)
-- [Content Creation](#content-creation)
-- [Content Generation](#content-generation)
-- [Copywriting](#copywriting)
-- [Creative Writing](#creative-writing)
-- [Customer Service](#customer-service)
-- [Customer Support](#customer-support)
-- [Cybersecurity](#cybersecurity)
-- [Data Management](#data-management)
-- [Design](#design)
-- [Development](#development)
-- [E-Commerce](#e-commerce)
-- [Education](#education)
-- [Education & E-Learning](#education--e-learning)
-- [Entertainment](#entertainment)
-- [Environmental Science](#environmental-science)
-- [Fashion & Style](#fashion--style)
-- [File Management](#file-management)
-- [Finance](#finance)
-- [Finance & Investing](#finance--investing)
-- [Gaming Tools](#gaming-tools)
-- [Graphic Design](#graphic-design)
-- [Graphic Design & Generation](#graphic-design--generation)
-- [Health & Fitness](#health--fitness)
-- [Healthcare](#healthcare)
-- [Healthcare Technology](#healthcare-technology)
-- [Home Automation](#home-automation)
-- [HR Tech](#hr-tech)
-- [Human Resources & Recruitment](#human-resources--recruitment)
-- [Image Editing](#image-editing)
-- [Image Generation](#image-generation)
-- [Image Processing](#image-processing)
-- [Information](#information)
-- [Innovation](#innovation)
-- [Knowledge Management](#knowledge-management)
-- [Language Processing](#language-processing)
-- [Legal & Compliance](#legal--compliance)
-- [Machine Learning](#machine-learning)
-- [Marketing](#marketing)
-- [Media](#media)
-- [Mental Health](#mental-health)
-- [Mental Health & Wellness](#mental-health--wellness)
-- [Music](#music)
-- [Navigation](#navigation)
-- [News Aggregation](#news-aggregation)
-- [Photo Editing](#photo-editing)
-- [Privacy](#privacy)
-- [Productivity](#productivity)
-- [Productivity & Organization](#productivity--organization)
-- [Project Management](#project-management)
-- [Real Estate](#real-estate)
-- [Recipe & Cooking Assistants](#recipe--cooking-assistants)
-- [Research](#research)
-- [Sales Enablement](#sales-enablement)
-- [Script Writing](#script-writing)
-- [SEO](#seo)
-- [Social Media](#social-media)
-- [Social Media Management](#social-media-management)
-- [Sports Analysis](#sports-analysis)
-- [Translation](#translation)
-- [Translator Tools](#translator-tools)
-- [Travel Planning](#travel-planning)
-- [Video Creation](#video-creation)
-- [Video Creation & Editing](#video-creation--editing)
-- [Video Editing](#video-editing)
-- [Web Development](#web-development)
-- [Writing](#writing)
-- [Writing & Content Creation](#writing--content-creation)
 
 ## 3D Modeling & Design
 
@@ -112,20 +16,6 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [RenderBot AI](https://gptz.directory/gpt/renderbot-ai)
 - [Sloyd](https://gptz.directory/gpt/sloyd)
 - [Spline](https://gptz.directory/gpt/spline)
-
-## Accessibility Tools
-
-- [Speechify AI](https://gptz.directory/gpt/speechify-ai)
-
-## Advertising
-
-- [Copy.ai](https://gptz.directory/gpt/copy.ai)
-- [Jasper AI](https://gptz.directory/gpt/jasper-ai)
-
-## Advertising & Marketing
-
-- [Surfer SEO](https://gptz.directory/gpt/surfer-seo)
-- [Zappi AI](https://gptz.directory/gpt/zappi-ai)
 
 ## AI Art & Design
 
@@ -209,6 +99,20 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [UpWord AI](https://gptz.directory/gpt/upword-ai)
 - [Writer.com](https://gptz.directory/gpt/writer.com)
 
+## Accessibility Tools
+
+- [Speechify AI](https://gptz.directory/gpt/speechify-ai)
+
+## Advertising
+
+- [Copy.ai](https://gptz.directory/gpt/copy.ai)
+- [Jasper AI](https://gptz.directory/gpt/jasper-ai)
+
+## Advertising & Marketing
+
+- [Surfer SEO](https://gptz.directory/gpt/surfer-seo)
+- [Zappi AI](https://gptz.directory/gpt/zappi-ai)
+
 ## Analytics
 
 - [Cranium AI](https://gptz.directory/gpt/cranium-ai)
@@ -254,6 +158,103 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Business Management
 
 - [Tallyfy](https://gptz.directory/gpt/tallyfy)
+
+## Categories
+
+- [3D Modeling & Design](#3d-modeling--design)
+- [Accessibility Tools](#accessibility-tools)
+- [Advertising & Marketing](#advertising--marketing)
+- [Advertising](#advertising)
+- [AI Art & Design](#ai-art--design)
+- [AI Assistants](#ai-assistants)
+- [AI Chatbots](#ai-chatbots)
+- [AI Coding & Development](#ai-coding--development)
+- [AI Music & Audio](#ai-music--audio)
+- [AI Video & Animation](#ai-video--animation)
+- [AI Voice Generation](#ai-voice-generation)
+- [AI Writing & Editing](#ai-writing--editing)
+- [Analytics](#analytics)
+- [Audio Processing](#audio-processing)
+- [Augmented Reality (AR)](#augmented-reality-ar)
+- [Automation](#automation)
+- [Big Data Analytics](#big-data-analytics)
+- [Blockchain & Cryptocurrency](#blockchain--cryptocurrency)
+- [Business Intelligence](#business-intelligence)
+- [Business Management](#business-management)
+- [Business](#business)
+- [Chatbot](#chatbot)
+- [Cloud Computing](#cloud-computing)
+- [Code Assistant](#code-assistant)
+- [Coding & Development](#coding--development)
+- [Collaboration](#collaboration)
+- [Communication](#communication)
+- [Content Creation](#content-creation)
+- [Content Generation](#content-generation)
+- [Copywriting](#copywriting)
+- [Creative Writing](#creative-writing)
+- [Customer Service](#customer-service)
+- [Customer Support](#customer-support)
+- [Cybersecurity](#cybersecurity)
+- [Data Management](#data-management)
+- [Design](#design)
+- [Development](#development)
+- [E-Commerce](#e-commerce)
+- [Education & E-Learning](#education--e-learning)
+- [Education](#education)
+- [Entertainment](#entertainment)
+- [Environmental Science](#environmental-science)
+- [Fashion & Style](#fashion--style)
+- [File Management](#file-management)
+- [Finance & Investing](#finance--investing)
+- [Finance](#finance)
+- [Gaming Tools](#gaming-tools)
+- [Graphic Design & Generation](#graphic-design--generation)
+- [Graphic Design](#graphic-design)
+- [Health & Fitness](#health--fitness)
+- [Healthcare Technology](#healthcare-technology)
+- [Healthcare](#healthcare)
+- [Home Automation](#home-automation)
+- [HR Tech](#hr-tech)
+- [Human Resources & Recruitment](#human-resources--recruitment)
+- [Image Editing](#image-editing)
+- [Image Generation](#image-generation)
+- [Image Processing](#image-processing)
+- [Information](#information)
+- [Innovation](#innovation)
+- [Knowledge Management](#knowledge-management)
+- [Language Processing](#language-processing)
+- [Legal & Compliance](#legal--compliance)
+- [Machine Learning](#machine-learning)
+- [Marketing](#marketing)
+- [Media](#media)
+- [Mental Health & Wellness](#mental-health--wellness)
+- [Mental Health](#mental-health)
+- [Music](#music)
+- [Navigation](#navigation)
+- [News Aggregation](#news-aggregation)
+- [Photo Editing](#photo-editing)
+- [Privacy](#privacy)
+- [Productivity & Organization](#productivity--organization)
+- [Productivity](#productivity)
+- [Project Management](#project-management)
+- [Real Estate](#real-estate)
+- [Recipe & Cooking Assistants](#recipe--cooking-assistants)
+- [Research](#research)
+- [Sales Enablement](#sales-enablement)
+- [Script Writing](#script-writing)
+- [SEO](#seo)
+- [Social Media Management](#social-media-management)
+- [Social Media](#social-media)
+- [Sports Analysis](#sports-analysis)
+- [Translation](#translation)
+- [Translator Tools](#translator-tools)
+- [Travel Planning](#travel-planning)
+- [Video Creation & Editing](#video-creation--editing)
+- [Video Creation](#video-creation)
+- [Video Editing](#video-editing)
+- [Web Development](#web-development)
+- [Writing & Content Creation](#writing--content-creation)
+- [Writing](#writing)
 
 ## Chatbot
 
@@ -425,6 +426,10 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 - [Adobe Firefly](https://gptz.directory/gpt/adobe-firefly)
 
+## HR Tech
+
+- [Lattice](https://gptz.directory/gpt/lattice)
+
 ## Health & Fitness
 
 - [AI Fitness Coach](https://gptz.directory/gpt/ai-fitness-coach)
@@ -445,10 +450,6 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Home Automation
 
 - [AI Home Designer by Galaxy AI](https://gptz.directory/gpt/ai-home-designer-by-galaxy-ai)
-
-## HR Tech
-
-- [Lattice](https://gptz.directory/gpt/lattice)
 
 ## Human Resources & Recruitment
 
@@ -474,6 +475,10 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Innovation
 
 - [Board of Innovation AI](https://gptz.directory/gpt/board-of-innovation-ai)
+
+## IoT & Smart Devices
+
+- [Google Nest Hub](https://gptz.directory/gpt/google-nest-hub)
 
 ## Knowledge Management
 
@@ -589,6 +594,11 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 - [PlaybookUX](https://gptz.directory/gpt/playbookux)
 
+## SEO
+
+- [Ahrefs](https://gptz.directory/gpt/ahrefs)
+- [GrowthBar SEO](https://gptz.directory/gpt/growthbar-seo)
+
 ## Sales Enablement
 
 - [SalesAI](https://gptz.directory/gpt/salesai)
@@ -596,11 +606,6 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Script Writing
 
 - [ScripAI](https://gptz.directory/gpt/scripai)
-
-## SEO
-
-- [Ahrefs](https://gptz.directory/gpt/ahrefs)
-- [GrowthBar SEO](https://gptz.directory/gpt/growthbar-seo)
 
 ## Social Media
 
@@ -692,3 +697,4 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Writing & Content Creation
 
 - [Smart Write by Neo](https://gptz.directory/gpt/smart-write-by-neo)
+
