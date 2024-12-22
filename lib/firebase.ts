@@ -4,7 +4,7 @@ import { getFirestore, collection, CollectionReference, DocumentData } from 'fir
 import { addDoc as firestoreAddDoc } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: String(process.env.NEXT_PUBLIC_FIREBASE_API_KEY || ''),
+    apiKey: String(process.env.FIREBASE_API_KEY || ''),
     authDomain: String(process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || ''),
     projectId: String(process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || ''),
     storageBucket: String(process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || ''),
