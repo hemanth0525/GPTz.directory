@@ -8,286 +8,100 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 ## Categories
 
-- [3D Modeling & Design
-](#3d-modeling--design
-)
-- [Accessibility Tools
-](#accessibility-tools
-)
-- [Advertising
-](#advertising
-)
-- [Advertising & Marketing
-](#advertising--marketing
-)
-- [AI Art & Design
-](#ai-art--design
-)
-- [AI Assistants
-](#ai-assistants
-)
-- [AI Chatbots
-](#ai-chatbots
-)
-- [AI Coding & Development
-](#ai-coding--development
-)
-- [AI Music & Audio
-](#ai-music--audio
-)
-- [AI Video & Animation
-](#ai-video--animation
-)
-- [AI Voice Generation
-](#ai-voice-generation
-)
-- [AI Writing & Editing
-](#ai-writing--editing
-)
-- [Analytics
-](#analytics
-)
-- [Audio Processing
-](#audio-processing
-)
-- [Augmented Reality (AR)
-](#augmented-reality-(ar)
-)
-- [Automation
-](#automation
-)
-- [Big Data Analytics
-](#big-data-analytics
-)
+- [3D Modeling & Design](#3d-modeling--design)
+- [Accessibility Tools](#accessibility-tools)
+- [Advertising](#advertising)
+- [Advertising & Marketing](#advertising--marketing)
+- [AI Art & Design](#ai-art--design)
+- [AI Assistants](#ai-assistants)
+- [AI Chatbots](#ai-chatbots)
+- [AI Coding & Development](#ai-coding--development)
+- [AI Music & Audio](#ai-music--audio)
+- [AI Video & Animation](#ai-video--animation)
+- [AI Voice Generation](#ai-voice-generation)
+- [AI Writing & Editing](#ai-writing--editing)
+- [Analytics](#analytics)
+- [Audio Processing](#audio-processing)
+- [Augmented Reality (AR)](#augmented-reality-ar)
+- [Automation](#automation)
+- [Big Data Analytics](#big-data-analytics)
 - [Blockchain & Cryptocurrency](#blockchain--cryptocurrency)
-- [Business
-](#business
-)
-- [Business Intelligence
-](#business-intelligence
-)
-- [Business Management
-](#business-management
-)
-- [Chatbot
-](#chatbot
-)
-- [Cloud Computing
-](#cloud-computing
-)
-- [Code Assistant
-](#code-assistant
-)
-- [Coding & Development
-](#coding--development
-)
-- [Collaboration
-](#collaboration
-)
-- [Communication
-](#communication
-)
-- [Content Creation
-](#content-creation
-)
-- [Content Generation
-](#content-generation
-)
-- [Copywriting
-](#copywriting
-)
-- [Creative Writing
-](#creative-writing
-)
-- [Customer Service
-](#customer-service
-)
-- [Customer Support
-](#customer-support
-)
-- [Cybersecurity
-](#cybersecurity
-)
-- [Data Management
-](#data-management
-)
-- [Design
-](#design
-)
-- [Development
-](#development
-)
-- [E-Commerce
-](#e-commerce
-)
-- [Education
-](#education
-)
-- [Education & E-Learning
-](#education--e-learning
-)
-- [Entertainment
-](#entertainment
-)
-- [Environmental Science
-](#environmental-science
-)
-- [Fashion & Style
-](#fashion--style
-)
-- [File Management
-](#file-management
-)
-- [Finance
-](#finance
-)
-- [Finance & Investing
-](#finance--investing
-)
-- [Gaming Tools
-](#gaming-tools
-)
-- [Graphic Design
-](#graphic-design
-)
-- [Graphic Design & Generation
-](#graphic-design--generation
-)
-- [Health & Fitness
-](#health--fitness
-)
-- [Healthcare
-](#healthcare
-)
-- [Healthcare Technology
-](#healthcare-technology
-)
-- [Home Automation
-](#home-automation
-)
-- [HR Tech
-](#hr-tech
-)
-- [Human Resources & Recruitment
-](#human-resources--recruitment
-)
-- [Image Editing
-](#image-editing
-)
-- [Image Generation
-](#image-generation
-)
-- [Image Processing
-](#image-processing
-)
-- [Information
-](#information
-)
-- [Innovation
-](#innovation
-)
-- [Knowledge Management
-](#knowledge-management
-)
-- [Language Processing
-](#language-processing
-)
-- [Legal & Compliance
-](#legal--compliance
-)
-- [Machine Learning
-](#machine-learning
-)
-- [Marketing
-](#marketing
-)
-- [Media
-](#media
-)
-- [Mental Health
-](#mental-health
-)
-- [Mental Health & Wellness
-](#mental-health--wellness
-)
-- [Music
-](#music
-)
-- [Navigation
-](#navigation
-)
-- [News Aggregation
-](#news-aggregation
-)
-- [Photo Editing
-](#photo-editing
-)
-- [Privacy
-](#privacy
-)
-- [Productivity
-](#productivity
-)
-- [Productivity & Organization
-](#productivity--organization
-)
-- [Project Management
-](#project-management
-)
-- [Real Estate
-](#real-estate
-)
-- [Recipe & Cooking Assistants
-](#recipe--cooking-assistants
-)
-- [Research
-](#research
-)
-- [Sales Enablement
-](#sales-enablement
-)
-- [Script Writing
-](#script-writing
-)
-- [SEO
-](#seo
-)
-- [Social Media
-](#social-media
-)
-- [Social Media Management
-](#social-media-management
-)
-- [Sports Analysis
-](#sports-analysis
-)
-- [Translation
-](#translation
-)
-- [Translator Tools
-](#translator-tools
-)
-- [Travel Planning
-](#travel-planning
-)
-- [Video Creation
-](#video-creation
-)
-- [Video Creation & Editing
-](#video-creation--editing
-)
-- [Video Editing
-](#video-editing
-)
-- [Web Development
-](#web-development
-)
-- [Writing
-](#writing
-)
-- [Writing & Content Creation
-](#writing--content-creation
-)
+- [Business](#business)
+- [Business Intelligence](#business-intelligence)
+- [Business Management](#business-management)
+- [Chatbot](#chatbot)
+- [Cloud Computing](#cloud-computing)
+- [Code Assistant](#code-assistant)
+- [Coding & Development](#coding--development)
+- [Collaboration](#collaboration)
+- [Communication](#communication)
+- [Content Creation](#content-creation)
+- [Content Generation](#content-generation)
+- [Copywriting](#copywriting)
+- [Creative Writing](#creative-writing)
+- [Customer Service](#customer-service)
+- [Customer Support](#customer-support)
+- [Cybersecurity](#cybersecurity)
+- [Data Management](#data-management)
+- [Design](#design)
+- [Development](#development)
+- [E-Commerce](#e-commerce)
+- [Education](#education)
+- [Education & E-Learning](#education--e-learning)
+- [Entertainment](#entertainment)
+- [Environmental Science](#environmental-science)
+- [Fashion & Style](#fashion--style)
+- [File Management](#file-management)
+- [Finance](#finance)
+- [Finance & Investing](#finance--investing)
+- [Gaming Tools](#gaming-tools)
+- [Graphic Design](#graphic-design)
+- [Graphic Design & Generation](#graphic-design--generation)
+- [Health & Fitness](#health--fitness)
+- [Healthcare](#healthcare)
+- [Healthcare Technology](#healthcare-technology)
+- [Home Automation](#home-automation)
+- [HR Tech](#hr-tech)
+- [Human Resources & Recruitment](#human-resources--recruitment)
+- [Image Editing](#image-editing)
+- [Image Generation](#image-generation)
+- [Image Processing](#image-processing)
+- [Information](#information)
+- [Innovation](#innovation)
+- [Knowledge Management](#knowledge-management)
+- [Language Processing](#language-processing)
+- [Legal & Compliance](#legal--compliance)
+- [Machine Learning](#machine-learning)
+- [Marketing](#marketing)
+- [Media](#media)
+- [Mental Health](#mental-health)
+- [Mental Health & Wellness](#mental-health--wellness)
+- [Music](#music)
+- [Navigation](#navigation)
+- [News Aggregation](#news-aggregation)
+- [Photo Editing](#photo-editing)
+- [Privacy](#privacy)
+- [Productivity](#productivity)
+- [Productivity & Organization](#productivity--organization)
+- [Project Management](#project-management)
+- [Real Estate](#real-estate)
+- [Recipe & Cooking Assistants](#recipe--cooking-assistants)
+- [Research](#research)
+- [Sales Enablement](#sales-enablement)
+- [Script Writing](#script-writing)
+- [SEO](#seo)
+- [Social Media](#social-media)
+- [Social Media Management](#social-media-management)
+- [Sports Analysis](#sports-analysis)
+- [Translation](#translation)
+- [Translator Tools](#translator-tools)
+- [Travel Planning](#travel-planning)
+- [Video Creation](#video-creation)
+- [Video Creation & Editing](#video-creation--editing)
+- [Video Editing](#video-editing)
+- [Web Development](#web-development)
+- [Writing](#writing)
+- [Writing & Content Creation](#writing--content-creation)
 
 ## 3D Modeling & Design
 
