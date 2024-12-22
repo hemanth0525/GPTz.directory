@@ -12,6 +12,11 @@ const firebaseConfig = {
     appId: String(process.env.NEXT_PUBLIC_FIREBASE_APP_ID || ''),
 }
 
+console.log('Firebase Config (partial):', {
+    apiKey: firebaseConfig.apiKey.slice(0, 5) + '...',
+    projectId: firebaseConfig.projectId
+})
+
 const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
 export const db = getFirestore(app)
