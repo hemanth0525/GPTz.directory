@@ -42,8 +42,6 @@ env:
     secret: GEMINI_API_KEY
   - variable: GITHUB_TOKEN
     secret: GITHUB_TOKEN
-  - variable: GITHUB_TOKEN2
-    secret: GITHUB_TOKEN2
   - variable: GITHUB_OWNER
     secret: GITHUB_OWNER
   - variable: GITHUB_REPO
