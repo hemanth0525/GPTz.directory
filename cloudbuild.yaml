@@ -24,10 +24,6 @@ steps:
       - "MAIL_SECURE"
       - "MAIL_USER"
       - "MAIL_PASSWORD"
-    volumes:
-      - name: secrets-volume
-        secret:
-          secretName: gptz-directory-secrets # Replace with your Secret Manager secret name
 
   - name: "gcr.io/cloud-builders/gcloud"
     args:
@@ -50,22 +46,54 @@ options:
 
 availableSecrets:
   secretManager:
-    - versionName: "projects/$PROJECT_ID/secrets/gptz-directory-secrets/versions/latest"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_API_KEY/versions/latest"
       secretEnv:
-        NEXT_PUBLIC_FIREBASE_API_KEY: "NEXT_PUBLIC_FIREBASE_API_KEY"
-        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN"
-        NEXT_PUBLIC_FIREBASE_PROJECT_ID: "NEXT_PUBLIC_FIREBASE_PROJECT_ID"
-        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET"
-        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID"
-        NEXT_PUBLIC_FIREBASE_APP_ID: "NEXT_PUBLIC_FIREBASE_APP_ID"
-        NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: "NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID"
-        GEMINI_API_KEY: "GEMINI_API_KEY"
-        GITHUB_TOKEN: "GITHUB_TOKEN"
-        GITHUB_OWNER: "GITHUB_OWNER"
-        GITHUB_REPO: "GITHUB_REPO"
-        NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID: "NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID"
-        MAIL_HOST: "MAIL_HOST"
-        MAIL_PORT: "MAIL_PORT"
-        MAIL_SECURE: "MAIL_SECURE"
-        MAIL_USER: "MAIL_USER"
-        MAIL_PASSWORD: "MAIL_PASSWORD"
+        NEXT_PUBLIC_FIREBASE_API_KEY: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_API_KEY"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_PROJECT_ID/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_PROJECT_ID: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_PROJECT_ID"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_APP_ID/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_APP_ID: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_APP_ID"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: "projects/1011294147362/secrets/NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID"
+    - versionName: "projects/1011294147362/secrets/GEMINI_API_KEY/versions/latest"
+      secretEnv:
+        GEMINI_API_KEY: "projects/1011294147362/secrets/GEMINI_API_KEY"
+    - versionName: "projects/1011294147362/secrets/GITHUB_TOKEN/versions/latest"
+      secretEnv:
+        GITHUB_TOKEN: "projects/1011294147362/secrets/GITHUB_TOKEN"
+    - versionName: "projects/1011294147362/secrets/GITHUB_OWNER/versions/latest"
+      secretEnv:
+        GITHUB_OWNER: "projects/1011294147362/secrets/GITHUB_OWNER"
+    - versionName: "projects/1011294147362/secrets/GITHUB_REPO/versions/latest"
+      secretEnv:
+        GITHUB_REPO: "projects/1011294147362/secrets/GITHUB_REPO"
+    - versionName: "projects/1011294147362/secrets/NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID/versions/latest"
+      secretEnv:
+        NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID: "projects/1011294147362/secrets/NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID"
+    - versionName: "projects/1011294147362/secrets/MAIL_HOST/versions/latest"
+      secretEnv:
+        MAIL_HOST: "projects/1011294147362/secrets/MAIL_HOST"
+    - versionName: "projects/1011294147362/secrets/MAIL_PORT/versions/latest"
+      secretEnv:
+        MAIL_PORT: "projects/1011294147362/secrets/MAIL_PORT"
+    - versionName: "projects/1011294147362/secrets/MAIL_SECURE/versions/latest"
+      secretEnv:
+        MAIL_SECURE: "projects/1011294147362/secrets/MAIL_SECURE"
+    - versionName: "projects/1011294147362/secrets/MAIL_USER/versions/latest"
+      secretEnv:
+        MAIL_USER: "projects/1011294147362/secrets/MAIL_USER"
+    - versionName: "projects/1011294147362/secrets/MAIL_PASSWORD/versions/latest"
+      secretEnv:
+        MAIL_PASSWORD: "projects/1011294147362/secrets/MAIL_PASSWORD"
