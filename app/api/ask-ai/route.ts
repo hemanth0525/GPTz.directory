@@ -5,7 +5,7 @@ import { GPT } from '@/lib/types';
 import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
 import { getTopNGPTs } from '@/lib/search-algorithms';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 interface AIResponse {
     recommendations: GPT[];

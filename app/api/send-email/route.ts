@@ -9,19 +9,19 @@ export async function POST(request: NextRequest) {
     }
 
     const transporter = nodemailer.createTransport({
-        host: process.env.MAIL_HOST,
-        port: Number(process.env.MAIL_PORT),
-        secure: process.env.MAIL_SECURE === 'true',
+        host: process.env.MAIL_HOST || 'smtp.ethereal.email',
+        port: Number(process.env.MAIL_PORT || 587),
+        secure: process.env.MAIL_SECURE === 'true' || false,
         auth: {
-            user: process.env.MAIL_USER,
-            pass: process.env.MAIL_PASSWORD
+            user: process.env.MAIL_USER || '',
+            pass: process.env.MAIL_PASSWORD || '',
         }
     })
 
     try {
         await transporter.sendMail({
             from: '"GPTz.directory" <mail@gptz.directory>',
-            to: to || process.env.MAIL_USER,
+            to: to || process.env.MAIL_USER || '',
             subject,
             text: body,
         })

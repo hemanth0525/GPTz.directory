@@ -4,7 +4,7 @@ import { Octokit } from '@octokit/rest'
 import { Base64 } from 'js-base64'
 import { db } from '@/lib/firebase'
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN || '' })
 
 const owner = process.env.GITHUB_OWNER || ''
 const repo = process.env.GITHUB_REPO || ''

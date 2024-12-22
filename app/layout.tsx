@@ -24,14 +24,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`} />
+        <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID || ''}`} />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}');
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID || ''}');
         `}
         </Script>
       </head>
