@@ -12,7 +12,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
             <a
-              href="https://github.com/hemanth0525/gptz-directory"
+              href="https://github.com/hemanth0525/gptz.directory"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"

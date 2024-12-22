@@ -20,7 +20,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-2">
           <Button variant="default" size="sm" className="rounded-full px-4 py-2 text-sm">
             <a
-              href="https://github.com/hemanth0525/gptz-directory"
+              href="https://github.com/hemanth0525/gptz.directory"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
@@ -60,7 +60,7 @@ export function Header() {
           <nav className="container mx-auto px-4 flex flex-col gap-2">
             <Button variant="default" size="sm" className="rounded-full px-4 py-2 text-sm w-full">
               <a
-                href="https://github.com/hemanth0525/gptz-directory"
+                href="https://github.com/hemanth0525/gptz.directory"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2"
