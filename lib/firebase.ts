@@ -4,18 +4,13 @@ import { getFirestore, collection, CollectionReference, DocumentData } from 'fir
 import { addDoc as firestoreAddDoc } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: String(process.env.FIREBASE_API_KEY || ''),
+    apiKey: String(process.env.NEXT_PUBLIC_FIREBASE_API_KEY || ''),
     authDomain: String(process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || ''),
     projectId: String(process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || ''),
     storageBucket: String(process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || ''),
     messagingSenderId: String(process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || ''),
     appId: String(process.env.NEXT_PUBLIC_FIREBASE_APP_ID || ''),
 }
-
-console.log('Firebase Config (partial):', {
-    apiKey: firebaseConfig.apiKey.slice(0, 5) + '...',
-    projectId: firebaseConfig.projectId
-})
 
 const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
