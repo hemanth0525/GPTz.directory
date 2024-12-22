@@ -8,104 +8,104 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 ## Categories
 
-- [3D Modeling & Design {#3d-modeling-design}](#3d-modeling--design-{#3d-modeling-design})
-- [AI Art & Design {#ai-art-design}](#ai-art--design-{#ai-art-design})
-- [AI Assistants {#ai-assistants}](#ai-assistants-{#ai-assistants})
-- [AI Chatbots {#ai-chatbots}](#ai-chatbots-{#ai-chatbots})
-- [AI Coding & Development {#ai-coding-development}](#ai-coding--development-{#ai-coding-development})
-- [AI Music & Audio {#ai-music-audio}](#ai-music--audio-{#ai-music-audio})
-- [AI Video & Animation {#ai-video-animation}](#ai-video--animation-{#ai-video-animation})
-- [AI Voice Generation {#ai-voice-generation}](#ai-voice-generation-{#ai-voice-generation})
-- [AI Writing & Editing {#ai-writing-editing}](#ai-writing--editing-{#ai-writing-editing})
-- [Accessibility Tools {#accessibility-tools}](#accessibility-tools-{#accessibility-tools})
-- [Advertising & Marketing {#advertising-marketing}](#advertising--marketing-{#advertising-marketing})
-- [Advertising {#advertising}](#advertising-{#advertising})
-- [Analytics {#analytics}](#analytics-{#analytics})
-- [Audio Processing {#audio-processing}](#audio-processing-{#audio-processing})
-- [Augmented Reality (AR) {#augmented-reality-ar}](#augmented-reality-(ar)-{#augmented-reality-ar})
-- [Automation {#automation}](#automation-{#automation})
-- [Big Data Analytics {#big-data-analytics}](#big-data-analytics-{#big-data-analytics})
-- [Blockchain & Cryptocurrency {#blockchain-cryptocurrency}](#blockchain--cryptocurrency-{#blockchain-cryptocurrency})
-- [Business Intelligence {#business-intelligence}](#business-intelligence-{#business-intelligence})
-- [Business Management {#business-management}](#business-management-{#business-management})
-- [Business {#business}](#business-{#business})
-- [Chatbot {#chatbot}](#chatbot-{#chatbot})
-- [Cloud Computing {#cloud-computing}](#cloud-computing-{#cloud-computing})
-- [Code Assistant {#code-assistant}](#code-assistant-{#code-assistant})
-- [Coding & Development {#coding-development}](#coding--development-{#coding-development})
-- [Collaboration {#collaboration}](#collaboration-{#collaboration})
-- [Communication {#communication}](#communication-{#communication})
-- [Content Creation {#content-creation}](#content-creation-{#content-creation})
-- [Content Generation {#content-generation}](#content-generation-{#content-generation})
-- [Copywriting {#copywriting}](#copywriting-{#copywriting})
-- [Creative Writing {#creative-writing}](#creative-writing-{#creative-writing})
-- [Customer Service {#customer-service}](#customer-service-{#customer-service})
-- [Customer Support {#customer-support}](#customer-support-{#customer-support})
-- [Cybersecurity {#cybersecurity}](#cybersecurity-{#cybersecurity})
-- [Data Management {#data-management}](#data-management-{#data-management})
-- [Design {#design}](#design-{#design})
-- [Development {#development}](#development-{#development})
-- [E-Commerce {#ecommerce}](#e-commerce-{#ecommerce})
-- [Education & E-Learning {#education-elearning}](#education--e-learning-{#education-elearning})
-- [Education {#education}](#education-{#education})
-- [Entertainment {#entertainment}](#entertainment-{#entertainment})
-- [Environmental Science {#environmental-science}](#environmental-science-{#environmental-science})
-- [Fashion & Style {#fashion-style}](#fashion--style-{#fashion-style})
-- [File Management {#file-management}](#file-management-{#file-management})
-- [Finance & Investing {#finance-investing}](#finance--investing-{#finance-investing})
-- [Finance {#finance}](#finance-{#finance})
+- [3D Modeling & Design](#3d-modeling--design)
+- [AI Art & Design](#ai-art--design)
+- [AI Assistants](#ai-assistants)
+- [AI Chatbots](#ai-chatbots)
+- [AI Coding & Development](#ai-coding--development)
+- [AI Music & Audio](#ai-music--audio)
+- [AI Video & Animation](#ai-video--animation)
+- [AI Voice Generation](#ai-voice-generation)
+- [AI Writing & Editing](#ai-writing--editing)
+- [Accessibility Tools](#accessibility-tools)
+- [Advertising & Marketing](#advertising--marketing)
+- [Advertising](#advertising)
+- [Analytics](#analytics)
+- [Audio Processing](#audio-processing)
+- [Augmented Reality](<#augmented-reality-(ar)>)
+- [Automation](#automation)
+- [Big Data Analytics](#big-data-analytics)
+- [Blockchain & Cryptocurrency](#blockchain--cryptocurrency)
+- [Business Intelligence](#business-intelligence)
+- [Business Management](#business-management)
+- [Business](#business)
+- [Chatbot](#chatbot)
+- [Cloud Computing](#cloud-computing)
+- [Code Assistant](#code-assistant)
+- [Coding & Development](#coding--development)
+- [Collaboration](#collaboration)
+- [Communication](#communication)
+- [Content Creation](#content-creation)
+- [Content Generation](#content-generation)
+- [Copywriting](#copywriting)
+- [Creative Writing](#creative-writing)
+- [Customer Service](#customer-service)
+- [Customer Support](#customer-support)
+- [Cybersecurity](#cybersecurity)
+- [Data Management](#data-management)
+- [Design](#design)
+- [Development](#development)
+- [E-Commerce](#e-commerce)
+- [Education & E-Learning](#education--e-learning)
+- [Education](#education)
+- [Entertainment](#entertainment)
+- [Environmental Science](#environmental-science)
+- [Fashion & Style](#fashion--style)
+- [File Management](#file-management)
+- [Finance & Investing](#finance--investing)
+- [Finance](#finance)
 - [Fitness Tracking](#fitness-tracking)
-- [Gaming Tools {#gaming-tools}](#gaming-tools-{#gaming-tools})
-- [Graphic Design & Generation {#graphic-design-generation}](#graphic-design--generation-{#graphic-design-generation})
-- [Graphic Design {#graphic-design}](#graphic-design-{#graphic-design})
-- [HR Tech {#hr-tech}](#hr-tech-{#hr-tech})
-- [Health & Fitness {#health-fitness}](#health--fitness-{#health-fitness})
-- [Healthcare Technology {#healthcare-technology}](#healthcare-technology-{#healthcare-technology})
-- [Healthcare {#healthcare}](#healthcare-{#healthcare})
-- [Home Automation {#home-automation}](#home-automation-{#home-automation})
-- [Human Resources & Recruitment {#human-resources-recruitment}](#human-resources--recruitment-{#human-resources-recruitment})
-- [Image Editing {#image-editing}](#image-editing-{#image-editing})
-- [Image Generation {#image-generation}](#image-generation-{#image-generation})
-- [Image Processing {#image-processing}](#image-processing-{#image-processing})
-- [Information {#information}](#information-{#information})
-- [Innovation {#innovation}](#innovation-{#innovation})
-- [IoT & Smart Devices {#iot-smart-devices}](#iot--smart-devices-{#iot-smart-devices})
-- [Knowledge Management {#knowledge-management}](#knowledge-management-{#knowledge-management})
-- [Language Processing {#language-processing}](#language-processing-{#language-processing})
-- [Legal & Compliance {#legal-compliance}](#legal--compliance-{#legal-compliance})
-- [Machine Learning {#machine-learning}](#machine-learning-{#machine-learning})
-- [Marketing {#marketing}](#marketing-{#marketing})
-- [Media {#media}](#media-{#media})
-- [Mental Health & Wellness {#mental-health-wellness}](#mental-health--wellness-{#mental-health-wellness})
-- [Mental Health {#mental-health}](#mental-health-{#mental-health})
-- [Music {#music}](#music-{#music})
-- [Navigation {#navigation}](#navigation-{#navigation})
-- [News Aggregation {#news-aggregation}](#news-aggregation-{#news-aggregation})
-- [Photo Editing {#photo-editing}](#photo-editing-{#photo-editing})
-- [Privacy {#privacy}](#privacy-{#privacy})
-- [Productivity & Organization {#productivity-organization}](#productivity--organization-{#productivity-organization})
-- [Productivity {#productivity}](#productivity-{#productivity})
-- [Project Management {#project-management}](#project-management-{#project-management})
-- [Real Estate {#real-estate}](#real-estate-{#real-estate})
-- [Recipe & Cooking Assistants {#recipe-cooking-assistants}](#recipe--cooking-assistants-{#recipe-cooking-assistants})
-- [Research {#research}](#research-{#research})
-- [SEO {#seo}](#seo-{#seo})
-- [Sales Enablement {#sales-enablement}](#sales-enablement-{#sales-enablement})
-- [Script Writing {#script-writing}](#script-writing-{#script-writing})
-- [Social Media Management {#social-media-management}](#social-media-management-{#social-media-management})
-- [Social Media {#social-media}](#social-media-{#social-media})
-- [Sports Analysis {#sports-analysis}](#sports-analysis-{#sports-analysis})
-- [Translation {#translation}](#translation-{#translation})
-- [Translator Tools {#translator-tools}](#translator-tools-{#translator-tools})
-- [Travel Planning {#travel-planning}](#travel-planning-{#travel-planning})
-- [Video Creation & Editing {#video-creation-editing}](#video-creation--editing-{#video-creation-editing})
-- [Video Creation {#video-creation}](#video-creation-{#video-creation})
-- [Video Editing {#video-editing}](#video-editing-{#video-editing})
-- [Web Development {#web-development}](#web-development-{#web-development})
-- [Writing & Content Creation {#writing-content-creation}](#writing--content-creation-{#writing-content-creation})
-- [Writing {#writing}](#writing-{#writing})
+- [Gaming Tools](#gaming-tools)
+- [Graphic Design & Generation](#graphic-design--generation)
+- [Graphic Design](#graphic-design)
+- [HR Tech](#hr-tech)
+- [Health & Fitness](#health--fitness)
+- [Healthcare Technology](#healthcare-technology)
+- [Healthcare](#healthcare)
+- [Home Automation](#home-automation)
+- [Human Resources & Recruitment](#human-resources--recruitment)
+- [Image Editing](#image-editing)
+- [Image Generation](#image-generation)
+- [Image Processing](#image-processing)
+- [Information](#information)
+- [Innovation](#innovation)
+- [IoT & Smart Devices](#iot--smart-devices)
+- [Knowledge Management](#knowledge-management)
+- [Language Processing](#language-processing)
+- [Legal & Compliance](#legal--compliance)
+- [Machine Learning](#machine-learning)
+- [Marketing](#marketing)
+- [Media](#media)
+- [Mental Health & Wellness](#mental-health--wellness)
+- [Mental Health](#mental-health)
+- [Music](#music)
+- [Navigation](#navigation)
+- [News Aggregation](#news-aggregation)
+- [Photo Editing](#photo-editing)
+- [Privacy](#privacy)
+- [Productivity & Organization](#productivity--organization)
+- [Productivity](#productivity)
+- [Project Management](#project-management)
+- [Real Estate](#real-estate)
+- [Recipe & Cooking Assistants](#recipe--cooking-assistants)
+- [Research](#research)
+- [SEO](#seo)
+- [Sales Enablement](#sales-enablement)
+- [Script Writing](#script-writing)
+- [Social Media Management](#social-media-management)
+- [Social Media](#social-media)
+- [Sports Analysis](#sports-analysis)
+- [Translation](#translation)
+- [Translator Tools](#translator-tools)
+- [Travel Planning](#travel-planning)
+- [Video Creation & Editing](#video-creation--editing)
+- [Video Creation](#video-creation)
+- [Video Editing](#video-editing)
+- [Web Development](#web-development)
+- [Writing & Content Creation](#writing--content-creation)
+- [Writing](#writing)
 
-## 3D Modeling & Design {#3d-modeling-design} 
+## 3D Modeling & Design
 
 - [3DFY AI](https://gptz.directory/gpt/3dfy-ai)
 - [Meshy](https://gptz.directory/gpt/meshy)
@@ -115,7 +115,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Sloyd](https://gptz.directory/gpt/sloyd)
 - [Spline](https://gptz.directory/gpt/spline)
 
-## AI Art & Design {#ai-art-design} 
+## AI Art & Design
 
 - [Deep Dream Generator](https://gptz.directory/gpt/deep-dream-generator)
 - [Deoldify AI](https://gptz.directory/gpt/deoldify-ai)
@@ -129,7 +129,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Runway AI](https://gptz.directory/gpt/runway-ai)
 - [VisualForge](https://gptz.directory/gpt/visualforge)
 
-## AI Assistants {#ai-assistants} 
+## AI Assistants
 
 - [Flowrite AI](https://gptz.directory/gpt/flowrite-ai)
 - [FullStory](https://gptz.directory/gpt/fullstory)
@@ -137,14 +137,14 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [PromptPerfect](https://gptz.directory/gpt/promptperfect)
 - [Xembly](https://gptz.directory/gpt/xembly)
 
-## AI Chatbots {#ai-chatbots} 
+## AI Chatbots
 
 - [Botify AI](https://gptz.directory/gpt/botify-ai)
 - [Character AI](https://gptz.directory/gpt/character-ai)
 - [Grok by X](https://gptz.directory/gpt/grok-by-x)
 - [LoomieLive](https://gptz.directory/gpt/loomielive)
 
-## AI Coding & Development {#ai-coding-development} 
+## AI Coding & Development
 
 - [CodeAssist AI](https://gptz.directory/gpt/codeassist-ai)
 - [CodeGen AI](https://gptz.directory/gpt/codegen-ai)
@@ -152,7 +152,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Run.ai](https://gptz.directory/gpt/run.ai)
 - [Turing AI](https://gptz.directory/gpt/turing-ai)
 
-## AI Music & Audio {#ai-music-audio} 
+## AI Music & Audio
 
 - [Beatoven.ai](https://gptz.directory/gpt/beatoven.ai)
 - [Boomy](https://gptz.directory/gpt/boomy)
@@ -161,7 +161,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [MuseNet](https://gptz.directory/gpt/musenet)
 - [Soundtrap AI Studio](https://gptz.directory/gpt/soundtrap-ai-studio)
 
-## AI Video & Animation {#ai-video-animation} 
+## AI Video & Animation
 
 - [Crayo](https://gptz.directory/gpt/crayo)
 - [DeepBrain AI](https://gptz.directory/gpt/deepbrain-ai)
@@ -175,7 +175,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [ReelGen AI by Veed](https://gptz.directory/gpt/reelgen-ai-by-veed)
 - [Rokoko Vision](https://gptz.directory/gpt/rokoko-vision)
 
-## AI Voice Generation {#ai-voice-generation} 
+## AI Voice Generation
 
 - [Deepgram](https://gptz.directory/gpt/deepgram)
 - [Modulate Voice AI](https://gptz.directory/gpt/modulate-voice-ai)
@@ -185,7 +185,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [VoiceHub](https://gptz.directory/gpt/voicehub)
 - [Voicemaker](https://gptz.directory/gpt/voicemaker)
 
-## AI Writing & Editing {#ai-writing-editing} 
+## AI Writing & Editing
 
 - [Compose AI](https://gptz.directory/gpt/compose-ai)
 - [CopyHawk AI](https://gptz.directory/gpt/copyhawk-ai)
@@ -197,38 +197,38 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [UpWord AI](https://gptz.directory/gpt/upword-ai)
 - [Writer.com](https://gptz.directory/gpt/writer.com)
 
-## Accessibility Tools {#accessibility-tools} 
+## Accessibility Tools
 
 - [Speechify AI](https://gptz.directory/gpt/speechify-ai)
 
-## Advertising & Marketing {#advertising-marketing} 
+## Advertising & Marketing
 
 - [Surfer SEO](https://gptz.directory/gpt/surfer-seo)
 - [Zappi AI](https://gptz.directory/gpt/zappi-ai)
 
-## Advertising {#advertising} 
+## Advertising
 
 - [Copy.ai](https://gptz.directory/gpt/copy.ai)
 - [Jasper AI](https://gptz.directory/gpt/jasper-ai)
 
-## Analytics {#analytics} 
+## Analytics
 
 - [Cranium AI](https://gptz.directory/gpt/cranium-ai)
 
-## Audio Processing {#audio-processing} 
+## Audio Processing
 
 - [Lalal.ai](https://gptz.directory/gpt/lalal.ai)
 
-## Augmented Reality (AR) {#augmented-reality-ar} 
+## Augmented Reality (AR)
 
 - [ARDesigner AI by DeepAR](https://gptz.directory/gpt/ardesigner-ai-by-deepar)
 - [Vologram AI](https://gptz.directory/gpt/vologram-ai)
 
-## Automation {#automation} 
+## Automation
 
 - [Automation AI](https://gptz.directory/gpt/automation-ai)
 
-## Big Data Analytics {#big-data-analytics} 
+## Big Data Analytics
 
 - [AirOps AI](https://gptz.directory/gpt/airops-ai)
 - [Browse AI](https://gptz.directory/gpt/browse-ai)
@@ -236,20 +236,20 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Spiketrap AI](https://gptz.directory/gpt/spiketrap-ai)
 - [SuperAnnotate](https://gptz.directory/gpt/superannotate)
 
-## Blockchain & Cryptocurrency {#blockchain-cryptocurrency} 
+## Blockchain & Cryptocurrency
 
 - [ChainGPT](https://gptz.directory/gpt/chaingpt)
 
-## Business Intelligence {#business-intelligence} 
+## Business Intelligence
 
 - [AI Pitch Creator](https://gptz.directory/gpt/ai-pitch-creator)
 - [Rationale AI](https://gptz.directory/gpt/rationale-ai)
 
-## Business Management {#business-management} 
+## Business Management
 
 - [Tallyfy](https://gptz.directory/gpt/tallyfy)
 
-## Business {#business} 
+## Business
 
 - [Amazon Q](https://gptz.directory/gpt/amazon-q)
 - [Crayon](https://gptz.directory/gpt/crayon)
@@ -257,36 +257,36 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [HubSpot AI](https://gptz.directory/gpt/hubspot-ai)
 - [PandaDoc](https://gptz.directory/gpt/pandadoc)
 
-## Chatbot {#chatbot} 
+## Chatbot
 
 - [Claude 3.5 Sonnet](https://gptz.directory/gpt/claude-3.5-sonnet)
 - [Gemini Advanced](https://gptz.directory/gpt/gemini-advanced)
 - [GPT-4o](https://gptz.directory/gpt/gpt-4o)
 
-## Cloud Computing {#cloud-computing} 
+## Cloud Computing
 
 - [Cloudinary AI](https://gptz.directory/gpt/cloudinary-ai)
 - [DataRobot AI Cloud](https://gptz.directory/gpt/datarobot-ai-cloud)
 
-## Code Assistant {#code-assistant} 
+## Code Assistant
 
 - [GitHub Copilot X](https://gptz.directory/gpt/github-copilot-x)
 
-## Coding & Development {#coding-development} 
+## Coding & Development
 
 - [AlphaCode](https://gptz.directory/gpt/alphacode)
 
-## Collaboration {#collaboration} 
+## Collaboration
 
 - [Miro](https://gptz.directory/gpt/miro)
 
-## Communication {#communication} 
+## Communication
 
 - [Cisco Webex AI Studio](https://gptz.directory/gpt/cisco-webex-ai-studio)
 - [Loom](https://gptz.directory/gpt/loom)
 - [Slack GPT](https://gptz.directory/gpt/slack-gpt)
 
-## Content Creation {#content-creation} 
+## Content Creation
 
 - [AI Writer](https://gptz.directory/gpt/ai-writer)
 - [AI21 Labs](https://gptz.directory/gpt/ai21-labs)
@@ -312,17 +312,17 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [WordLift](https://gptz.directory/gpt/wordlift)
 - [Wordtune](https://gptz.directory/gpt/wordtune)
 
-## Content Generation {#content-generation} 
+## Content Generation
 
 - [Narrato AI](https://gptz.directory/gpt/narrato-ai)
 
-## Copywriting {#copywriting} 
+## Copywriting
 
 - [Anyword](https://gptz.directory/gpt/anyword)
 - [CopyDash AI](https://gptz.directory/gpt/copydash-ai)
 - [MarkCopy](https://gptz.directory/gpt/markcopy)
 
-## Creative Writing {#creative-writing} 
+## Creative Writing
 
 - [AI Dungeon](https://gptz.directory/gpt/ai-dungeon)
 - [DALL-E 3](https://gptz.directory/gpt/dall-e-3)
@@ -334,26 +334,26 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Stable Diffusion XL Turbo](https://gptz.directory/gpt/stable-diffusion-xl-turbo)
 - [StoryCrafter AI](https://gptz.directory/gpt/storycraft-ai)
 
-## Customer Service {#customer-service} 
+## Customer Service
 
 - [Kuki Chatbot](https://gptz.directory/gpt/kuki-chatbot)
 - [Nicereply](https://gptz.directory/gpt/nicereply)
 - [Tidio AI](https://gptz.directory/gpt/tidio-ai)
 
-## Customer Support {#customer-support} 
+## Customer Support
 
 - [PolyAI](https://gptz.directory/gpt/polyai)
 
-## Cybersecurity {#cybersecurity} 
+## Cybersecurity
 
 - [GitGuardian AI](https://gptz.directory/gpt/gitguardian-ai)
 - [SentinelOne Purple AI](https://gptz.directory/gpt/sentinelone-purple-ai)
 
-## Data Management {#data-management} 
+## Data Management
 
 - [Vast Data's InsightEngine](https://gptz.directory/gpt/vast-data's-insightengine)
 
-## Design {#design} 
+## Design
 
 - [Canva Magic Write](https://gptz.directory/gpt/canva-magic-write)
 - [Cleanup.pictures](https://gptz.directory/gpt/cleanup.pictures)
@@ -361,146 +361,146 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Jasper Art](https://gptz.directory/gpt/jasper-art)
 - [Uizard](https://gptz.directory/gpt/uizard)
 
-## Development {#development} 
+## Development
 
 - [ChatGPT API](https://gptz.directory/gpt/chatgpt-api)
 - [Cogram](https://gptz.directory/gpt/cogram)
 - [Google Vertex AI](https://gptz.directory/gpt/google-vertex-ai)
 - [Katalon Studio](https://gptz.directory/gpt/katalon-studio)
 
-## E-Commerce {#ecommerce} 
+## E-Commerce
 
 - [CopyMonkey AI](https://gptz.directory/gpt/copymonkey-ai)
 
-## Education & E-Learning {#education-elearning} 
+## Education & E-Learning
 
 - [EduPrompt](https://gptz.directory/gpt/eduprompt)
 
-## Education {#education} 
+## Education
 
 - [Caktus AI](https://gptz.directory/gpt/caktus-ai)
 - [Hatchways](https://gptz.directory/gpt/hatchways)
 
-## Entertainment {#entertainment} 
+## Entertainment
 
 - [Nvidia ACE Generative AI](https://gptz.directory/gpt/nvidia-ace-generative-ai)
 
-## Environmental Science {#environmental-science} 
+## Environmental Science
 
 - [AI Garden Planner by Galaxy AI](https://gptz.directory/gpt/ai-garden-planner-by-galaxy-ai)
 - [EcoAI](https://gptz.directory/gpt/ecoai)
 - [EnviroAI](https://gptz.directory/gpt/enviroai)
 
-## Fashion & Style {#fashion-style} 
+## Fashion & Style
 
 - [Fashion Sketch AI by OpenArt](https://gptz.directory/gpt/fashion-sketch-ai-by-openart)
 
-## File Management {#file-management} 
+## File Management
 
 - [Dropbox Dash](https://gptz.directory/gpt/dropbox-dash)
 
-## Finance & Investing {#finance-investing} 
+## Finance & Investing
 
 - [Clarity AI](https://gptz.directory/gpt/clarity-ai)
 - [StockAI](https://gptz.directory/gpt/stockai)
 - [TendiAI Financial Planner](https://gptz.directory/gpt/tendiai-financial-planner)
 
-## Finance {#finance} 
+## Finance
 
 - [Octopus AI](https://gptz.directory/gpt/octopus-ai)
 - [ScribeUp](https://gptz.directory/gpt/scribeup)
 
-## Fitness Tracking 
+## Fitness Tracking
 
 - [Oura Ring 4](https://gptz.directory/gpt/oura-ring-4)
 
-## Gaming Tools {#gaming-tools} 
+## Gaming Tools
 
 - [AI Dungeon Master](https://gptz.directory/gpt/ai-dungeon-master)
 - [Charisma AI](https://gptz.directory/gpt/charisma-ai)
 - [ChatCraft AI](https://gptz.directory/gpt/chatcraft-ai)
 - [Prism](https://gptz.directory/gpt/prism)
 
-## Graphic Design & Generation {#graphic-design-generation} 
+## Graphic Design & Generation
 
 - [Adobe Firefly](https://gptz.directory/gpt/adobe-firefly)
 
-## Graphic Design {#graphic-design} 
+## Graphic Design
 
 - [Designify AI](https://gptz.directory/gpt/designify-ai)
 - [Desygner AI](https://gptz.directory/gpt/desygner-ai)
 - [SketchAI by OpenArt](https://gptz.directory/gpt/sketchai-by-openart)
 
-## HR Tech {#hr-tech} 
+## HR Tech
 
 - [Lattice](https://gptz.directory/gpt/lattice)
 
-## Health & Fitness {#health-fitness} 
+## Health & Fitness
 
 - [AI Fitness Coach](https://gptz.directory/gpt/ai-fitness-coach)
 - [Sigma HealthSense AI](https://gptz.directory/gpt/healthsense-ai)
 - [StrongrFastr Healthy Eating AI](https://gptz.directory/gpt/strongrfastr-healthy-eating-ai)
 
-## Healthcare Technology {#healthcare-technology} 
+## Healthcare Technology
 
 - [Butterfly Network's Ultrasound Device](https://gptz.directory/gpt/butterfly-network's-ultrasound-device)
 
-## Healthcare {#healthcare} 
+## Healthcare
 
 - [Fathom Health](https://gptz.directory/gpt/fathom-health)
 - [PathAI](https://gptz.directory/gpt/pathai)
 - [Tempus](https://gptz.directory/gpt/tempus)
 - [Viz.ai](https://gptz.directory/gpt/viz.ai)
 
-## Home Automation {#home-automation} 
+## Home Automation
 
 - [AI Home Designer by Galaxy AI](https://gptz.directory/gpt/ai-home-designer-by-galaxy-ai)
 
-## Human Resources & Recruitment {#human-resources-recruitment} 
+## Human Resources & Recruitment
 
 - [Paradox Olivia](https://gptz.directory/gpt/paradox-olivia)
 
-## Image Editing {#image-editing} 
+## Image Editing
 
 - [Prisma](https://gptz.directory/gpt/prisma)
 
-## Image Generation {#image-generation} 
+## Image Generation
 
 - [Canva's AI Art Generator](https://gptz.directory/gpt/canva's-ai-art-generator)
 
-## Image Processing {#image-processing} 
+## Image Processing
 
 - [DeepArt](https://gptz.directory/gpt/deepart)
 
-## Information {#information} 
+## Information
 
 - [ChatPDF](https://gptz.directory/gpt/chatpdf)
 - [Wolfram Alpha](https://gptz.directory/gpt/wolfram-alpha)
 
-## Innovation {#innovation} 
+## Innovation
 
 - [Board of Innovation AI](https://gptz.directory/gpt/board-of-innovation-ai)
 
-## IoT & Smart Devices {#iot-smart-devices} 
+## IoT & Smart Devices
 
 - [Google Nest Hub](https://gptz.directory/gpt/google-nest-hub)
 
-## Knowledge Management {#knowledge-management} 
+## Knowledge Management
 
 - [Glean](https://gptz.directory/gpt/glean)
 - [Mem](https://gptz.directory/gpt/mem)
 
-## Language Processing {#language-processing} 
+## Language Processing
 
 - [Hugging Face Transformers](https://gptz.directory/gpt/hugging-face-transformers)
 
-## Legal & Compliance {#legal-compliance} 
+## Legal & Compliance
 
 - [DraftWise](https://gptz.directory/gpt/draftwise)
 - [LAWFYI AI Legal Guide](https://gptz.directory/gpt/lawfyi-ai-legal-guide)
 - [LegalEagle AI](https://gptz.directory/gpt/legaleagle-ai)
 
-## Machine Learning {#machine-learning} 
+## Machine Learning
 
 - [Aporia AI](https://gptz.directory/gpt/aporia-ai)
 - [JADBio](https://gptz.directory/gpt/jadbio)
@@ -508,53 +508,53 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Jina AI](https://gptz.directory/gpt/jina-ai)
 - [Surge AI](https://gptz.directory/gpt/surge-ai)
 
-## Marketing {#marketing} 
+## Marketing
 
 - [CopySmith](https://gptz.directory/gpt/copysmith)
 - [Smartly](https://gptz.directory/gpt/smartly)
 
-## Media {#media} 
+## Media
 
 - [Descript](https://gptz.directory/gpt/descript)
 - [ElevenLabs](https://gptz.directory/gpt/elevenlabs)
 - [Synthesia](https://gptz.directory/gpt/synthesia)
 
-## Mental Health & Wellness {#mental-health-wellness} 
+## Mental Health & Wellness
 
 - [Insight Health AI](https://gptz.directory/gpt/insight-health-ai)
 - [ZenDiary AI](https://gptz.directory/gpt/zendiary-ai)
 
-## Mental Health {#mental-health} 
+## Mental Health
 
 - [Replika](https://gptz.directory/gpt/replika)
 - [Youper](https://gptz.directory/gpt/youper)
 
-## Music {#music} 
+## Music
 
 - [AIVA](https://gptz.directory/gpt/aiva)
 - [Soundraw](https://gptz.directory/gpt/soundraw)
 - [Suno](https://gptz.directory/gpt/suno)
 
-## Navigation {#navigation} 
+## Navigation
 
 - [Google Maps](https://gptz.directory/gpt/google-maps)
 
-## News Aggregation {#news-aggregation} 
+## News Aggregation
 
 - [Perplexity AI](https://gptz.directory/gpt/perplexity-ai)
 
-## Photo Editing {#photo-editing} 
+## Photo Editing
 
 - [BunnyPic](https://gptz.directory/gpt/bunnypic)
 - [Deep AI Image Editor](https://gptz.directory/gpt/deep-ai-image-editor)
 - [Luminar AI](https://gptz.directory/gpt/luminar-ai)
 - [Palette](https://gptz.directory/gpt/palette)
 
-## Privacy {#privacy} 
+## Privacy
 
 - [PimEyes](https://gptz.directory/gpt/pimeyes)
 
-## Productivity & Organization {#productivity-organization} 
+## Productivity & Organization
 
 - [Bardeen AI](https://gptz.directory/gpt/bardeen-ai)
 - [EventBrite AI](https://gptz.directory/gpt/eventbrite-ai)
@@ -563,7 +563,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Rewind AI](https://gptz.directory/gpt/rewind-ai)
 - [Supernormal](https://gptz.directory/gpt/supernormal)
 
-## Productivity {#productivity} 
+## Productivity
 
 - [Airtable](https://gptz.directory/gpt/airtable)
 - [Beautiful.ai](https://gptz.directory/gpt/beautiful.ai)
@@ -581,54 +581,54 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Tome](https://gptz.directory/gpt/tome)
 - [Zapier Central](https://gptz.directory/gpt/zapier-central)
 
-## Project Management {#project-management} 
+## Project Management
 
 - [ClickUp](https://gptz.directory/gpt/clickup)
 - [Trello](https://gptz.directory/gpt/trello)
 
-## Real Estate {#real-estate} 
+## Real Estate
 
 - [Cinc Pro RealEstate AI](https://gptz.directory/gpt/cinc-pro-realestate-ai)
 
-## Recipe & Cooking Assistants {#recipe-cooking-assistants} 
+## Recipe & Cooking Assistants
 
 - [AI Recipe Guru](https://gptz.directory/gpt/ai-recipe-guru)
 - [FoodAI](https://gptz.directory/gpt/foodai)
 
-## Research {#research} 
+## Research
 
 - [PlaybookUX](https://gptz.directory/gpt/playbookux)
 
-## SEO {#seo} 
+## SEO
 
 - [Ahrefs](https://gptz.directory/gpt/ahrefs)
 - [GrowthBar SEO](https://gptz.directory/gpt/growthbar-seo)
 
-## Sales Enablement {#sales-enablement} 
+## Sales Enablement
 
 - [SalesAI](https://gptz.directory/gpt/salesai)
 
-## Script Writing {#script-writing} 
+## Script Writing
 
 - [ScripAI](https://gptz.directory/gpt/scripai)
 
-## Social Media Management {#social-media-management} 
+## Social Media Management
 
 - [Vista Social](https://gptz.directory/gpt/vista-social)
 
-## Social Media {#social-media} 
+## Social Media
 
 - [Snap](https://gptz.directory/gpt/snap)
 
-## Sports Analysis {#sports-analysis} 
+## Sports Analysis
 
 - [Sportify AI Coach](https://gptz.directory/gpt/sportify-ai-coach)
 
-## Translation {#translation} 
+## Translation
 
 - [DeepL](https://gptz.directory/gpt/deepl)
 
-## Translator Tools {#translator-tools} 
+## Translator Tools
 
 - [Across](https://gptz.directory/gpt/across)
 - [Anaphraseus](https://gptz.directory/gpt/anaphraseus)
@@ -669,37 +669,36 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 - [Wordfast](https://gptz.directory/gpt/wordfast)
 - [XTM](https://gptz.directory/gpt/xtm)
 
-## Travel Planning {#travel-planning} 
+## Travel Planning
 
 - [TravelMate AI](https://gptz.directory/gpt/travelmate-ai)
 - [TripAI Planner](https://gptz.directory/gpt/tripai-planner)
 
-## Video Creation & Editing {#video-creation-editing} 
+## Video Creation & Editing
 
 - [Invideo AI](https://gptz.directory/gpt/invideo-ai)
 
-## Video Creation {#video-creation} 
+## Video Creation
 
 - [Lumen5](https://gptz.directory/gpt/lumen5)
 
-## Video Editing {#video-editing} 
+## Video Editing
 
 - [Vidify AI](https://gptz.directory/gpt/vidify-ai)
 
-## Web Development {#web-development} 
+## Web Development
 
 - [Durable AI](https://gptz.directory/gpt/durable-ai)
 - [Framer AI](https://gptz.directory/gpt/framer-ai)
 
-## Writing & Content Creation {#writing-content-creation} 
+## Writing & Content Creation
 
 - [Smart Write by Neo](https://gptz.directory/gpt/smart-write-by-neo)
 
-## Writing {#writing} 
+## Writing
 
 - [DeepL Write](https://gptz.directory/gpt/deepl-write)
 - [Grammarly AI](https://gptz.directory/gpt/grammarly-ai)
 - [Jasper Chat](https://gptz.directory/gpt/jasper-chat)
 - [Rytr](https://gptz.directory/gpt/rytr)
 - [Writesonic](https://gptz.directory/gpt/writesonic)
-
