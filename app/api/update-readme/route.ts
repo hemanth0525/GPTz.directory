@@ -1,111 +1,98 @@
+import { collection, getCountFromServer } from 'firebase/firestore';
 import { NextResponse } from 'next/server'
-import { collection, getDocs } from 'firebase/firestore'
+import { Octokit } from '@octokit/rest'
+import { Base64 } from 'js-base64'
 import { db } from '@/lib/firebase'
 
-export async function POST(request: Request) {
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 
-    const OWNER = process.env.GITHUB_OWNER
-    const REPO = process.env.GITHUB_REPO
-    const TOKEN = process.env.GITHUB_TOKEN
+const owner = process.env.GITHUB_OWNER || ''
+const repo = process.env.GITHUB_REPO || ''
+const path = 'README.md'
 
+function slugify(text: string): string {
+    return text
+        .toLowerCase()
+        .replace(/ & /g, '--')
+        .replace(/ /g, '-')
+}
+
+export async function POST(req: Request) {
     try {
-        const { gptName, gptId, category } = await request.json()
+        const { gptName, gptId, category } = await req.json()
 
-        const getCurrentReadme = await fetch(
-            `https://api.github.com/repos/${OWNER}/${REPO}/contents/README.md`,
-            {
-                headers: {
-                    'Authorization': `Bearer ${TOKEN}`,
-                    'Accept': 'application/vnd.github.v3+json',
-                },
-            }
-        )
-
-        if (!getCurrentReadme.ok) {
-            throw new Error('Failed to fetch README from GitHub')
-        }
-
-        const currentReadmeData = await getCurrentReadme.json()
-        const currentContent = Buffer.from(currentReadmeData.content, 'base64').toString()
-        const lines = currentContent.split('\n')
-
-        const manager = {
-            totalCount: 0,
-            roundedCount: '300+',
-            categories: new Set<string>(),
-            content: [] as string[]
-        }
-
-        const snapshot = await getDocs(collection(db, 'gpts_live'))
-        manager.totalCount = snapshot.size + 1
-        manager.roundedCount = `${Math.floor(manager.totalCount / 50) * 50}+`
-
-        let currentCategory = ''
-        let categorySection = false
-
-        lines.forEach(line => {
-            if (line.includes('AI tools and GPTs...')) {
-                manager.content.push(line.replace(/\d+\+/, manager.roundedCount))
-                return
-            }
-
-            if (line.startsWith('## ') && !line.includes('Categories')) {
-                currentCategory = line.substring(3)
-                manager.categories.add(currentCategory)
-                categorySection = true
-            }
-
-            if (!manager.categories.has(category) && line.startsWith('## Categories')) {
-                manager.categories.add(category)
-                const allCategories = Array.from(manager.categories).sort()
-                manager.content.push(line)
-                manager.content.push('')
-                allCategories.forEach(cat => {
-                    manager.content.push(`- [${cat}](#${cat.toLowerCase().replace(/&/g, '-').replace(/[^a-z0-9]+/g, '-')})`)
-                })
-                return
-            }
-
-            if (currentCategory === category && categorySection) {
-                const gptLink = `- [${gptName}](https://gptz.directory/gpt/${gptId})`
-                const existingGPTs = lines.filter(l => l.startsWith('- [') && !l.includes(gptName))
-                existingGPTs.push(gptLink)
-                existingGPTs.sort()
-                manager.content.push(...existingGPTs)
-                categorySection = false
-                return
-            }
-
-            manager.content.push(line)
+        const { data: fileData } = await octokit.repos.getContent({
+            owner,
+            repo,
+            path,
         })
 
-        const response = await fetch(
-            'https://api.github.com/repos/OWNER/REPO/contents/README.md',
-            {
-                method: 'PUT',
-                headers: {
-                    'Authorization': `Bearer ${TOKEN}`,
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/vnd.github.v3+json',
-                },
-                body: JSON.stringify({
-                    message: `Update README.md - Add ${gptName} to ${category}`,
-                    content: Buffer.from(manager.content.join('\n')).toString('base64'),
-                    sha: currentReadmeData.sha,
-                }),
+        if ('content' in fileData) {
+            const content = Base64.decode(fileData.content)
+
+            const lines = content.split('\n')
+            const categories: { [key: string]: string[] } = {}
+            let currentCategory = ''
+            let aiToolsLineIndex = -1
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i]
+                if (line.includes('AI tools and GPTS...')) {
+                    aiToolsLineIndex = i
+                } else if (line.startsWith('## ') && !line.startsWith('## Categories')) {
+                    currentCategory = line.substring(3).trim()
+                    categories[currentCategory] = []
+                } else if (line.startsWith('- [') && currentCategory) {
+                    categories[currentCategory].push(line)
+                }
             }
-        )
 
-        if (!response.ok) {
-            throw new Error('Failed to update README on GitHub')
+            const newEntry = `- [${gptName}](https://gptz.directory/gpt/${gptId})`
+            if (!(category in categories)) {
+                categories[category] = []
+            }
+            categories[category].push(newEntry)
+
+            for (const cat in categories) {
+                categories[cat].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+            }
+
+            const snapshot = await getCountFromServer(collection(db, 'gpts_live'))
+            const totalCount = snapshot.data().count + 1
+
+            const roundedCount = Math.floor(totalCount / 50) * 50
+            lines[aiToolsLineIndex] = `${roundedCount}+ AI tools and GPTS...`
+
+            let newContent = lines.slice(0, aiToolsLineIndex + 1).join('\n') + '\n\n'
+
+            const sortedCategories = Object.keys(categories).sort()
+            newContent += '## Categories\n\n'
+            sortedCategories.forEach(cat => {
+                const slug = slugify(cat)
+                newContent += `- [${cat}](#${slug})\n`
+            })
+            newContent += '\n'
+
+            sortedCategories.forEach(cat => {
+                newContent += `## ${cat} \n\n${categories[cat].join('\n')}\n\n`
+            })
+
+            await octokit.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path,
+                message: `Add ${gptName} to ${category}`,
+                content: Base64.encode(newContent),
+                sha: fileData.sha,
+            })
+
+            return NextResponse.json({ success: true, message: 'README updated successfully' })
+        } else {
+            throw new Error('Unable to fetch README content')
         }
-
-        return NextResponse.json({ success: true, roundedCount: manager.roundedCount })
     } catch (error) {
         console.error('Error updating README:', error)
-        return NextResponse.json(
-            { success: false, error: error instanceof Error ? error.message : 'Unknown error' },
-            { status: 500 }
-        )
+        return NextResponse.json({ success: false, error: 'Failed to update README' }, { status: 500 })
     }
 }
+

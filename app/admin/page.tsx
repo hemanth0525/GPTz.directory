@@ -12,8 +12,6 @@ import { useAuth } from '@/contexts/AuthContext'
 import { Markdown } from '@/components/Markdown'
 import { Badge } from '@/components/ui/badge'
 import { toast } from '@/hooks/use-toast'
-import { updateReadmeWithGPT } from '@/lib/readme-manager'
-import { ReadmeManager } from '@/lib/types'
 
 async function sendEmail(to: string, subject: string, body: string) {
   try {
@@ -92,14 +90,8 @@ export default function AdminDashboard() {
     }
   }
 
-  async function getTotalGPTCount(): Promise<number> {
-    const snapshot = await getDocs(collection(db, gptsCollection));
-    return snapshot.size;
-  }
-
   const deleteFromReview = async (submission: Submission) => {
     try {
-
       const q = query(collection(db, gptsReviewCollection),
         where('id', '==', submission.id));
       const querySnapshot = await getDocs(q);
@@ -142,32 +134,35 @@ export default function AdminDashboard() {
           });
         });
 
-        const manager: ReadmeManager = {
-          totalCount: 0,
-          roundedCount: '300+',
-          categories: new Set(),
-          content: []
-        };
+        const result = await fetch('/api/update-readme', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            gptName: submission.name,
+            gptId: submission.id,
+            category: submission.category,
+          }),
+        });
 
-        manager.totalCount = await getTotalGPTCount();
-        manager.roundedCount = `${Math.floor(manager.totalCount / 50) * 50}+`;
-        manager.categories.add(submission.category);
-        manager.content.push(`- [${submission.name}](https://gptz.directory/gpt/${submission.id})`);
+        if (!result.ok) {
+          throw new Error('Failed to update README');
+        }
 
-        const result = await updateReadmeWithGPT(
-          submission.name,
-          submission.id,
-          submission.category,
-          manager
-        );
+        const data = await result.json();
+        if (!data.success) {
+          throw new Error(data.error || 'Unknown error updating README');
+        }
 
-        if (result.success && result.roundedCount) {
-          const searchInput = document.querySelector('input[placeholder*="GPTs"]') as HTMLInputElement;
-          if (searchInput) {
-            searchInput.placeholder = `Search in ${result.roundedCount} GPTs...`;
+        const searchInput = document.querySelector('input[placeholder*="GPTs"]') as HTMLInputElement;
+        if (searchInput) {
+          const match = searchInput.placeholder.match(/(\d+)\+/);
+          if (match) {
+            const currentCount = parseInt(match[1]);
+            const newCount = Math.floor((currentCount + 1) / 50) * 50;
+            searchInput.placeholder = searchInput.placeholder.replace(/\d+\+/, `${newCount}+`);
           }
-        } else {
-          console.error('Failed to update README:', result.error);
         }
 
         await sendEmail(submission.email, 'Your GPT Submission Has Been Approved',
@@ -192,8 +187,8 @@ export default function AdminDashboard() {
 
 If you have any questions or would like feedback, please don't hesitate to reach out to us.
 
-Thank you for your interest in contributing to our directory.
-        `);
+Thank you for your interest in contributing to our directory.`
+        );
 
         toast({
           title: "GPT Rejected",
@@ -326,3 +321,4 @@ Thank you for your interest in contributing to our directory.
     </div>
   )
 }
+
