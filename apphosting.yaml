@@ -1,0 +1,64 @@
+# Settings for Backend (on Cloud Run).
+# See https://firebase.google.com/docs/app-hosting/configure#cloud-run
+runConfig:
+  minInstances: 0
+  # maxInstances: 100
+  # concurrency: 80
+  # cpu: 1
+  # memoryMiB: 512
+
+# Environment variables and secrets.
+env:
+  # Configure environment variables.
+  # See https://firebase.google.com/docs/app-hosting/configure#user-defined-environment
+  # - variable: MESSAGE
+  #   value: Hello world!
+  #   availability:
+  #     - BUILD
+  #     - RUNTIME
+
+  # Grant access to secrets in Cloud Secret Manager.
+  # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
+  # - variable: MY_SECRET
+  #   secret: mySecretRef
+  # Firebase configuration
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    secret: NEXT_PUBLIC_FIREBASE_API_KEY
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN 
+    secret: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    secret: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    secret: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    secret: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    secret: NEXT_PUBLIC_FIREBASE_APP_ID
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    secret: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+
+  # API Keys and Tokens
+  - variable: GEMINI_API_KEY
+    secret: GEMINI_API_KEY
+  - variable: GITHUB_TOKEN
+    secret: GITHUB_TOKEN
+  - variable: GITHUB_TOKEN2
+    secret: GITHUB_TOKEN2
+  - variable: GITHUB_OWNER
+    secret: GITHUB_OWNER
+  - variable: GITHUB_REPO
+    secret: GITHUB_REPO
+  - variable: NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+    secret: NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+
+  # Mail configuration
+  - variable: MAIL_HOST
+    secret: MAIL_HOST
+  - variable: MAIL_PORT
+    secret: MAIL_PORT
+  - variable: MAIL_SECURE
+    secret: MAIL_SECURE
+  - variable: MAIL_USER
+    secret: MAIL_USER
+  - variable: MAIL_PASSWORD
+    secret: MAIL_PASSWORD
