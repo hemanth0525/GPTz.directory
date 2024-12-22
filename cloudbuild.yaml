@@ -24,9 +24,6 @@ steps:
       - "MAIL_SECURE=$(cat /secrets/MAIL_SECURE/latest)"
       - "MAIL_USER=$(cat /secrets/MAIL_USER/latest)"
       - "MAIL_PASSWORD=$(cat /secrets/MAIL_PASSWORD/latest)"
-    volumes:
-      - name: secrets-volume
-        mountPath: /secrets
 
   - name: "gcr.io/cloud-builders/gcloud"
     args:
