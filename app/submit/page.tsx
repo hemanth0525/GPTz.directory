@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -29,23 +29,6 @@ export default function SubmitGPT() {
   const [showConfirmation, setShowConfirmation] = useState(false)
   const [isPreviewMode, setIsPreviewMode] = useState(false)
   const router = useRouter()
-
-  useEffect(() => {
-    const handleKeyPress = (e: KeyboardEvent) => {
-      if (e.shiftKey) {
-        if (e.key === 'P' || e.key === 'p') {
-          e.preventDefault();
-          setIsPreviewMode(true);
-        } else if (e.key === 'E' || e.key === 'e') {
-          e.preventDefault();
-          setIsPreviewMode(false);
-        }
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyPress);
-    return () => document.removeEventListener('keydown', handleKeyPress);
-  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -189,7 +172,6 @@ export default function SubmitGPT() {
               <div className="flex justify-between items-center mb-2">
                 <p className="text-xs text-muted-foreground">{longDescription.length}/1000 characters</p>
                 <div className="flex items-center gap-2">
-                  <span className="text-xs text-muted-foreground">Shift+P to preview • Shift+E to edit</span>
                   <Button
                     type="button"
                     variant="outline"
@@ -226,7 +208,7 @@ export default function SubmitGPT() {
               </SelectTrigger>
               <SelectContent>
                 {categories.map((cat) => (
-                  <SelectItem key={cat} value={cat.toLowerCase()}>{cat}</SelectItem>
+                  <SelectItem key={cat} value={cat}>{cat}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
