@@ -36,6 +36,7 @@ export default function RootLayout({
           gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID || ''}');
         `}
         </Script>
+        <script async data-cfasync="false" src="//pl25354561.profitablecpmrate.com/9fa17e65afd06a9c8b61c435fc6b42cb/invoke.js"></script>
       </head>
       <body className={spaceGrotesk.className}>
         <AuthProvider>
