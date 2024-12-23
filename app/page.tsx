@@ -10,10 +10,11 @@ import { WhyWeBuiltIt } from '@/components/WhyWeBuiltIt'
 import { Newsletter } from '@/components/Newsletter'
 import { FAQ } from '@/components/FAQ'
 import { AskAI } from '@/components/AskAI'
-import { AdsterraNativeAds } from '@/components/AdsterraNativeAds'
+import { AdsterraNative } from '@/components/AdsterraNativeAds'
 
 export default function Home() {
   const [stars, setStars] = useState<{ top: string; left: string; size: string; delay: string }[]>([])
+  const [showHeaderAd] = useState(() => Math.random() > 0.5) // 50% chance to show header ad
 
   useEffect(() => {
     const newStars = Array.from({ length: 200 }, () => ({
@@ -49,6 +50,11 @@ export default function Home() {
         >
           <h1 className="text-7xl font-bold mb-4 glow-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">Explore the AI Universe</h1>
           <p className="text-2xl mb-8 text-muted-foreground">Discover and share the most powerful GPTs in the galaxy</p>
+          {showHeaderAd && (
+            <div className="max-w-3xl mx-auto mb-8">
+              <AdsterraNative />
+            </div>
+          )}
           <div className="flex justify-center gap-4">
             <Button asChild size="sm" className="rounded-full text-lg">
               <Link href="/submit">
@@ -66,8 +72,8 @@ export default function Home() {
         >
           <GPTGrid />
         </motion.div>
-        <AdsterraNativeAds />
       </main>
+      {Math.random() >= 0.5 && <AdsterraNative />}
       <WhyWeBuiltIt />
       <Newsletter />
       <FAQ />

@@ -11,6 +11,7 @@ import { Input } from './ui/input'
 import { FilterDropdown } from './FilterDropdown'
 import { GPTCardGrid } from './GPTCardGrid'
 import LoadingSpinner from './LoadingSpinner'
+import { AdsterraNative } from './AdsterraNativeAds'
 
 export default function GPTGrid() {
   const [gpts, setGpts] = useState<GPT[]>([])
@@ -103,6 +104,67 @@ export default function GPTGrid() {
     )
   }, [filteredGPTs, sortBy])
 
+  type GPTOrAd = GPT | { isAd: true }
+
+  const insertAdsIntoGPTs = (gpts: GPT[]): GPTOrAd[] => {
+    if (gpts.length === 0) return []
+
+    const result = [...gpts] as GPTOrAd[]
+    const totalAds = Math.floor(gpts.length / 8)
+    const usedPositions = new Set<number>()
+
+    for (let i = 0; i < totalAds; i++) {
+      let position
+      do {
+        position = Math.floor(Math.random() * (gpts.length - 4)) + 2
+      } while (
+        usedPositions.has(position) ||
+        usedPositions.has(position - 1) ||
+        usedPositions.has(position + 1)
+      )
+      result.splice(position, 0, { isAd: true })
+      usedPositions.add(position)
+      result.splice(position, 0, { isAd: true } as GPTOrAd)
+    }
+
+    return result
+  }
+
+  const renderContent = () => {
+    if (filteredGPTs.length === 0) {
+      return (
+        <div className="text-center py-20">
+          <h3 className="text-2xl font-bold mb-4">No GPTs Found</h3>
+          <p className="text-muted-foreground mb-8">We couldn&apos;t find any GPTs matching your search criteria.</p>
+          <Button onClick={() => {
+            setSelectedCategories(['All']);
+            setSelectedTags(['All']);
+            setSearchQuery('');
+            document.getElementById('gpt-grid')?.scrollIntoView({ behavior: 'smooth' });
+          }}>
+            Clear Filters
+          </Button>
+        </div>
+      )
+    }
+
+    const mixedContent = insertAdsIntoGPTs(sortedGPTs)
+
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {mixedContent.map((item, index) => (
+          'isAd' in item ? (
+            <div key={`ad-${index}`} className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 flex justify-center">
+              <AdsterraNative className="w-full max-w-3xl" />
+            </div>
+          ) : (
+            <GPTCardGrid key={item.id} gpts={[item]} />
+          )
+        ))}
+      </div>
+    )
+  }
+
   if (isLoading) return (
     <div className="flex justify-center items-center min-h-[400px]">
       <LoadingSpinner text='Loading GPTs...' />
@@ -158,23 +220,7 @@ export default function GPTGrid() {
           </Button>
         </div>
       </div>
-      {filteredGPTs.length === 0 ? (
-        <div className="text-center py-20">
-          <h3 className="text-2xl font-bold mb-4">No GPTs Found</h3>
-          <p className="text-muted-foreground mb-8">We couldn&apos;t find any GPTs matching your search criteria.</p>
-          <Button onClick={() => {
-            setSelectedCategories(['All']);
-            setSelectedTags(['All']);
-            setSearchQuery('');
-            document.getElementById('gpt-grid')?.scrollIntoView({ behavior: 'smooth' });
-          }}>
-            Clear Filters
-          </Button>
-        </div>
-      ) : (
-        <GPTCardGrid gpts={sortedGPTs} />
-      )}
+      {renderContent()}
     </div>
   )
 }
-
