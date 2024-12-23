@@ -37,6 +37,7 @@ export default function RootLayout({
         `}
         </Script>
         <script async data-cfasync="false" src="//pl25354561.profitablecpmrate.com/9fa17e65afd06a9c8b61c435fc6b42cb/invoke.js"></script>
+        <meta name='admaven-placement' content='Bqdn4rHU8'></meta>
       </head>
       <body className={spaceGrotesk.className}>
         <AuthProvider>

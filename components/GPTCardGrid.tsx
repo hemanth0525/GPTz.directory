@@ -31,10 +31,6 @@ export function GPTCardGrid({ gpts }: GPTCardGridProps) {
         return () => window.removeEventListener('resize', updateColumnCount)
     }, [])
 
-    const rows = Array.from({ length: Math.ceil(gpts.length / columnCount) }, (_, i) =>
-        gpts.slice(i * columnCount, (i + 1) * columnCount)
-    )
-
     const handleHeightChange = useCallback((rowIndex: number, height: number) => {
         setRowHeights(prev => {
             const currentRowMax = Math.max(prev[rowIndex] || 0, height)
@@ -43,31 +39,37 @@ export function GPTCardGrid({ gpts }: GPTCardGridProps) {
         })
     }, [])
 
+    const gridItems = gpts.map((item, index) => {
+        if (item.isAd) {
+            return (
+                <div
+                    key={item.id}
+                    className="row-span-2 md:col-span-1"
+                >
+                    <AdCard />
+                </div>
+            )
+        }
+        return (
+            <LazyGPTCard
+                key={item.id}
+                gpt={item}
+                index={index}
+                onHeightChange={(height) => handleHeightChange(Math.floor(index / columnCount), height)}
+                rowHeight={rowHeights[Math.floor(index / columnCount)]}
+            />
+        )
+    })
+
     return (
         <AnimatePresence>
             <motion.div
-                className="grid gap-8"
+                className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
             >
-                {rows.map((row, rowIndex) => (
-                    <div key={rowIndex} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {row.map((item, cardIndex) => (
-                            item.isAd ? (
-                                <AdCard key={item.id} />
-                            ) : (
-                                <LazyGPTCard
-                                    key={item.id}
-                                    gpt={item}
-                                    index={rowIndex * columnCount + cardIndex}
-                                    onHeightChange={(height) => handleHeightChange(rowIndex, height)}
-                                    rowHeight={rowHeights[rowIndex]}
-                                />
-                            )
-                        ))}
-                    </div>
-                ))}
+                {gridItems}
             </motion.div>
         </AnimatePresence>
     )
