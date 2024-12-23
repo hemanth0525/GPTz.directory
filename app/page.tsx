@@ -10,6 +10,7 @@ import { WhyWeBuiltIt } from '@/components/WhyWeBuiltIt'
 import { Newsletter } from '@/components/Newsletter'
 import { FAQ } from '@/components/FAQ'
 import { AskAI } from '@/components/AskAI'
+import { AdsterraNativeAds } from '@/components/AdsterraNativeAds'
 
 export default function Home() {
   const [stars, setStars] = useState<{ top: string; left: string; size: string; delay: string }[]>([])
@@ -65,6 +66,7 @@ export default function Home() {
         >
           <GPTGrid />
         </motion.div>
+        <AdsterraNativeAds />
       </main>
       <WhyWeBuiltIt />
       <Newsletter />

@@ -8,8 +8,10 @@ import { SpaceToaster } from '@/components/ui/space-toaster'
 import Script from 'next/script'
 import { Suspense } from 'react'
 import LoadingSpinner from '@/components/LoadingSpinner'
+import ScrollToTop from '@/components/ScrollToTop'
 
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'GPTz.directory - Explore the AI Universe',
@@ -40,6 +42,7 @@ export default function RootLayout({
           <div className="flex flex-col min-h-screen space-bg">
             <Header />
             <main className="flex-grow pt-16">
+              <ScrollToTop />
               <Suspense fallback={<LoadingSpinner />}>
                 {children}
               </Suspense>
