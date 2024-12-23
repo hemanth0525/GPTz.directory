@@ -4,10 +4,11 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { GPT } from '@/lib/types'
 import { GPTCard } from './GPTCard'
+import { AdCard } from './AdCard'
 import GPTCardSkeleton from './GPTCardSkeleton'
 
 interface GPTCardGridProps {
-    gpts: GPT[]
+    gpts: (GPT & { isAd?: boolean })[]
 }
 
 export function GPTCardGrid({ gpts }: GPTCardGridProps) {
@@ -52,14 +53,18 @@ export function GPTCardGrid({ gpts }: GPTCardGridProps) {
             >
                 {rows.map((row, rowIndex) => (
                     <div key={rowIndex} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {row.map((gpt, cardIndex) => (
-                            <LazyGPTCard
-                                key={gpt.id}
-                                gpt={gpt}
-                                index={rowIndex * columnCount + cardIndex}
-                                onHeightChange={(height) => handleHeightChange(rowIndex, height)}
-                                rowHeight={rowHeights[rowIndex]}
-                            />
+                        {row.map((item, cardIndex) => (
+                            item.isAd ? (
+                                <AdCard key={item.id} />
+                            ) : (
+                                <LazyGPTCard
+                                    key={item.id}
+                                    gpt={item}
+                                    index={rowIndex * columnCount + cardIndex}
+                                    onHeightChange={(height) => handleHeightChange(rowIndex, height)}
+                                    rowHeight={rowHeights[rowIndex]}
+                                />
+                            )
                         ))}
                     </div>
                 ))}
