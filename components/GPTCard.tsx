@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { ThumbsUp, Calendar } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { GPT } from '@/lib/types'
-import { motion, useSpring, useMotionValue } from 'framer-motion'
 
 function formatDate(date: Date): string {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -22,18 +21,12 @@ interface GPTCardProps {
 
 export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
     const cardRef = useRef<HTMLDivElement>(null)
-    const upvotes = useMotionValue(gpt.upvotes)
-    const springUpvotes = useSpring(upvotes, { stiffness: 100, damping: 30 })
 
     useEffect(() => {
         if (cardRef.current) {
             onHeightChange(cardRef.current.offsetHeight)
         }
     }, [onHeightChange])
-
-    useEffect(() => {
-        upvotes.set(gpt.upvotes)
-    }, [gpt.upvotes, upvotes])
 
     return (
         <Link href={`/gpt/${gpt.id}`} className="block h-full group">
@@ -56,7 +49,7 @@ export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
                 <div className="flex justify-between items-center pt-4 border-t border-border/50">
                     <div className="flex items-center">
                         <ThumbsUp className="w-5 h-5 text-primary mr-1" aria-hidden="true" />
-                        <motion.span>{springUpvotes}</motion.span>
+                        <span>{gpt.upvotes}</span>
                         <span className="sr-only">Upvotes</span>
                     </div>
                     <div className="flex items-center">
@@ -69,4 +62,3 @@ export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
         </Link>
     )
 }
-
