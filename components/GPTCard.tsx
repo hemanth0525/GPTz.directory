@@ -62,4 +62,3 @@ export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
         </Link>
     )
 }
-
