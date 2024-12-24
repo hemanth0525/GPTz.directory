@@ -24,6 +24,19 @@ const CursorTrialEffect = () => {
     const [isOverDialog, setIsOverDialog] = useState(false);
     const [zoomLevel, setZoomLevel] = useState(1);
     const [isIBeam, setIsIBeam] = useState(false);
+    const [shouldRender, setShouldRender] = useState(false);
+
+    useEffect(() => {
+        const checkDevice = () => {
+            const isTouch = window.matchMedia('(hover: none), (pointer: coarse)').matches;
+            const isSmallScreen = window.matchMedia('(max-width: 768px)').matches;
+            setShouldRender(!isTouch && !isSmallScreen);
+        };
+
+        checkDevice();
+        window.addEventListener('resize', checkDevice);
+        return () => window.removeEventListener('resize', checkDevice);
+    }, []);
 
     useEffect(() => {
         const lerp = (start: number, end: number, t: number): number => start * (1 - t) + end * t;
@@ -86,7 +99,7 @@ const CursorTrialEffect = () => {
         };
     }, []);
 
-    if (isIBeam) return null;
+    if (isIBeam || !shouldRender) return null;
 
     return (
         <div className="fixed inset-0 pointer-events-none z-50" style={{ zIndex: CURSOR_Z_INDEX }}>

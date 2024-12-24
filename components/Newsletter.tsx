@@ -41,21 +41,27 @@ export function Newsletter() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="py-16 bg-card"
+            className="py-8 sm:py-12 md:py-16 bg-card"
         >
-            <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-4 text-center glow-text">Stay Updated with GPTz Weekly</h2>
-                <p className="text-center mb-8 text-muted-foreground">Subscribe to our newsletter for the latest GPT discoveries and AI insights.</p>
-                <form onSubmit={handleSubmit} className="max-w-md mx-auto flex gap-2">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4 text-center glow-text">
+                    Stay Updated with GPTz Weekly
+                </h2>
+                <p className="text-sm sm:text-base text-center mb-4 sm:mb-6 md:mb-8 text-muted-foreground max-w-lg mx-auto">
+                    Subscribe to our newsletter for the latest GPT discoveries and AI insights.
+                </p>
+                <form onSubmit={handleSubmit} className="max-w-md mx-auto flex flex-col sm:flex-row gap-2 px-4 sm:px-0">
                     <Input
                         type="email"
                         placeholder="Enter your email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
-                        className="flex-grow"
+                        className="w-full"
                     />
-                    <Button type="submit">Subscribe</Button>
+                    <Button type="submit" className="w-full sm:w-auto whitespace-nowrap">
+                        Subscribe
+                    </Button>
                 </form>
             </div>
         </motion.section>

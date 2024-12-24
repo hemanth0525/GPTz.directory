@@ -35,27 +35,29 @@ export function FAQ() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="py-16 bg-gradient-to-b from-muted to-background"
+            className="py-8 sm:py-12 md:py-16 bg-gradient-to-b from-muted to-background"
         >
-            <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 text-center glow-text">Frequently Asked Questions</h2>
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center glow-text">
+                    Frequently Asked Questions
+                </h2>
                 <div className="max-w-3xl mx-auto">
                     {faqs.map((faq, index) => (
                         <motion.div
                             key={index}
                             initial={false}
                             animate={{ backgroundColor: activeIndex === index ? 'rgba(255,255,255,0.05)' : 'transparent' }}
-                            className="mb-4 rounded-lg overflow-hidden"
+                            className="mb-3 sm:mb-4 rounded-lg overflow-hidden border border-transparent hover:border-muted-foreground/20"
                         >
                             <button
-                                className="flex justify-between items-center w-full p-4 text-left focus:outline-none"
+                                className="flex justify-between items-center w-full p-3 sm:p-4 text-left focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50"
                                 onClick={() => setActiveIndex(activeIndex === index ? null : index)}
                             >
-                                <span className="font-medium">{faq.question}</span>
+                                <span className="font-medium text-sm sm:text-base pr-4">{faq.question}</span>
                                 {activeIndex === index ? (
-                                    <ChevronUp className="w-5 h-5" />
+                                    <ChevronUp className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
                                 ) : (
-                                    <ChevronDown className="w-5 h-5" />
+                                    <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
                                 )}
                             </button>
                             <AnimatePresence>
@@ -66,7 +68,7 @@ export function FAQ() {
                                         exit={{ opacity: 0, height: 0 }}
                                         transition={{ duration: 0.3 }}
                                     >
-                                        <p className="p-4 text-muted-foreground">{faq.answer}</p>
+                                        <p className="p-3 sm:p-4 text-sm sm:text-base text-muted-foreground">{faq.answer}</p>
                                     </motion.div>
                                 )}
                             </AnimatePresence>

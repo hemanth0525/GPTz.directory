@@ -290,7 +290,7 @@ export default function GPTPage({ params }: { params: { id: string } }) {
   if (!gpt) return null
 
   return (
-    <div className="min-h-screen space-bg p-8 relative overflow-hidden">
+    <div className="min-h-screen space-bg p-4 sm:p-6 md:p-8 relative overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -298,88 +298,93 @@ export default function GPTPage({ params }: { params: { id: string } }) {
         className="max-w-4xl mx-auto"
       >
         <Link href="/">
-          <Button variant="ghost" className="mb-8">
+          <Button variant="ghost" className="mb-4 sm:mb-6 md:mb-8">
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Galaxy
           </Button>
         </Link>
-        <div className="bg-card text-card-foreground p-8 rounded-lg glass-effect">
-          <h1 className="text-4xl font-bold mb-4 glow-text">{gpt.name}</h1>
-          <p className="text-xl mb-4 text-muted-foreground">{gpt.shortDescription}</p>
-          <div className="flex flex-wrap gap-2 mb-6">
+        <div className="bg-card text-card-foreground p-4 sm:p-6 md:p-8 rounded-lg glass-effect">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4 glow-text">{gpt.name}</h1>
+          <p className="text-lg sm:text-xl mb-3 sm:mb-4 text-muted-foreground">{gpt.shortDescription}</p>
+          <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
             {gpt.tags.map(tag => (
-              <Badge key={tag} variant="secondary">{tag}</Badge>
+              <Badge key={tag} variant="secondary" className="text-sm">{tag}</Badge>
             ))}
           </div>
-          <div className="flex items-center mb-6 space-x-4">
+          <div className="flex flex-wrap items-center gap-3 mb-4 sm:mb-6">
             <Button
               variant="outline"
               onClick={handleUpvote}
-              className={hasUpvoted ? 'bg-primary text-primary-foreground' : ''}
+              className={`${hasUpvoted ? 'bg-primary text-primary-foreground' : ''} text-sm sm:text-base`}
             >
               <ThumbsUp className="w-4 h-4 mr-2" />
               {gpt.upvotes} {gpt.upvotes === 1 ? 'Upvote' : 'Upvotes'}
             </Button>
-            <div className="flex items-center">
-              <Calendar className="w-5 h-5 text-accent mr-1" />
-              <span>Launched on {format(new Date(gpt.launchDate), 'MMM do, yyyy')}</span>
+            <div className="flex items-center text-sm sm:text-base">
+              <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-accent mr-1" />
+              <span className="hidden sm:inline">Launched on </span>
+              <span>{format(new Date(gpt.launchDate), 'MMM do, yyyy')}</span>
             </div>
             {isAdmin && (
               <>
-                <div className="flex items-center">
-                  <Eye className="w-5 h-5 text-accent mr-1" />
+                <div className="flex items-center text-sm sm:text-base">
+                  <Eye className="w-4 h-4 sm:w-5 sm:h-5 text-accent mr-1" />
                   <span>{gpt.views || 0} views</span>
                 </div>
                 <Button
                   variant="outline"
                   onClick={() => router.push(`/gpt/${params.id}/edit`)}
+                  className="text-sm sm:text-base"
                 >
                   <Edit className="w-4 h-4 mr-2" />
-                  Edit
+                  <span className="hidden sm:inline">Edit</span>
                 </Button>
               </>
             )}
           </div>
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">About this GPT</h2>
-            <Markdown content={gpt.longDescription} />
+          <div className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About this GPT</h2>
+            <div className="prose prose-sm sm:prose-base dark:prose-invert max-w-none">
+              <Markdown content={gpt.longDescription} />
+            </div>
           </div>
-          <div className="flex gap-4 mb-8">
-            <Button className="rounded-full px-6 py-2 text-lg hover-glow" asChild>
+          <div className="flex gap-4 mb-6 sm:mb-8">
+            <Button className="w-full sm:w-auto rounded-full px-4 sm:px-6 py-2 text-base sm:text-lg hover-glow" asChild>
               <a href={`${gpt.url}?ref=gptz.directory`} target="_blank" rel="noopener noreferrer">
                 Try {gpt.name}
               </a>
             </Button>
           </div>
-          <div className="mt-8">
-            <h2 className="text-2xl font-bold mb-4">Discussion</h2>
+          <div className="mt-6 sm:mt-8">
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Discussion</h2>
             <form onSubmit={handleCommentSubmit} className="mb-4">
               <div className="mb-2">
                 <Textarea
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
                   placeholder="Add a comment with Markdown..."
-                  className="mb-2 font-mono min-h-[150px]"
+                  className="mb-2 font-mono min-h-[100px] sm:min-h-[150px]"
                 />
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Markdown supported</span>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                  <span className="text-xs sm:text-sm text-muted-foreground">Markdown supported</span>
                   <Button
                     type="button"
                     variant="outline"
                     size="sm"
                     onClick={() => setIsPreviewMode(!isPreviewMode)}
+                    className="w-full sm:w-auto"
                   >
                     {isPreviewMode ? 'Edit' : 'Preview'}
                   </Button>
                 </div>
               </div>
               {isPreviewMode && (
-                <div className="my-4 p-4 border rounded-md bg-muted overflow-auto max-h-[300px]">
+                <div className="my-3 sm:my-4 p-3 sm:p-4 border rounded-md bg-muted overflow-auto max-h-[200px] sm:max-h-[300px]">
                   <Markdown content={newComment || '*Preview will appear here*'} />
                 </div>
               )}
-              <Button type="submit">Post Comment</Button>
+              <Button type="submit" className="w-full sm:w-auto">Post Comment</Button>
             </form>
-            <div className="space-y-4">
+            <div className="space-y-3 sm:space-y-4">
               {gpt.comments.map((comment) => (
                 <Comment
                   key={comment.id}

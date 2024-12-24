@@ -121,9 +121,9 @@ export default function GPTGrid() {
   )
 
   return (
-    <div className="space-y-8">
-      <div className="flex flex-col items-center mb-8">
-        <div className="flex items-center mb-4">
+    <div className="space-y-4 sm:space-y-8">
+      <div className="flex flex-col items-center gap-4 mb-4 sm:mb-8">
+        <div className="w-full max-w-[300px] sm:max-w-none">
           <div className="relative">
             <Search id='explore' className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
             <Input
@@ -131,11 +131,11 @@ export default function GPTGrid() {
               placeholder={`Search in ${gptCount} GPTs...`}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 w-[300px]"
+              className="pl-10 w-full"
             />
           </div>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
           <FilterDropdown
             items={categories}
             selectedItems={selectedCategories}
@@ -150,28 +150,32 @@ export default function GPTGrid() {
           />
         </div>
       </div>
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-6">
         <Badge variant="secondary" className="text-sm">
           {filteredGPTs.length} {filteredGPTs.length === 1 ? 'result' : 'results'}
         </Badge>
-        <div className="space-x-2">
+        <div className="flex gap-2">
           <Button
+            size="sm"
             variant={sortBy === 'upvotes' ? 'default' : 'outline'}
             onClick={() => setSortBy('upvotes')}
+            className="text-sm"
           >
             Sort by Upvotes
           </Button>
           <Button
+            size="sm"
             variant={sortBy === 'launchDate' ? 'default' : 'outline'}
             onClick={() => setSortBy('launchDate')}
+            className="text-sm"
           >
             Sort by Launch Date
           </Button>
         </div>
       </div>
       {filteredGPTs.length === 0 ? (
-        <div className="text-center py-20">
-          <h3 className="text-2xl font-bold mb-4">No GPTs Found</h3>
+        <div className="text-center py-8 sm:py-20">
+          <h3 className="text-xl sm:text-2xl font-bold mb-4">No GPTs Found</h3>
           <p className="text-muted-foreground mb-8">We couldn&apos;t find any GPTs matching your search criteria.</p>
           <Button onClick={() => {
             setSelectedCategories(['All']);

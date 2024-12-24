@@ -49,24 +49,26 @@ export function Comment({ comment, onReply, onUpvote, onUpvoteReply, onDeleteCom
   const isLongComment = comment.text.length > MAX_COMMENT_LENGTH
 
   return (
-    <div className="bg-card/40 p-4 rounded-lg">
-      <div className="flex items-start space-x-4">
-        <Avatar />
+    <div className="bg-card/40 p-2 sm:p-4 rounded-lg">
+      <div className="flex items-start space-x-2 sm:space-x-4">
+        <div className="hidden xs:block">
+          <Avatar />
+        </div>
         <div className="flex-1 min-w-0">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col xs:flex-row xs:items-center justify-between gap-1">
             {comment.isFounder ? (
-              <Badge variant="secondary" className="bg-gradient-to-tr from-[#ff2c95] to-[#4169e1] text-white py-0.5 text-xs">
+              <Badge variant="secondary" className="bg-gradient-to-tr from-[#ff2c95] to-[#4169e1] text-white py-0.5 text-[10px] xs:text-xs w-fit">
                 <Crown className="w-3 h-3 mr-1" />
-                GPTz.directory Founder
+                <span className="whitespace-nowrap">GPTz.directory Founder</span>
               </Badge>
             )
-              : <h4 className="font-semibold truncate">{comment.author}</h4>
+              : <h4 className="font-semibold truncate text-sm sm:text-base">{comment.author}</h4>
             }
-            <span className="text-sm text-muted-foreground whitespace-nowrap ml-2">
+            <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">
               {formatDistanceToNow(new Date(comment.date), { addSuffix: true })}
             </span>
           </div>
-          <div className="mt-1 prose prose-sm dark:prose-invert max-w-none break-words">
+          <div className="mt-1 prose prose-sm dark:prose-invert max-w-none break-words text-xs sm:text-sm">
             <Markdown content={isExpanded || !isLongComment
               ? comment.text
               : `${comment.text.slice(0, MAX_COMMENT_LENGTH)}...`}
@@ -91,23 +93,23 @@ export function Comment({ comment, onReply, onUpvote, onUpvoteReply, onDeleteCom
               )}
             </Button>
           )}
-          <div className="mt-2 flex items-center space-x-4">
+          <div className="mt-2 flex flex-wrap items-center gap-2 sm:gap-4">
             <Button
               variant={hasUpvotedComment() ? "default" : "outline"}
               size="sm"
-              className={hasUpvotedComment() ? 'bg-primary text-primary-foreground' : ''}
+              className={`text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8 ${hasUpvotedComment() ? 'bg-primary text-primary-foreground' : ''}`}
               onClick={() => onUpvote(comment.id)}
             >
-              <ThumbsUp className="w-4 h-4 mr-2" />
+              <ThumbsUp className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
               {comment.upvotes} {comment.upvotes === 1 ? 'Upvote' : 'Upvotes'}
             </Button>
             <Button
               variant="ghost"
               size="sm"
-              className="flex items-center space-x-1"
+              className="text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8"
               onClick={() => setIsReplying(!isReplying)}
             >
-              <MessageSquare className="w-4 h-4" />
+              <MessageSquare className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
               <span>Reply</span>
             </Button>
             {comment.replies && comment.replies.length > 0 && (
@@ -139,7 +141,7 @@ export function Comment({ comment, onReply, onUpvote, onUpvoteReply, onDeleteCom
         </div>
       </div>
       {isReplying && (
-        <div className="mt-4 ml-12">
+        <div className="mt-3 sm:mt-4 ml-0 sm:ml-12">
           {quotedReply && (
             <div className="bg-muted p-2 rounded mb-2 text-sm">
               <p className="font-semibold">{quotedReply.author}:</p>
@@ -152,24 +154,26 @@ export function Comment({ comment, onReply, onUpvote, onUpvoteReply, onDeleteCom
             value={replyText}
             onChange={(e) => setReplyText(e.target.value)}
             placeholder="Write your reply... (Markdown supported)"
-            className="mb-2 min-h-[100px]"
+            className="mb-2 min-h-[80px] sm:min-h-[100px] text-sm"
           />
-          <div className="flex justify-end space-x-2">
-            <Button variant="outline" onClick={() => setIsReplying(false)}>Cancel</Button>
-            <Button onClick={handleReply}>Reply</Button>
+          <div className="flex justify-end gap-2">
+            <Button variant="outline" size="sm" onClick={() => setIsReplying(false)}>Cancel</Button>
+            <Button size="sm" onClick={handleReply}>Reply</Button>
           </div>
         </div>
       )}
       {showReplies && comment.replies && (
-        <div className="mt-4 space-y-4 ml-12">
+        <div className="mt-3 sm:mt-4 space-y-3 sm:space-y-4 ml-0 xs:ml-8 sm:ml-12">
           {comment.replies.map((reply) => (
-            <div key={reply.id} className="bg-card/60 p-3 rounded-lg">
-              <div className="flex items-start space-x-3">
-                <Avatar />
+            <div key={reply.id} className="bg-card/60 p-2 sm:p-3 rounded-lg">
+              <div className="flex items-start space-x-2 sm:space-x-3">
+                <div className="hidden xs:block">
+                  <Avatar />
+                </div>
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center justify-between">
-                    <h5 className="font-semibold truncate">{reply.author}</h5>
-                    <span className="text-xs text-muted-foreground whitespace-nowrap ml-2">
+                  <div className="flex flex-col xs:flex-row xs:items-center justify-between gap-1">
+                    <h5 className="font-semibold truncate text-sm">{reply.author}</h5>
+                    <span className="text-[10px] sm:text-xs text-muted-foreground whitespace-nowrap">
                       {formatDistanceToNow(new Date(reply.date), { addSuffix: true })}
                     </span>
                   </div>
@@ -180,29 +184,29 @@ export function Comment({ comment, onReply, onUpvote, onUpvoteReply, onDeleteCom
                       </div>
                     </div>
                   )}
-                  <div className="mt-1 prose prose-sm dark:prose-invert max-w-none break-words">
+                  <div className="mt-1 prose prose-sm dark:prose-invert max-w-none break-words text-xs sm:text-sm">
                     <Markdown content={reply.text} />
                   </div>
-                  <div className="mt-2 flex items-center space-x-4">
+                  <div className="mt-2 flex flex-wrap items-center gap-2 sm:gap-4">
                     <Button
                       variant={hasUpvotedReply(reply.id) ? "default" : "outline"}
                       size="sm"
-                      className={hasUpvotedReply(reply.id) ? 'bg-primary text-primary-foreground' : ''}
+                      className={`text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8 ${hasUpvotedReply(reply.id) ? 'bg-primary text-primary-foreground' : ''}`}
                       onClick={() => onUpvoteReply(comment.id, reply.id)}
                     >
-                      <ThumbsUp className="w-4 h-4 mr-2" />
+                      <ThumbsUp className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                       {reply.upvotes} {reply.upvotes === 1 ? 'Upvote' : 'Upvotes'}
                     </Button>
                     <Button
                       variant="ghost"
                       size="sm"
-                      className="flex items-center space-x-1"
+                      className="text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8"
                       onClick={() => {
                         setQuotedReply(reply)
                         setIsReplying(true)
                       }}
                     >
-                      <MessageSquare className="w-4 h-4" />
+                      <MessageSquare className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
                       <span>Quote</span>
                     </Button>
                     {isAdmin && (

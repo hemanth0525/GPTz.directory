@@ -98,7 +98,7 @@ export default function SubmitGPT() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
       <ConfirmationDialog
         isOpen={showConfirmation}
         onClose={() => setShowConfirmation(false)}
@@ -116,33 +116,36 @@ export default function SubmitGPT() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-4xl mx-auto bg-card text-card-foreground p-8 rounded-lg shadow-lg glass-effect"
+        className="max-w-4xl mx-auto bg-card text-card-foreground p-4 sm:p-6 lg:p-8 rounded-lg shadow-lg glass-effect"
       >
-        <h1 className="text-4xl font-bold mb-8 text-center glow-text">Launch Your GPT</h1>
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block mb-2 text-sm font-medium">GPT Name *</label>
-            <Input
-              id="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-              className="w-full bg-muted text-foreground"
-            />
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 lg:mb-8 text-center glow-text">Launch Your GPT</h1>
+        <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            <div>
+              <label htmlFor="name" className="block mb-1 sm:mb-2 text-sm font-medium">GPT Name *</label>
+              <Input
+                id="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                className="w-full bg-muted text-foreground"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block mb-1 sm:mb-2 text-sm font-medium">Your Email *</label>
+              <Input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="w-full bg-muted text-foreground"
+              />
+            </div>
           </div>
+
           <div>
-            <label htmlFor="email" className="block mb-2 text-sm font-medium">Your Email *</label>
-            <Input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="w-full bg-muted text-foreground"
-            />
-          </div>
-          <div>
-            <label htmlFor="url" className="block mb-2 text-sm font-medium">GPT URL *</label>
+            <label htmlFor="url" className="block mb-1 sm:mb-2 text-sm font-medium">GPT URL *</label>
             <Input
               id="url"
               type="url"
@@ -152,24 +155,41 @@ export default function SubmitGPT() {
               className="w-full bg-muted text-foreground"
             />
           </div>
-          <div>
-            <label htmlFor="shortDescription" className="block mb-2 text-sm font-medium">Short Description *</label>
-            <Input
-              id="shortDescription"
-              value={shortDescription}
-              onChange={(e) => setShortDescription(e.target.value)}
-              required
-              maxLength={100}
-              className="w-full bg-muted text-foreground"
-            />
-            <p className="text-xs text-muted-foreground mt-1">{shortDescription.length}/100 characters</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            <div>
+              <label htmlFor="shortDescription" className="block mb-1 sm:mb-2 text-sm font-medium">Short Description *</label>
+              <Input
+                id="shortDescription"
+                value={shortDescription}
+                onChange={(e) => setShortDescription(e.target.value)}
+                required
+                maxLength={100}
+                className="w-full bg-muted text-foreground"
+              />
+              <p className="text-xs text-muted-foreground mt-1">{shortDescription.length}/100 characters</p>
+            </div>
+            <div>
+              <label htmlFor="category" className="block mb-1 sm:mb-2 text-sm font-medium">Category *</label>
+              <Select onValueChange={setCategory} required>
+                <SelectTrigger className="w-full bg-muted text-foreground">
+                  <SelectValue placeholder="Select a category" />
+                </SelectTrigger>
+                <SelectContent>
+                  {categories.map((cat) => (
+                    <SelectItem key={cat} value={cat}>{cat}</SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
           </div>
+
           <div>
-            <label htmlFor="longDescription" className="block mb-2 text-sm font-medium">
+            <label htmlFor="longDescription" className="block mb-1 sm:mb-2 text-sm font-medium">
               Detailed Description * (Markdown supported)
             </label>
             <div className="relative">
-              <div className="flex justify-between items-center mb-2">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-2">
                 <p className="text-xs text-muted-foreground">{longDescription.length}/1000 characters</p>
                 <div className="flex items-center gap-2">
                   <Button
@@ -177,6 +197,7 @@ export default function SubmitGPT() {
                     variant="outline"
                     size="sm"
                     onClick={() => setIsPreviewMode(!isPreviewMode)}
+                    className="w-full sm:w-auto"
                   >
                     {isPreviewMode ? <Edit2 className="w-4 h-4 mr-2" /> : <Eye className="w-4 h-4 mr-2" />}
                     {isPreviewMode ? 'Edit' : 'Preview'}
@@ -200,37 +221,25 @@ export default function SubmitGPT() {
               )}
             </div>
           </div>
-          <div>
-            <label htmlFor="category" className="block mb-2 text-sm font-medium">Category *</label>
-            <Select onValueChange={setCategory} required>
-              <SelectTrigger className="w-full bg-muted text-foreground">
-                <SelectValue placeholder="Select a category" />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map((cat) => (
-                  <SelectItem key={cat} value={cat}>{cat}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
-          <div>
-            <label htmlFor="tags" className="block mb-2 text-sm font-medium">Tags * (max 4)</label>
+
+          <div className="space-y-2">
+            <label htmlFor="tags" className="block mb-1 sm:mb-2 text-sm font-medium">Tags * (max 4)</label>
             <div className="flex flex-col gap-2">
-              <Input
-                placeholder="Type a custom tag and press Enter"
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    e.preventDefault();
-                    const value = e.currentTarget.value.trim();
-                    if (value && tags.length < 4 && !tags.includes(value)) {
-                      addTag(value);
-                      e.currentTarget.value = '';
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <Input
+                  placeholder="Type a custom tag and press Enter"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      const value = e.currentTarget.value.trim();
+                      if (value && tags.length < 4 && !tags.includes(value)) {
+                        addTag(value);
+                        e.currentTarget.value = '';
+                      }
                     }
-                  }
-                }}
-                className="flex-1 bg-muted text-foreground"
-              />
-              <div className="">
+                  }}
+                  className="flex-1 bg-muted text-foreground"
+                />
                 <Select onValueChange={addTag}>
                   <SelectTrigger className="w-full bg-muted text-foreground">
                     <SelectValue placeholder="Select tags" />
@@ -244,9 +253,10 @@ export default function SubmitGPT() {
               </div>
             </div>
           </div>
+
           <div className="flex flex-wrap gap-2 mt-2">
             {tags.map((tag) => (
-              <Badge key={tag} variant="secondary" className="px-2 py-1">
+              <Badge key={tag} variant="secondary" className="px-2 py-1 text-sm">
                 {tag}
                 <button type="button" onClick={() => removeTag(tag)} className="ml-2">
                   <X className="w-3 h-3" />
@@ -254,9 +264,10 @@ export default function SubmitGPT() {
               </Badge>
             ))}
           </div>
+
           <Button
             type="submit"
-            className="w-full rounded-full px-6 py-3 text-lg"
+            className="w-full rounded-full px-4 sm:px-6 py-2 sm:py-3 text-base sm:text-lg mt-4 sm:mt-6"
             disabled={isSubmitting}
           >
             {isSubmitting ? 'Submitting...' : 'Launch into the GPT Universe'}

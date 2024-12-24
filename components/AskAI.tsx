@@ -93,32 +93,32 @@ export function AskAI() {
                     </Button>
                 </DialogTrigger>
                 <DialogContent
-                    className="sm:max-w-[700px] max-h-[80vh] overflow-hidden flex flex-col"
+                    className="sm:max-w-[700px] max-h-[80vh] overflow-hidden flex flex-col p-4 sm:p-6"
                 >
                     <DialogHeader>
-                        <DialogTitle>Ask AI for GPT Recommendations</DialogTitle>
+                        <DialogTitle className="text-lg sm:text-xl">Ask AI for GPT Recommendations</DialogTitle>
                     </DialogHeader>
-                    <div className="space-y-4 mb-4">
+                    <div className="space-y-3 sm:space-y-4 mb-3 sm:mb-4">
                         <div className="relative">
                             <Input
                                 value={userQuery}
                                 onChange={handleInputChange}
                                 onKeyDown={handleKeyDown}
-                                placeholder="Describe what you want to achieve... (e.g., 'help me write better emails')"
-                                className="w-full text-lg py-6 pr-16"
+                                placeholder="Describe what you want to achieve..."
+                                className="w-full text-base sm:text-lg py-4 sm:py-6 pr-12 sm:pr-16"
                             />
-                            <span className="absolute right-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground bg-background px-2 rounded-full">
+                            <span className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 text-xs sm:text-sm text-muted-foreground bg-background px-1.5 sm:px-2 rounded-full">
                                 {userQuery.length}/200
                             </span>
                         </div>
                         <Button
                             onClick={handleSearch}
-                            className="w-full"
+                            className="w-full py-2 sm:py-6 text-sm sm:text-base"
                             disabled={isLoading}
                         >
                             {isLoading ? (
                                 <>
-                                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                                    <Loader2 className="mr-2 h-3 w-3 sm:h-4 sm:w-4 animate-spin" />
                                     Searching...
                                 </>
                             ) : (
@@ -127,15 +127,15 @@ export function AskAI() {
                         </Button>
                     </div>
                     {error && (
-                        <div className="mb-4 p-4 bg-destructive/10 text-destructive rounded-md">
+                        <div className="mb-3 sm:mb-4 p-3 sm:p-4 bg-destructive/10 text-destructive rounded-md text-sm">
                             {error}
                         </div>
                     )}
-                    <div className="flex-1 overflow-y-auto">
+                    <div className="flex-1 overflow-y-auto -mx-4 sm:mx-0 px-4 sm:px-0">
                         {isLoading && (
-                            <div className="flex flex-col items-center justify-center p-8 space-y-4">
-                                <Loader2 className="h-8 w-8 animate-spin text-primary" />
-                                <p className="text-sm text-muted-foreground">Analyzing your request...</p>
+                            <div className="flex flex-col items-center justify-center p-4 sm:p-8 space-y-3 sm:space-y-4">
+                                <Loader2 className="h-6 w-6 sm:h-8 sm:w-8 animate-spin text-primary" />
+                                <p className="text-xs sm:text-sm text-muted-foreground">Analyzing your request...</p>
                             </div>
                         )}
                         {!isLoading && recommendations.length > 0 && (
@@ -151,7 +151,7 @@ export function AskAI() {
                                             animate={{ opacity: 1, y: 0 }}
                                             exit={{ opacity: 0, y: -20 }}
                                             transition={{ duration: 0.5 }}
-                                            className="mb-4 p-4 bg-muted rounded-lg text-sm text-center"
+                                            className="mb-3 sm:mb-4 p-3 sm:p-4 bg-muted rounded-lg text-xs sm:text-sm text-center"
                                         >
                                             Due to high traffic, we&apos;re providing relevant results based on our search algorithm.
                                         </motion.div>
@@ -161,7 +161,7 @@ export function AskAI() {
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.2 }}
-                                    className="grid grid-cols-1 gap-4 p-2"
+                                    className="grid grid-cols-1 gap-3 sm:gap-4 p-1 sm:p-2"
                                 >
                                     {recommendations
                                         .slice()
@@ -178,39 +178,41 @@ export function AskAI() {
                                                 initial={{ opacity: 0, y: 20 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 transition={{ delay: index * 0.1 + 0.3 }}
-                                                className="bg-card p-4 rounded-lg border border-border hover:border-primary transition-colors"
+                                                className="bg-card p-3 sm:p-4 rounded-lg border border-border hover:border-primary transition-colors"
                                             >
                                                 <div className="flex items-start justify-between">
                                                     <Link
-                                                        href={`/gpt/${gpt.id}`} target="_blank" rel="noopener noreferrer"
-                                                        className="text-primary hover:text-primary/80 font-semibold flex items-center gap-2"
+                                                        href={`/gpt/${gpt.id}`}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-primary hover:text-primary/80 font-semibold text-sm sm:text-base flex items-center gap-1.5 sm:gap-2"
                                                     >
                                                         {gpt.name}
-                                                        <ExternalLink className="h-4 w-4" />
+                                                        <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4" />
                                                     </Link>
                                                     <div className="flex items-center gap-1">
-                                                        <Star className="h-4 w-4 fill-primary text-primary" />
-                                                        <span className="text-sm text-muted-foreground">
+                                                        <Star className="h-3 w-3 sm:h-4 sm:w-4 fill-primary text-primary" />
+                                                        <span className="text-xs sm:text-sm text-muted-foreground">
                                                             {Math.round((isAIFallback ? gpt.score ?? 0 : gpt.confidence ?? 0) * 100)}% {isAIFallback ? 'relevance' : 'match'}
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <p className="text-sm text-muted-foreground mt-2">
+                                                <p className="text-xs sm:text-sm text-muted-foreground mt-2">
                                                     {gpt.shortDescription}
                                                 </p>
                                                 {gpt.aiReason && (
-                                                    <div className="mt-3 p-3 bg-muted/50 rounded-md">
-                                                        <p className="text-sm">
+                                                    <div className="mt-2 sm:mt-3 p-2 sm:p-3 bg-muted/50 rounded-md">
+                                                        <p className="text-xs sm:text-sm">
                                                             <span className="font-medium">Why this helps:</span> {gpt.aiReason}
                                                         </p>
                                                     </div>
                                                 )}
-                                                <div className="mt-3 flex flex-wrap gap-2">
+                                                <div className="mt-2 sm:mt-3 flex flex-wrap gap-1.5 sm:gap-2">
                                                     {gpt.tags.slice(0, 3).map((tag, index) => (
                                                         <Badge
                                                             key={index}
                                                             variant="secondary"
-                                                            className="text-xs"
+                                                            className="text-[10px] sm:text-xs"
                                                         >
                                                             {tag}
                                                         </Badge>

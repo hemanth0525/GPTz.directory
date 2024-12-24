@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="min-h-screen space-bg p-8 relative overflow-hidden">
+      <main className="min-h-screen space-bg p-4 sm:p-8 relative overflow-hidden">
         {stars.map((star, index) => (
           <div
             key={index}
@@ -41,17 +41,21 @@ export default function Home() {
           />
         ))}
         <motion.header
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-16"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-7xl font-bold mb-4 glow-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">Explore the AI Universe</h1>
-          <p className="text-2xl mb-8 text-muted-foreground">Discover and share the most powerful GPTs in the galaxy</p>
-          <div className="flex justify-center gap-4">
-            <Button asChild size="sm" className="rounded-full text-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2 sm:mb-4 glow-text bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">
+            Explore the AI Universe
+          </h1>
+          <p className="text-lg sm:text-xl md:text-2xl mb-4 sm:mb-8 text-muted-foreground">
+            Discover and share the most powerful GPTs in the galaxy
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-4">
+            <Button asChild size="sm" className="rounded-full text-base sm:text-lg w-full sm:w-auto">
               <Link href="/submit">
-                <Rocket className="mr-2 h-5 w-5" /> Submit Your GPT
+                <Rocket className="mr-2 h-4 sm:h-5 w-4 sm:w-5" /> Submit Your GPT
               </Link>
             </Button>
             <AskAI />

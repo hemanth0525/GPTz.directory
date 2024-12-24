@@ -57,36 +57,36 @@ export function AdvertiseDialog() {
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-                <Button variant="default" size="sm" className="rounded-full px-4 py-2 text-sm">
-                    <Megaphone className="w-4 h-4 mr-2" />
+                <Button variant="default" size="sm" className="rounded-full px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm">
+                    <Megaphone className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5 sm:mr-2" />
                     Advertise
                 </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[425px] overflow-y-auto max-h-[90vh]">
+            <DialogContent className="sm:max-w-[425px] max-w-[95vw] overflow-y-auto max-h-[90vh] p-4 sm:p-6">
                 <DialogHeader>
-                    <DialogTitle>Advertise with GPTz.directory</DialogTitle>
+                    <DialogTitle className="text-lg sm:text-xl">Advertise with GPTz.directory</DialogTitle>
                 </DialogHeader>
-                <div className="py-4">
-                    <p className="text-muted-foreground mb-4">
+                <div className="py-3 sm:py-4">
+                    <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base">
                         Reach our growing audience of AI enthusiasts and developers. We&apos;ll feature your product in relevant sections, maximizing your visibility to potential customers.
                     </p>
-                    <h3 className="font-semibold mb-2">Why advertise with us?</h3>
-                    <ul className="list-disc mb-4 text-muted-foreground pl-5">
-                        <li className=''>Targeted audience of AI professionals and enthusiasts</li>
-                        <li>Customized placement for maximum relevance</li>
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base">Why advertise with us?</h3>
+                    <ul className="list-disc mb-3 sm:mb-4 text-muted-foreground pl-4 sm:pl-5 text-sm sm:text-base">
+                        <li className='mb-1'>Targeted audience of AI professionals and enthusiasts</li>
+                        <li className='mb-1'>Customized placement for maximum relevance</li>
                         <li>Affordable rates for startups and established companies</li>
                     </ul>
-                    <p className="font-semibold mb-2">Ready to get started?</p>
-                    <p className="text-muted-foreground mb-4">
+                    <p className="font-semibold mb-2 text-sm sm:text-base">Ready to get started?</p>
+                    <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base">
                         Choose your preferred email provider to contact us, or use the direct email link below.
                     </p>
-                    <div className="grid grid-cols-3 gap-4 mb-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 mb-3 sm:mb-4">
                         {emailProviders.map((provider) => (
                             <Button
                                 key={provider.name}
                                 variant="outline"
                                 asChild
-                                className="flex items-center gap-2 h-auto py-2 px-3"
+                                className="flex items-center justify-center gap-2 h-auto py-2 px-3 w-full"
                             >
                                 <a
                                     href={provider.url}
@@ -97,17 +97,17 @@ export function AdvertiseDialog() {
                                     <Image
                                         src={provider.logo}
                                         alt={`${provider.name} logo`}
-                                        className="w-6 h-6"
+                                        className="w-5 h-5 sm:w-6 sm:h-6"
                                         style={{ objectFit: 'contain' }}
                                         width={24}
                                         height={24}
                                     />
-                                    <span className="text-sm">{provider.name}</span>
+                                    <span className="text-xs sm:text-sm">{provider.name}</span>
                                 </a>
                             </Button>
                         ))}
                     </div>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-xs sm:text-sm text-muted-foreground">
                         Or email us directly at:{' '}
                         <a
                             href="mailto:mail@gptz.directory"
