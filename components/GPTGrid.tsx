@@ -9,6 +9,8 @@ import { Input } from './ui/input'
 import { FilterDropdown } from './FilterDropdown'
 import { GPTCardGrid } from './GPTCardGrid'
 import LoadingSpinner from './LoadingSpinner'
+import { doc, getDoc } from 'firebase/firestore'
+import { db } from '@/lib/firebase'
 
 export default function GPTGrid() {
   const [gpts, setGpts] = useState<GPT[]>([])
@@ -22,7 +24,6 @@ export default function GPTGrid() {
 
   useEffect(() => {
     fetchGPTs()
-    setupWebSocket()
   }, [])
 
   const fetchGPTs = async () => {
@@ -36,9 +37,19 @@ export default function GPTGrid() {
       }))
       const categoriesSet = new Set<string>(['All'])
 
-      gptsData.forEach((gpt) => {
+      gptsData.forEach(async (gpt) => {
         if (gpt.category && typeof gpt.category === 'string') {
           categoriesSet.add(gpt.category)
+        }
+        try {
+          const docRef = doc(db, 'gpts_live', gpt.id)
+          const docSnap = await getDoc(docRef)
+          if (docSnap.exists()) {
+            const document = docSnap.data()
+            gpt.upvotes = document.upvotes
+          }
+        } catch (e) {
+          console.error('Error getting document:', e)
         }
       })
 
@@ -52,40 +63,6 @@ export default function GPTGrid() {
     } finally {
       setIsLoading(false)
     }
-  }
-
-  const setupWebSocket = () => {
-    const wsUrl = process.env.NEXT_PUBLIC_WEBSOCKET_URL || 'ws://localhost:8080/ws'
-    const ws = new WebSocket(wsUrl)
-
-    ws.onopen = () => {
-      console.log('Connected to WebSocket server')
-    }
-
-    ws.onmessage = (event) => {
-      const updatedGPT: GPT = JSON.parse(event.data)
-      handleRealTimeUpdate(updatedGPT)
-    }
-
-    ws.onclose = () => {
-      console.log('Disconnected from WebSocket server')
-      // Attempt to reconnect after a delay
-      setTimeout(setupWebSocket, 5000)
-    }
-
-    ws.onerror = (error) => {
-      console.error('WebSocket error:', error)
-    }
-
-    return () => {
-      ws.close()
-    }
-  }
-
-  const handleRealTimeUpdate = (updatedGPT: GPT) => {
-    setGpts(prevGpts => prevGpts.map(gpt =>
-      gpt.id === updatedGPT.id ? { ...gpt, ...updatedGPT } : gpt
-    ))
   }
 
   const handleCategorySelect = (category: string) => {

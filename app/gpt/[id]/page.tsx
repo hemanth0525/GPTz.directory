@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { ArrowLeft, ThumbsUp, Calendar, Edit } from 'lucide-react'
+import { ArrowLeft, ThumbsUp, Calendar, Edit, Eye } from 'lucide-react'
 import { GPT, Comment as CommentType, Reply } from '@/lib/types'
 import { Badge } from '@/components/ui/badge'
 import { Markdown } from '@/components/Markdown'
@@ -186,7 +186,7 @@ export default function GPTPage({ params }: { params: { id: string } }) {
       try {
         await updateDoc(gptRef, { comments: updatedComments });
         setGpt({ ...currentGPT, comments: updatedComments });
-        
+
         if (hasUpvoted) {
           delete upvotedComments[commentId]
         } else {
@@ -227,7 +227,7 @@ export default function GPTPage({ params }: { params: { id: string } }) {
       try {
         await updateDoc(gptRef, { comments: updatedComments });
         setGpt({ ...currentGPT, comments: updatedComments });
-        
+
         if (hasUpvoted) {
           delete upvotedReplies[replyKey]
         } else {
@@ -323,18 +323,20 @@ export default function GPTPage({ params }: { params: { id: string } }) {
               <Calendar className="w-5 h-5 text-accent mr-1" />
               <span>Launched on {format(new Date(gpt.launchDate), 'MMM do, yyyy')}</span>
             </div>
-            {/* <div className="flex items-center">
-              <Eye className="w-5 h-5 text-accent mr-1" />
-              <span>{gpt.views || 0} views</span>
-            </div> */}
             {isAdmin && (
-              <Button
-                variant="outline"
-                onClick={() => router.push(`/gpt/${params.id}/edit`)}
-              >
-                <Edit className="w-4 h-4 mr-2" />
-                Edit
-              </Button>
+              <>
+                <div className="flex items-center">
+                  <Eye className="w-5 h-5 text-accent mr-1" />
+                  <span>{gpt.views || 0} views</span>
+                </div>
+                <Button
+                  variant="outline"
+                  onClick={() => router.push(`/gpt/${params.id}/edit`)}
+                >
+                  <Edit className="w-4 h-4 mr-2" />
+                  Edit
+                </Button>
+              </>
             )}
           </div>
           <div className="mb-8">
