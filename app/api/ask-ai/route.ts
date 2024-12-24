@@ -1,6 +1,6 @@
+import { promises as fs } from 'fs';
+import path from 'path';
 import { NextRequest, NextResponse } from 'next/server';
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
 import { GPT } from '@/lib/types';
 import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
 import { getTopNGPTs } from '@/lib/search-algorithms';
@@ -20,9 +20,10 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: "Invalid query length" }, { status: 400 });
         }
 
-        const gptsRef = collection(db, 'gpts_live');
-        const querySnapshot = await getDocs(gptsRef);
-        const gpts = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as GPT));
+        const jsonPath = path.join(process.cwd(), 'public', 'gpts_live.json');
+        const jsonData = await fs.readFile(jsonPath, 'utf8');
+        const gptsData = JSON.parse(jsonData);
+        const gpts = Object.entries(gptsData).map(([id, data]) => ({ ...data as GPT, id }));
 
         const response = await getAIRecommendations(query, gpts);
 
@@ -87,6 +88,7 @@ Requirements:
 - Understand the user query and provide relevant recommendations even if they are not exact matches or have typos or synonyms or related terms or concepts or ideas
 - Confidence should be between 0 and 1
 - Ensure each recommendation has all required fields
+- Ensure you don't address the user as user just say your ( for eg: instead of saying "Based on the user query" say "Based on your query", so you are directly interacting with the user )
 `;
 
             const result = await modelConfig.model.generateContent(prompt);
@@ -145,4 +147,3 @@ function getFallbackRecommendations(query: string, gpts: GPT[]): AIResponse {
         isAIFallback: true
     };
 }
-

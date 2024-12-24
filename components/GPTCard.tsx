@@ -1,8 +1,9 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { ThumbsUp, Calendar } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { GPT } from '@/lib/types'
+import { motion, useSpring, useMotionValue, useTransform } from 'framer-motion'
 
 function formatDate(date: Date): string {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -21,12 +22,46 @@ interface GPTCardProps {
 
 export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
     const cardRef = useRef<HTMLDivElement>(null)
+    const [prevUpvotes, setPrevUpvotes] = useState(gpt.upvotes)
+    const upvotes = useMotionValue(gpt.upvotes)
+    const springUpvotes = useSpring(upvotes, { stiffness: 100, damping: 30 })
+    const rounded = useTransform(springUpvotes, Math.round)
 
     useEffect(() => {
         if (cardRef.current) {
             onHeightChange(cardRef.current.offsetHeight)
         }
     }, [onHeightChange])
+
+    useEffect(() => {
+        if (gpt.upvotes !== prevUpvotes) {
+            upvotes.set(gpt.upvotes)
+            setPrevUpvotes(gpt.upvotes)
+        }
+    }, [gpt.upvotes, prevUpvotes])
+
+    const handleUpvote = async (e: React.MouseEvent) => {
+        e.preventDefault()
+        e.stopPropagation()
+        try {
+            const response = await fetch('/api/update-gpt', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    id: gpt.id,
+                    upvotes: gpt.upvotes + 1,
+                }),
+            })
+            if (!response.ok) {
+                throw new Error('Failed to update upvotes')
+            }
+            // The actual update will come through WebSocket
+        } catch (error) {
+            console.error('Error updating upvotes:', error)
+        }
+    }
 
     return (
         <Link href={`/gpt/${gpt.id}`} className="block h-full group">
@@ -48,8 +83,14 @@ export function GPTCard({ gpt, onHeightChange, rowHeight }: GPTCardProps) {
                 </div>
                 <div className="flex justify-between items-center pt-4 border-t border-border/50">
                     <div className="flex items-center">
-                        <ThumbsUp className="w-5 h-5 text-primary mr-1" aria-hidden="true" />
-                        <span>{gpt.upvotes}</span>
+                        <button
+                            onClick={handleUpvote}
+                            className="flex items-center focus:outline-none"
+                            aria-label="Upvote"
+                        >
+                            <ThumbsUp className="w-5 h-5 text-primary mr-1" aria-hidden="true" />
+                            <motion.span>{rounded}</motion.span>
+                        </button>
                         <span className="sr-only">Upvotes</span>
                     </div>
                     <div className="flex items-center">

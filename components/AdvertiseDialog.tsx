@@ -71,8 +71,8 @@ export function AdvertiseDialog() {
                         Reach our growing audience of AI enthusiasts and developers. We&apos;ll feature your product in relevant sections, maximizing your visibility to potential customers.
                     </p>
                     <h3 className="font-semibold mb-2">Why advertise with us?</h3>
-                    <ul className="list-disc list-inside mb-4 text-muted-foreground">
-                        <li>Targeted audience of AI professionals and enthusiasts</li>
+                    <ul className="list-disc mb-4 text-muted-foreground pl-5">
+                        <li className=''>Targeted audience of AI professionals and enthusiasts</li>
                         <li>Customized placement for maximum relevance</li>
                         <li>Affordable rates for startups and established companies</li>
                     </ul>

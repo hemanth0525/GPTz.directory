@@ -5,8 +5,6 @@ import { Search } from 'lucide-react'
 import { GPT } from '@/lib/types'
 import { Button } from './ui/button'
 import { Badge } from './ui/badge'
-import { collection, getDocs } from 'firebase/firestore'
-import { db } from '@/lib/firebase'
 import { Input } from './ui/input'
 import { FilterDropdown } from './FilterDropdown'
 import { GPTCardGrid } from './GPTCardGrid'
@@ -24,19 +22,21 @@ export default function GPTGrid() {
 
   useEffect(() => {
     fetchGPTs()
+    setupWebSocket()
   }, [])
 
   const fetchGPTs = async () => {
     setIsLoading(true)
     try {
-      const q = collection(db, 'gpts_live')
-      const querySnapshot = await getDocs(q)
-      const gptsData: GPT[] = []
+      const response = await fetch('/gpts_live.json')
+      const data = await response.json()
+      const gptsData: GPT[] = Object.entries(data).map(([id, gptData]) => ({
+        id,
+        ...(gptData as Omit<GPT, 'id'>)
+      }))
       const categoriesSet = new Set<string>(['All'])
 
-      querySnapshot.forEach((doc) => {
-        const gpt = { id: doc.id, ...doc.data() } as GPT
-        gptsData.push(gpt)
+      gptsData.forEach((gpt) => {
         if (gpt.category && typeof gpt.category === 'string') {
           categoriesSet.add(gpt.category)
         }
@@ -52,6 +52,40 @@ export default function GPTGrid() {
     } finally {
       setIsLoading(false)
     }
+  }
+
+  const setupWebSocket = () => {
+    const wsUrl = process.env.NEXT_PUBLIC_WEBSOCKET_URL || 'ws://localhost:8080/ws'
+    const ws = new WebSocket(wsUrl)
+
+    ws.onopen = () => {
+      console.log('Connected to WebSocket server')
+    }
+
+    ws.onmessage = (event) => {
+      const updatedGPT: GPT = JSON.parse(event.data)
+      handleRealTimeUpdate(updatedGPT)
+    }
+
+    ws.onclose = () => {
+      console.log('Disconnected from WebSocket server')
+      // Attempt to reconnect after a delay
+      setTimeout(setupWebSocket, 5000)
+    }
+
+    ws.onerror = (error) => {
+      console.error('WebSocket error:', error)
+    }
+
+    return () => {
+      ws.close()
+    }
+  }
+
+  const handleRealTimeUpdate = (updatedGPT: GPT) => {
+    setGpts(prevGpts => prevGpts.map(gpt =>
+      gpt.id === updatedGPT.id ? { ...gpt, ...updatedGPT } : gpt
+    ))
   }
 
   const handleCategorySelect = (category: string) => {
@@ -102,14 +136,6 @@ export default function GPTGrid() {
         : new Date(b.launchDate).getTime() - new Date(a.launchDate).getTime()
     )
   }, [filteredGPTs, sortBy])
-
-  const enhancedGPTs = useMemo(() => {
-    const result = [...sortedGPTs]
-    for (let i = 6; i < result.length; i += Math.floor(Math.random() * 3 + 6)) {
-      result.splice(i, 0, { id: `ad-${i}`, isAd: true, name: '', shortDescription: '', longDescription: '', url: '', category: '', tags: [], upvotes: 0, launchDate: new Date().toISOString(), comments: [] } as GPT)
-    }
-    return result
-  }, [sortedGPTs])
 
   if (isLoading) return (
     <div className="flex justify-center items-center min-h-[400px]">
@@ -180,8 +206,9 @@ export default function GPTGrid() {
           </Button>
         </div>
       ) : (
-        <GPTCardGrid gpts={enhancedGPTs} />
+        <GPTCardGrid gpts={sortedGPTs} />
       )}
     </div>
   )
 }
+

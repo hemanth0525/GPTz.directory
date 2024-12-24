@@ -40,3 +40,4 @@ addgpts.js
 getgpts.js
 generatereadme.js
 generatereadme.ts
+generatejson.js

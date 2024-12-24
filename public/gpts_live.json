@@ -1,0 +1,4861 @@
+{
+  "3dfy-ai": {
+    "tags": [
+      "AI",
+      "3D Models",
+      "Gaming",
+      "Architecture"
+    ],
+    "longDescription": "# 3DFY AI\nGenerates high-quality 3D models quickly and efficiently:\n\nUsers can input text prompts to create various 3D objects\nIdeal for gaming and architectural design\nStreamlines the modeling process by automating content creation.",
+    "comments": [],
+    "name": "3DFY AI",
+    "shortDescription": "AI tool for generating 3D models from text prompts.",
+    "views": 1,
+    "upvotes": 1,
+    "category": "3D Modeling & Design",
+    "url": "https://www.3dfy.ai/",
+    "launchDate": "2024-12-17"
+  },
+  "across": {
+    "upvotes": 0,
+    "views": 4,
+    "name": "Across",
+    "category": "Translator Tools",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "longDescription": "# Across\nAI Powered Language Translation\nTranlation management in a trio\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "shortDescription": "AI-powered Language Technology ",
+    "url": "https://www.across.net/"
+  },
+  "adobe-firefly": {
+    "category": "Graphic Design & Generation",
+    "longDescription": "# Adobe Firefly\nGenerates high-quality graphics and designs:\n\nIdeal for graphic designers and marketers\nOffers a range of design templates and customization options\nStreamlines the graphic design process by automating content creation.",
+    "views": 1,
+    "comments": [],
+    "shortDescription": "AI tool for graphic generation and design.",
+    "tags": [
+      "AI",
+      "Graphic Design",
+      "Content Creation",
+      "Marketing"
+    ],
+    "url": "https://www.adobe.com/firefly",
+    "upvotes": 0,
+    "name": "Adobe Firefly",
+    "launchDate": "2024-12-17"
+  },
+  "ahrefs": {
+    "name": "Ahrefs",
+    "longDescription": "# Ahrefs\nProvides AI-powered keyword research and analysis for SEO:\n\nSupports keyword research and analysis\nIncludes features for backlink analysis and content optimization\nIdeal for SEO professionals and marketers.",
+    "shortDescription": "SEO tool with AI-powered keyword research and analysis.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "SEO",
+      "Keyword Research"
+    ],
+    "category": "SEO",
+    "launchDate": "2024-12-17",
+    "url": "https://ahrefs.com/",
+    "upvotes": 0
+  },
+  "ai-dungeon": {
+    "category": "Creative Writing",
+    "name": "AI Dungeon",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Storytelling",
+      "Interactive",
+      "Gaming"
+    ],
+    "shortDescription": "AI-powered interactive storytelling platform.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "url": "https://play.aidungeon.io/",
+    "longDescription": "# AI Dungeon\nCreates limitless interactive stories with AI:\n\n- Allows users to co-create adventures with GPT\n- Features fantasy, sci-fi, and custom genres\n- Perfect for writers, gamers, and storytellers."
+  },
+  "ai-dungeon-master": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Gaming",
+      "Storytelling"
+    ],
+    "url": "https://www.hyperwriteai.com/aitools/ai-dungeon-master",
+    "shortDescription": "AI-powered storytelling and RPG assistant.",
+    "longDescription": "# AI Dungeon Master\nEnhances role-playing games with dynamic AI storytelling:\n\n- Generates custom storylines based on player input\n- Adapts to game scenarios in real-time\n- Perfect for D&D enthusiasts and tabletop RPG players.",
+    "upvotes": 0,
+    "name": "AI Dungeon Master",
+    "category": "Gaming Tools",
+    "launchDate": "2024-12-17"
+  },
+  "ai-fitness-coach": {
+    "comments": [],
+    "url": "https://www.aifitnesscoach.fit/",
+    "shortDescription": "Personalized fitness guidance using AI.",
+    "tags": [
+      "AI",
+      "Fitness",
+      "Personalized Guidance"
+    ],
+    "category": "Health & Fitness",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "longDescription": "# AI Fitness Coach\nRevolutionizes personal fitness:\n\n- Creates tailored workout plans\n- Tracks progress with AI insights\n- Suitable for beginners and fitness enthusiasts.",
+    "name": "AI Fitness Coach"
+  },
+  "ai-garden-planner-by-galaxy-ai": {
+    "longDescription": "# AI Garden Planner\nEnhances eco-friendly initiatives:\n\n- Calculates environmental impact\n- Suggests sustainable alternatives\n- Ideal for construction and city planners.",
+    "views": 1,
+    "comments": [],
+    "upvotes": 0,
+    "name": "AI Garden Planner by Galaxy AI",
+    "shortDescription": "AI tool for sustainable project planning.",
+    "category": "Environmental Science",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Sustainability",
+      "Planning"
+    ],
+    "url": "https://galaxy.ai/ai-garden-planner"
+  },
+  "ai-home-designer-by-galaxy-ai": {
+    "shortDescription": "AI-driven interior design assistant.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "name": "AI Home Designer by Galaxy AI",
+    "category": "Home Automation",
+    "tags": [
+      "AI",
+      "Interior Design",
+      "3D Models"
+    ],
+    "longDescription": "# AI Home Designer\nTransforms home spaces with AI:\n\n- Suggests interior layouts and decor options\n- Visualizes designs with 3D renders\n- Perfect for homeowners and professionals.",
+    "url": "https://galaxy.ai/ai-interior-design"
+  },
+  "ai-pitch-creator": {
+    "longDescription": "# AI Pitch Creator\nTransforms ideas into professional pitch decks:\n\n- Creates slides with concise, impactful content\n- Includes AI-suggested designs and layouts\n- Perfect for entrepreneurs and startups.",
+    "upvotes": 0,
+    "url": "https://pitch.com/use-cases/ai-presentation-maker",
+    "name": "AI Pitch Creator",
+    "launchDate": "2024-12-17",
+    "category": "Business Intelligence",
+    "tags": [
+      "AI",
+      "Presentations",
+      "Startups"
+    ],
+    "shortDescription": "AI tool for generating business pitch decks.",
+    "comments": []
+  },
+  "ai-recipe-guru": {
+    "longDescription": "# AI Recipe Guru\nTransforms meal planning with AI:\n\n- Suggests recipes based on dietary preferences\n- Generates shopping lists from selected meals\n- Perfect for foodies and health enthusiasts.",
+    "launchDate": "2024-12-17",
+    "name": "AI Recipe Guru",
+    "tags": [
+      "AI",
+      "Food",
+      "Cooking"
+    ],
+    "shortDescription": "AI-driven personalized recipe generator.",
+    "comments": [],
+    "category": "Recipe & Cooking Assistants",
+    "url": "https://recipeguru.app/",
+    "upvotes": 0
+  },
+  "ai-writer": {
+    "url": "https://www.ai-writer.com/",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "AI Writer",
+    "category": "Content Creation",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "longDescription": "# AI Writer\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ]
+  },
+  "ai21-labs": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation",
+      "Natural Language Processing"
+    ],
+    "upvotes": 0,
+    "name": "AI21 Labs",
+    "url": "https://www.ai21.com/",
+    "shortDescription": "AI-powered writing assistant for content creation and language understanding.",
+    "category": "Content Creation",
+    "launchDate": "2024-12-17",
+    "longDescription": "# AI21 Labs\nAI21 Labs is a cutting-edge AI company that offers powerful writing assistants and language models:\n\n- Generates high-quality content for various industries.\n- Features advanced tools for grammar, spell check, and content generation.\n- Ideal for writers, content creators, and businesses leveraging AI for natural language processing."
+  },
+  "airops-ai": {
+    "upvotes": 0,
+    "longDescription": "# AirOps AI\nEnhances business data workflows with AI:\n\n- Automates data cleaning, analysis, and reporting\n- Integrates with existing CRM and analytics tools\n- Great for teams working with large datasets.",
+    "url": "https://www.airops.com/",
+    "name": "AirOps AI",
+    "launchDate": "2024-12-17",
+    "category": "Big Data Analytics",
+    "tags": [
+      "AI",
+      "Data Analysis",
+      "Automation",
+      "CRM"
+    ],
+    "shortDescription": "AI tool for simplifying data management tasks.",
+    "comments": []
+  },
+  "airtable": {
+    "category": "Productivity",
+    "shortDescription": "Flexible database tool enhanced by AI features.",
+    "tags": [
+      "AI",
+      "Database",
+      "Project Management",
+      "Collaboration"
+    ],
+    "name": "Airtable",
+    "longDescription": "# Airtable\nCombines the functionalities of spreadsheets with databases:\nOffers AI-generated insights and automations.\nIdeal for project management and team collaboration.\nUser-friendly interface supports diverse use cases.",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://airtable.com/",
+    "comments": []
+  },
+  "aiva": {
+    "upvotes": 0,
+    "longDescription": "# AIVA\nCreates original music tracks using AI:\nGenerates compositions in various styles.\nIdeal for filmmakers, game developers, and content creators.\nUser-friendly interface allows customization of tracks.",
+    "name": "AIVA",
+    "url": "https://www.aiva.ai/",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "category": "Music",
+    "tags": [
+      "AI",
+      "Music Generation",
+      "Creative",
+      "Composition"
+    ],
+    "shortDescription": "AI music composition tool."
+  },
+  "alphacode": {
+    "tags": [
+      "AI",
+      "Coding",
+      "Development",
+      "Optimization"
+    ],
+    "longDescription": "# AlphaCode\nAssists developers in writing code, resolving bugs, and optimizing solutions:\n\nSupports a wide range of programming languages\nProvides real-time code suggestions and bug fixes\nEnhances coding efficiency and proficiency.",
+    "shortDescription": "AI tool for coding assistance and optimization.",
+    "url": "https://alphacode.deepmind.com/",
+    "category": "Coding & Development",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "name": "AlphaCode",
+    "upvotes": 0
+  },
+  "amazon-q": {
+    "tags": [
+      "AI",
+      "Assistant",
+      "Productivity",
+      "Code Completion"
+    ],
+    "category": "Business",
+    "upvotes": 0,
+    "url": "https://aws.amazon.com/q",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Generative AI assistant for developers and businesses",
+    "comments": [],
+    "longDescription": "# Amazon Q\nTransformative AI assistant for coding and problem-solving:\n\nQuick answers to developer questions\nDocument summarization and content generation\nApplication upgrades and enhancements\nStreamlined internal processes",
+    "name": "Amazon Q"
+  },
+  "anaphraseus": {
+    "longDescription": "# Anaphraseus\nAI Powered Language Translation\nFuzzy search in Translation Memory\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "url": "https://anaphraseus.sourceforge.io/",
+    "name": "Anaphraseus",
+    "launchDate": "2024-12-17",
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "Computer-Aided Translation ",
+    "upvotes": 0,
+    "comments": []
+  },
+  "anyword": {
+    "upvotes": 0,
+    "name": "Anyword",
+    "tags": [
+      "AI",
+      "Copywriting",
+      "Marketing"
+    ],
+    "category": "Copywriting",
+    "url": "https://www.anyword.com/",
+    "comments": [],
+    "shortDescription": "AI-powered copywriting tool for marketers and advertisers.",
+    "longDescription": "# Anyword\nGenerates high-quality copy with AI-powered writing assistant:\n\nSupports copywriting for various industries\nIncludes features for grammar and spell check\nIdeal for marketers and advertisers.",
+    "launchDate": "2024-12-17"
+  },
+  "aporia-ai": {
+    "tags": [
+      "AI",
+      "Model Monitoring",
+      "Data Analysis",
+      "ML"
+    ],
+    "upvotes": 0,
+    "category": "Machine Learning",
+    "longDescription": "# Aporia AI\nEnsures machine learning models perform as expected:\n\n- Tracks performance metrics and detects anomalies\n- Provides actionable insights to improve outcomes\n- Ideal for data scientists and ML engineers.",
+    "name": "Aporia AI",
+    "launchDate": "2024-12-17",
+    "url": "https://www.aporia.com/",
+    "comments": [],
+    "shortDescription": "AI monitoring tool for tracking model performance."
+  },
+  "apsic-xbench": {
+    "comments": [],
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "longDescription": "# ApSIC Xbench\nAI Powered Language Translation\nAll Terminology at your Fingertips\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "url": "https://www.xbench.net/",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Quality Assurance and Terminology Management ",
+    "name": "ApSIC Xbench"
+  },
+  "ardesigner-ai-by-deepar": {
+    "url": "https://www.deepar.ai/creator-studio",
+    "upvotes": 0,
+    "longDescription": "# ARDesigner AI\nEnables immersive AR designs:\n\n- Develops interactive AR scenes with ease\n- Supports e-commerce, gaming, and education\n- Perfect for AR developers and designers.",
+    "name": "ARDesigner AI by DeepAR",
+    "tags": [
+      "AI",
+      "AR Development",
+      "Interactive"
+    ],
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Augmented Reality (AR)",
+    "shortDescription": "AI platform for creating augmented reality experiences."
+  },
+  "article-forge": {
+    "url": "https://www.articleforge.com/",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "upvotes": 0,
+    "longDescription": "# Article Forge\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "name": "Article Forge",
+    "category": "Content Creation",
+    "launchDate": "2024-12-17"
+  },
+  "automation-ai": {
+    "comments": [],
+    "shortDescription": "AI-powered automation tool for businesses and entrepreneurs.",
+    "upvotes": 0,
+    "longDescription": "# Automata\nAutomates repetitive tasks with AI-powered automation tool:\n\nSupports automation for various industries\nIncludes features for workflow optimization\nIdeal for businesses and entrepreneurs.",
+    "url": "https://automatonai.com/",
+    "launchDate": "2024-12-17",
+    "name": "Automation AI",
+    "tags": [
+      "AI",
+      "Automation",
+      "Productivity"
+    ],
+    "category": "Automation"
+  },
+  "babylon": {
+    "comments": [],
+    "shortDescription": "AI-powered language translation tool ",
+    "launchDate": "2024-12-17",
+    "url": "https://www.babylon-software.com/",
+    "upvotes": 0,
+    "longDescription": "# Babylon\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "category": "Translator Tools",
+    "name": "Babylon",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ]
+  },
+  "bardeen-ai": {
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "Automation tool for repetitive workflows.",
+    "tags": [
+      "AI",
+      "Automation",
+      "Workflow",
+      "Productivity"
+    ],
+    "category": "Productivity & Organization",
+    "name": "Bardeen AI",
+    "longDescription": "# Bardeen AI\nAutomates daily tasks with smart AI integrations:\n\n- Connects to various tools like Google Sheets, Slack, and Trello\n- Simplifies repetitive tasks with pre-built workflows\n- Boosts productivity for professionals and teams.",
+    "url": "https://www.bardeen.ai/",
+    "upvotes": 0
+  },
+  "beatoven.ai": {
+    "url": "https://www.beatoven.ai/",
+    "tags": [
+      "AI",
+      "Music Composition",
+      "Audio",
+      "Content Creation"
+    ],
+    "category": "AI Music & Audio",
+    "shortDescription": "AI music composer for royalty-free tracks.",
+    "name": "Beatoven.ai",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "longDescription": "# Beatoven.ai\nCreates original music tracks tailored to your needs:\n\n- Offers genre and mood customization\n- Generates royalty-free music for videos, games, and podcasts\n- Great for creators looking for affordable, high-quality audio."
+  },
+  "beautiful.ai": {
+    "upvotes": 0,
+    "longDescription": "# Beautiful.ai\n      \n      Smart presentation creation tool:\n      \n      - Automated slide design\n      - AI-powered templates\n      - Brand consistency\n      - Real-time design suggestions\n      - Create Once use infinitely",
+    "tags": [
+      "AI",
+      "Design",
+      "Productivity"
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Productivity",
+    "comments": [],
+    "shortDescription": "AI-powered presentation design platform",
+    "name": "Beautiful.ai",
+    "url": "https://www.beautiful.ai"
+  },
+  "board-of-innovation-ai": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Brainstorming",
+      "Innovation",
+      "Design Thinking"
+    ],
+    "name": "Board of Innovation AI",
+    "category": "Innovation",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "shortDescription": "AI tool for generating innovative ideas.",
+    "longDescription": "# Board of Innovation AI\nSupports strategic brainstorming sessions:\n\nGenerates ideas based on business challenges\nUtilizes design thinking principles and industry trends\nEncourages out-of-the-box solutions\nIdeal for innovation teams and project managers.",
+    "url": "https://www.boardofinnovation.com/"
+  },
+  "boomy": {
+    "longDescription": "# Boomy\nGenerates custom music tracks tailored to users’ needs:\n\n- Users can create, remix, and release their own music\n- Requires no prior musical knowledge or skills\n- Supports multiple music styles and genres.",
+    "shortDescription": "AI music creation tool for producing unique songs instantly.",
+    "url": "https://boomy.com/",
+    "name": "Boomy",
+    "tags": [
+      "AI",
+      "Music Creation",
+      "Personalized Music"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "category": "AI Music & Audio",
+    "upvotes": 0
+  },
+  "botify-ai": {
+    "url": "https://www.botify.ai/",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Chatbots",
+      "Customer Support"
+    ],
+    "upvotes": 0,
+    "name": "Botify AI",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Botify AI\nCreates intelligent chatbots effortlessly:\n\n- Supports multi-platform deployment\n- Enhances customer support and engagement\n- Ideal for businesses of all sizes.",
+    "shortDescription": "AI platform for chatbot creation and optimization.",
+    "category": "AI Chatbots"
+  },
+  "bramework": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "category": "Content Creation",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Bramework\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "name": "Bramework",
+    "url": "https://www.bramework.com/",
+    "upvotes": 0,
+    "shortDescription": "AI-powered content generation tool for writers and marketers."
+  },
+  "browse-ai": {
+    "tags": [
+      "AI",
+      "Web Scraping",
+      "Automation"
+    ],
+    "shortDescription": "AI for web data scraping and automation.",
+    "comments": [],
+    "url": "https://www.browse.ai/",
+    "name": "Browse AI",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Browse AI\nExtracts and automates web data collection:\n\n- Creates web scrapers without coding\n- Monitors websites for updates\n- Ideal for researchers and marketers.",
+    "category": "Big Data Analytics",
+    "upvotes": 0
+  },
+  "bunnypic": {
+    "tags": [
+      "AI",
+      "Photo Editing",
+      "Graphic Design",
+      "Templates"
+    ],
+    "longDescription": "# BunnyPic\nSimplifies photo editing tasks with AI tools:\n\n- Offers features like object removal and color correction\n- Includes templates for creative projects\n- Perfect for photographers and graphic designers.",
+    "shortDescription": "AI-based photo editing tool for professionals.",
+    "url": "https://bunnypic.com/",
+    "comments": [],
+    "category": "Photo Editing",
+    "launchDate": "2024-12-17",
+    "name": "BunnyPic",
+    "upvotes": 0
+  },
+  "butterfly-network's-ultrasound-device": {
+    "upvotes": 0,
+    "url": "https://www.butterflynetwork.com/",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Portable ultrasound device enhanced with AI capabilities.",
+    "longDescription": "# Butterfly Network's Ultrasound Device\nTransforming medical imaging with advanced diagnostics:\nProvides high-quality ultrasound imaging at the point of care.\nAssists in interpreting ultrasound images.\nImproves diagnostic efficiency and accuracy.\nValuable in emergency settings and rural healthcare.",
+    "category": "Healthcare Technology",
+    "name": "Butterfly Network's Ultrasound Device",
+    "tags": [
+      "AI",
+      "Medical Imaging",
+      "Ultrasound",
+      "Diagnostics"
+    ],
+    "comments": []
+  },
+  "caktus-ai": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# Caktus AI\n        Comprehensive learning and coding support tool:\n        \n        Academic essay writing assistance\n        Programming code generation\n        Math problem solving\n        Educational content creation",
+    "tags": [
+      "AI",
+      "Education",
+      "Coding",
+      "Writing"
+    ],
+    "shortDescription": "AI-powered academic and coding assistance platform",
+    "category": "Education",
+    "upvotes": 0,
+    "url": "https://www.caktus.ai",
+    "name": "Caktus AI",
+    "comments": []
+  },
+  "canva's-ai-art-generator": {
+    "shortDescription": "Generates images based on user prompts.",
+    "upvotes": 0,
+    "name": "Canva's AI Art Generator",
+    "category": "Image Generation",
+    "longDescription": "# Canva's AI Art Generator\nCreates stunning visuals using AI:\n\nUsers can input text prompts to generate artwork\nIntegrates seamlessly with Canva's design tools\nIdeal for designers and marketers looking for quick visual content.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Design",
+      "Creativity"
+    ],
+    "url": "https://www.canva.com/ai-art-generator/"
+  },
+  "canva-magic-write": {
+    "url": "https://www.canva.com/magic-write",
+    "launchDate": "2024-12-17",
+    "category": "Design",
+    "name": "Canva Magic Write",
+    "tags": [
+      "AI",
+      "Creative",
+      "Design",
+      "UX/UI"
+    ],
+    "longDescription": "# Canva Magic Write\n  \n  Integrated AI design and writing assistant:\n  \n  - Content generation for designs\n  - Creative writing support\n  - Instant design suggestions\n  - Multiformat content creation",
+    "shortDescription": "AI-powered design and content generation tool",
+    "upvotes": 0,
+    "comments": []
+  },
+  "chaingpt": {
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Blockchain",
+      "Cybersecurity",
+      "Data Analysis"
+    ],
+    "comments": [],
+    "category": "Blockchain & Cryptocurrency",
+    "name": "ChainGPT",
+    "shortDescription": "Unleash the Power of Blockchain AI",
+    "url": "https://www.chaingpt.org/",
+    "launchDate": "2024-12-21T21:34:46.684Z",
+    "longDescription": "# AI for Blockchain and Crypto Solutions\n- ChainGPT Chatbot\n- AI News Auto-Model\n- Smart-Contracts Generator & Auditor\n- AI NFT Generator\n- Blockchain Analytics\n- Advanced AI Trading\n- SDKs & API Access"
+  },
+  "character-ai": {
+    "url": "https://character.ai/",
+    "name": "Character AI",
+    "category": "AI Chatbots",
+    "tags": [
+      "AI",
+      "Virtual Assistant",
+      "Interactive"
+    ],
+    "shortDescription": "AI tool for creating and managing virtual personalities ( Characters ).",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# Character AI\nDevelops lifelike virtual personalities:\n\n- Simulates human-like conversations\n- Adapts to user interactions and preferences\n- Ideal for entertainment and training."
+  },
+  "charisma-ai": {
+    "comments": [],
+    "name": "Charisma AI",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Charisma AI\nEnhances storytelling with interactive AI characters:\n\n- Ideal for gaming, education, and training simulations\n- Supports multi-platform deployment\n- Allows creators to script dynamic, adaptive narratives.",
+    "tags": [
+      "AI",
+      "Gaming",
+      "Storytelling",
+      "Characters"
+    ],
+    "category": "Gaming Tools",
+    "url": "https://www.charisma.ai/",
+    "shortDescription": "AI for creating interactive characters and narratives.",
+    "upvotes": 0
+  },
+  "chatcraft-ai": {
+    "comments": [],
+    "category": "Gaming Tools",
+    "shortDescription": "AI-powered assistant for Minecraft server management.",
+    "longDescription": "# ChatCraft AI\nEnhances Minecraft server experiences:\n\n- Automates server tasks and moderation\n- Generates unique in-game content\n- Perfect for Minecraft enthusiasts and community leaders.",
+    "tags": [
+      "AI",
+      "Gaming",
+      "Minecraft"
+    ],
+    "name": "ChatCraft AI",
+    "upvotes": 0,
+    "url": "https://chatcraft.app/",
+    "launchDate": "2024-12-17"
+  },
+  "chatgpt-api": {
+    "launchDate": "2024-12-17",
+    "name": "ChatGPT API",
+    "category": "Development",
+    "longDescription": "# ChatGPT API\nEnables developers to integrate conversational AI into applications:\nSupports various use cases like chatbots and virtual assistants.\nIdeal for businesses seeking to enhance customer interactions.",
+    "tags": [
+      "AI",
+      "API",
+      "Chatbot",
+      "Integration"
+    ],
+    "upvotes": 0,
+    "shortDescription": "API access to OpenAI's conversational AI model.",
+    "url": "https://openai.com/api/",
+    "comments": []
+  },
+  "chatpdf": {
+    "tags": [
+      "AI",
+      "Analysis",
+      "Information",
+      "Conversation"
+    ],
+    "longDescription": "# ChatPDF\n  \n  Intelligent PDF document interaction platform:\n  \n  - Conversational PDF reading\n  - Instant document summarization\n  - Question-answering from documents\n  - Multi-document analysis capabilities",
+    "comments": [],
+    "name": "ChatPDF",
+    "category": "Information",
+    "shortDescription": "AI-powered PDF interaction and analysis tool",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "url": "https://www.chatpdf.com"
+  },
+  "cinc-pro-realestate-ai": {
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# RealEstate AI\nRevolutionizes property insights:\n\n- Analyzes market trends and property values\n- Suggests investments based on data\n- Perfect for agents and buyers.",
+    "url": "https://www.cincpro.com/",
+    "name": "Cinc Pro RealEstate AI",
+    "shortDescription": "AI for real estate market insights and analysis.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Property Insights",
+      "Market Trends"
+    ],
+    "category": "Real Estate"
+  },
+  "cisco-webex-ai-studio": {
+    "url": "https://www.webex.com/",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered platform for enhancing virtual meetings.",
+    "category": "Communication",
+    "longDescription": "# Cisco Webex AI Studio\nTransforms the virtual meeting experience:\n\nUtilizes AI to provide real-time transcription and translation\nOffers smart meeting summaries and action item tracking\nIntegrates with existing Webex features for seamless collaboration\nIdeal for businesses looking to improve remote communication.",
+    "tags": [
+      "AI",
+      "Virtual Meetings",
+      "Collaboration",
+      "Productivity"
+    ],
+    "comments": [],
+    "upvotes": 0,
+    "name": "Cisco Webex AI Studio"
+  },
+  "clarity-ai": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# Clarity AI\nEmpowers investors with ethical insights:\n\n- Assesses sustainability of portfolios\n- AI-driven ESG scoring\n- Trusted by major financial institutions.",
+    "url": "https://www.clarity.ai/",
+    "upvotes": 0,
+    "name": "Clarity AI",
+    "comments": [],
+    "category": "Finance & Investing",
+    "tags": [
+      "AI",
+      "Sustainability",
+      "Investing"
+    ],
+    "shortDescription": "AI for sustainable and ethical investing insights."
+  },
+  "claude-3.5-sonnet": {
+    "tags": [
+      "AI",
+      "Multimodal",
+      "Reasoning",
+      "Ethical AI"
+    ],
+    "upvotes": 0,
+    "longDescription": "# Claude 3.5 Sonnet\n\nThe pinnacle of Anthropic's AI development, offering unparalleled multimodal intelligence with:\n\n- Sophisticated reasoning across complex domains\n- Advanced image and text processing\n- Reduced hallucination and enhanced accuracy\n- Ethically aligned decision-making",
+    "category": "Chatbot",
+    "name": "Claude 3.5 Sonnet",
+    "launchDate": "2024-12-17",
+    "url": "https://claude.ai/login",
+    "comments": [],
+    "shortDescription": "Multimodal AI with advanced reasoning and nuanced understanding"
+  },
+  "claude-artifacts": {
+    "longDescription": "# Claude Artifacts\n\nAdvanced content generation system providing:\n\n- Structured artifact creation\n- Multi-format support\n- Deep contextual comprehension\n- Intelligent refinement capabilities",
+    "url": "https://www.anthropic.com/news/artifacts",
+    "category": "Productivity",
+    "name": "Claude Artifacts",
+    "shortDescription": "Structured content generation with comprehensive AI understanding",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Content Creation",
+      "Productivity",
+      "Writing"
+    ],
+    "upvotes": 0
+  },
+  "cleanup.pictures": {
+    "url": "https://cleanup.pictures",
+    "category": "Design",
+    "shortDescription": "AI-powered image editing and object removal tool",
+    "upvotes": 0,
+    "longDescription": "# Cleanup.pictures\n  \n  Intelligent image manipulation platform:\n  \n  - Object removal\n  - Background editing\n  - Image restoration\n  - AI-assisted photo enhancement",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Creative",
+      "Design"
+    ],
+    "name": "Cleanup.pictures",
+    "comments": []
+  },
+  "clickup": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# ClickUp\nOffers a comprehensive suite of project management tools:\nIncludes task management, time tracking, and goal setting.\nIntegrates with various apps to streamline workflows.\nIdeal for teams looking to enhance productivity.",
+    "comments": [],
+    "category": "Project Management",
+    "shortDescription": "Project management tool enhanced by AI features.",
+    "tags": [
+      "AI",
+      "Project Management",
+      "Collaboration",
+      "Productivity"
+    ],
+    "name": "ClickUp",
+    "url": "https://clickup.com/",
+    "upvotes": 0
+  },
+  "cloudinary-ai": {
+    "name": "Cloudinary AI",
+    "longDescription": "# Cloudinary AI\nEnhances media management with AI:\n\n- Automates image and video optimization\n- Offers advanced tagging and content delivery features\n- Ideal for content-heavy organizations.",
+    "url": "https://cloudinary.com/",
+    "upvotes": 0,
+    "comments": [],
+    "shortDescription": "AI-powered media optimization and management platform.",
+    "tags": [
+      "AI",
+      "Media Optimization",
+      "Content Management",
+      "Cloud"
+    ],
+    "category": "Cloud Computing",
+    "launchDate": "2024-12-17"
+  },
+  "codeassist-ai": {
+    "longDescription": "# CodeAssist AI\nSimplifies coding workflows:\n\n- Provides code suggestions and autocompletion\n- Detects and fixes bugs in real-time\n- Ideal for developers of all levels.",
+    "launchDate": "2024-12-17",
+    "url": "https://www.codeassist.tech/",
+    "comments": [],
+    "category": "AI Coding & Development",
+    "name": "CodeAssist AI",
+    "upvotes": 0,
+    "shortDescription": "AI-driven coding assistant for developers.",
+    "tags": [
+      "AI",
+      "Coding",
+      "Productivity"
+    ]
+  },
+  "codegen-ai": {
+    "category": "AI Coding & Development",
+    "url": "https://codegen.ai/",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Programming",
+      "Code Completion",
+      "Development"
+    ],
+    "shortDescription": "AI-powered code generation tool for developers.",
+    "longDescription": "# CodeGen AI\nBoosts programming productivity by auto-generating clean and efficient code:\n\nSupports multiple programming languages and frameworks\nIncludes advanced debugging and optimization features\nIdeal for developers seeking faster coding solutions.",
+    "comments": [],
+    "name": "CodeGen AI"
+  },
+  "cogram": {
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Coding Assistant",
+      "Development",
+      "Productivity"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "name": "Cogram",
+    "url": "https://cogram.com/",
+    "category": "Development",
+    "shortDescription": "AI-powered coding assistant.",
+    "longDescription": "# Cogram\nAssists developers in writing code efficiently:\nGenerates code snippets based on user input.\nIntegrates with IDEs to enhance coding experience.\nIdeal for programmers seeking productivity boosts."
+  },
+  "compose-ai": {
+    "launchDate": "2024-12-17",
+    "category": "AI Writing & Editing",
+    "upvotes": 0,
+    "longDescription": "# Compose AI\nSpeeds up writing tasks with AI suggestions:\n\n- Provides context-aware writing assistance for various formats\n- Includes auto-completion and grammar suggestions\n- Ideal for professionals handling large volumes of communication.",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Productivity",
+      "Editing"
+    ],
+    "shortDescription": "AI-powered writing assistant for emails and documents.",
+    "comments": [],
+    "url": "https://www.compose.ai/",
+    "name": "Compose AI"
+  },
+  "content-forge": {
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "category": "Content Creation",
+    "url": "https://contentforge.ai/",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "name": "Content Forge",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "comments": [],
+    "longDescription": "# Content Forge\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators."
+  },
+  "copy.ai": {
+    "url": "https://www.copy.ai",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "Copy.ai",
+    "category": "Advertising",
+    "shortDescription": "AI writing assistant for marketing content",
+    "longDescription": "# Copy.ai\n      \n      Content creation platform for digital marketing:\n      \n      - Automated copywriting\n      - Social media content generation\n      - Email and ad copy creation\n      - Multiple language support",
+    "tags": [
+      "AI",
+      "Writing",
+      "Marketing"
+    ],
+    "upvotes": 0
+  },
+  "copydash-ai": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# CopyDash AI\nStreamlines content creation for marketing campaigns:\n\n- Produces ad copy, blog posts, and product descriptions\n- Customizable tone and style for various audiences\n- Great for marketing teams and entrepreneurs.",
+    "shortDescription": "AI tool for generating marketing content at scale.",
+    "category": "Copywriting",
+    "name": "CopyDash AI",
+    "url": "https://medium.com/@copydash/about",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Copywriting",
+      "Marketing",
+      "Content Creation"
+    ],
+    "comments": []
+  },
+  "copyhawk-ai": {
+    "category": "AI Writing & Editing",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "CopyHawk AI",
+    "url": "https://copyhawk.com/",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Proofreading",
+      "Editing",
+      "Writing"
+    ],
+    "longDescription": "# CopyHawk AI\nEnhances written content with proofreading and editing tools:\n\n- Detects grammar, style, and punctuation errors\n- Offers readability and tone improvement suggestions\n- Great for writers, bloggers, and marketers.",
+    "shortDescription": "AI tool for proofreading and style correction."
+  },
+  "copyleaks-ai": {
+    "name": "CopyLeaks AI",
+    "upvotes": 0,
+    "shortDescription": "AI-powered plagiarism and content detection tool.",
+    "launchDate": "2024-12-17",
+    "longDescription": "# CopyLeaks AI\nEnsures content originality with advanced AI detection:\n\n- Detects plagiarism across multiple languages\n- Verifies AI-generated text\n- Suitable for educators and content creators.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Plagiarism Detection",
+      "Education"
+    ],
+    "category": "AI Writing & Editing",
+    "url": "https://www.copyleaks.com/"
+  },
+  "copymonkey-ai": {
+    "tags": [
+      "AI",
+      "E-Commerce",
+      "Copywriting",
+      "Optimization"
+    ],
+    "name": "CopyMonkey AI",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "comments": [],
+    "longDescription": "# CopyMonkey AI\nOptimizes e-commerce listings with AI tools:\n\n- Generates high-performing titles, bullet points, and descriptions\n- Tailored for Amazon sellers to increase conversions\n- Saves time in content creation for product pages.",
+    "shortDescription": "AI-driven Amazon listing optimizer.",
+    "category": "E-Commerce",
+    "url": "https://www.copymonkey.ai/"
+  },
+  "copysmith": {
+    "tags": [
+      "AI",
+      "Copywriting",
+      "Marketing",
+      "Content Generation"
+    ],
+    "comments": [],
+    "category": "Marketing",
+    "longDescription": "# CopySmith\nGenerates high-converting marketing copy:\nOffers templates for ads, product descriptions, and blog posts.\nIdeal for marketers looking to streamline content creation.",
+    "launchDate": "2024-12-17",
+    "name": "CopySmith",
+    "url": "https://copysmith.ai/",
+    "shortDescription": "AI writing assistant focused on marketing copy.",
+    "upvotes": 0
+  },
+  "cranium-ai": {
+    "category": "Analytics",
+    "tags": [
+      "AI",
+      "Analysis",
+      "Business",
+      "Insights"
+    ],
+    "upvotes": 0,
+    "comments": [],
+    "shortDescription": "AI-driven analytics and insights platform for businesses",
+    "launchDate": "2024-12-17",
+    "url": "https://www.cranium.ai/",
+    "longDescription": "# Cranium AI\nComprehensive analytics solution powered by generative AI:\nAutomated data analysis and reporting\nActionable insights for business decision-making\nUser-friendly interface for non-technical users\nIntegration with existing business tools",
+    "name": "Cranium AI"
+  },
+  "crayo": {
+    "shortDescription": "AI platform for creating short-form video content.",
+    "tags": [
+      "AI",
+      "Video Production",
+      "Marketing"
+    ],
+    "longDescription": "# Crayo\nSimplifies short-form video production:\n\n- AI-generated storyboarding and editing\n- Ideal for marketing campaigns and social media\n- Saves time with automated tools.",
+    "category": "AI Video & Animation",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "Crayo",
+    "upvotes": 0,
+    "url": "https://www.crayo.ai/"
+  },
+  "crayon": {
+    "name": "Crayon",
+    "tags": [
+      "AI",
+      "Market Intelligence",
+      "Analysis",
+      "Competitor Tracking"
+    ],
+    "launchDate": "2024-12-17",
+    "longDescription": "# Crayon\nProvides insights into competitors’ strategies:\n\nTracks and analyzes competitor websites and social media\nReal-time competitor insights for informed decision-making\nAI-powered summarization of news articles and blog posts\nMachine learning for importance scoring of competitor data",
+    "upvotes": 0,
+    "shortDescription": "AI-driven market intelligence platform.",
+    "category": "Business",
+    "comments": [],
+    "url": "https://www.crayon.co/"
+  },
+  "crowdin": {
+    "url": "https://crowdin.com/",
+    "longDescription": "# Crowdin\nReady-to-publish AI Translations\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "name": "Crowdin",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "AI-powered Localization software.",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "category": "Translator Tools",
+    "upvotes": 0
+  },
+  "dall-e-3": {
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Illustration",
+      "Creative"
+    ],
+    "name": "DALL-E 3",
+    "comments": [
+      {
+        "date": "2024-12-17T11:12:53.514Z",
+        "text": "cool",
+        "replies": [],
+        "author": "Anonymous",
+        "id": "1734433973514"
+      }
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Creative Writing",
+    "upvotes": 0,
+    "shortDescription": "Advanced text-to-image generation with integrated language understanding",
+    "longDescription": "# DALL-E 3\n\nOpenAI's image generation technology featuring:\n\n- Natural language image creation\n- ChatGPT prompt refinement\n- High-fidelity visual outputs\n- Nuanced artistic interpretation",
+    "url": "https://openai.com/index/dall-e-3/"
+  },
+  "datarobot-ai-cloud": {
+    "upvotes": 0,
+    "category": "Cloud Computing",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Machine Learning"
+    ],
+    "shortDescription": "Cloud-based AI platform for automated machine learning.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://www.datarobot.com/",
+    "name": "DataRobot AI Cloud",
+    "longDescription": "# DataRobot AI Cloud\nSimplifies AI development and deployment:\n\n- Automates machine learning workflows\n- Provides enterprise-grade AI solutions\n- Designed for data scientists and business analysts."
+  },
+  "deep-ai-image-editor": {
+    "launchDate": "2024-12-17",
+    "url": "https://deepai.org/machine-learning-model/text2img",
+    "comments": [],
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Photo Editing",
+      "Image Enhancement",
+      "Creative Tools"
+    ],
+    "longDescription": "# Deep AI Image Editor\nImproves image quality with AI-based tools:\n\n- Includes noise reduction, sharpening, and color correction\n- Perfect for photographers and designers\n- Simplifies advanced editing processes with AI.",
+    "category": "Photo Editing",
+    "shortDescription": "AI-powered image enhancement and editing platform.",
+    "name": "Deep AI Image Editor"
+  },
+  "deep-dream-generator": {
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Graphic Design"
+    ],
+    "name": "Deep Dream Generator",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "AI Art & Design",
+    "upvotes": 0,
+    "url": "https://deepdreamgenerator.com/",
+    "shortDescription": "AI-powered image generation tool for creative tasks.",
+    "longDescription": "# Deep Dream Generator\nAI Powered Image Generation\nGenerates high-quality images from text prompts:\n\nSupports image generation in various styles and formats\nIncludes features for image editing and manipulation\nIdeal for graphic designers and artists."
+  },
+  "deepart": {
+    "url": "https://deepai.org/art",
+    "longDescription": "# DeepArt\nApplies artistic styles to images using neural networks:\nSupports various art styles from famous artists.\nIdeal for photographers and artists looking to create unique visuals.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Image Transformation",
+      "Art",
+      "Creativity"
+    ],
+    "launchDate": "2024-12-17",
+    "name": "DeepArt",
+    "shortDescription": "AI tool that transforms photos into artwork.",
+    "upvotes": 0,
+    "category": "Image Processing"
+  },
+  "deepbrain-ai": {
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI tool for creating synthetic training videos.",
+    "url": "https://www.deepbrain.io/",
+    "category": "AI Video & Animation",
+    "name": "DeepBrain AI",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Training",
+      "Marketing"
+    ],
+    "longDescription": "# DeepBrain AI\nSimplifies video production for training and marketing:\n\n- Generates lifelike avatars with synchronized speech\n- Includes templates for quick customization\n- Ideal for corporate training and e-learning."
+  },
+  "deepgram": {
+    "name": "Deepgram",
+    "tags": [
+      "AI",
+      "Transcription",
+      "Voice Recognition"
+    ],
+    "category": "AI Voice Generation",
+    "url": "https://deepgram.com/",
+    "shortDescription": "AI-powered transcription tool for fast and accurate speech-to-text.",
+    "upvotes": 0,
+    "longDescription": "# Deepgram\nDelivers efficient and accurate speech recognition:\n\n- Supports real-time transcription and translation\n- Works across multiple languages and dialects\n- Ideal for call centers, podcasts, and video content creators.",
+    "comments": [],
+    "launchDate": "2024-12-17"
+  },
+  "deepl": {
+    "upvotes": 0,
+    "category": "Translation",
+    "shortDescription": "AI - powered translation service supporting multiple languages.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Translation",
+      "Language Processing",
+      "Business"
+    ],
+    "launchDate": "2024-12-17",
+    "url": "https://www.deepl.com/",
+    "name": "DeepL",
+    "longDescription": "# DeepL \nOffers high - quality translations across 33 languages: \nIntegrates into various applications for seamless use.\nIdeal for businesses needing accurate translations of documents."
+  },
+  "deepl-write": {
+    "url": "https://www.deepl.com/write",
+    "comments": [],
+    "name": "DeepL Write",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "category": "Writing",
+    "tags": [
+      "AI",
+      "Writing",
+      "Language Model",
+      "Assistant"
+    ],
+    "shortDescription": "Advanced AI writing and translation tool",
+    "longDescription": "# DeepL Write\n  \n  Sophisticated writing and translation platform:\n  \n  - Contextual translation\n  - Writing style improvement\n  - Language nuance preservation\n  - Professional communication support"
+  },
+  "deepmotion": {
+    "longDescription": "# DeepMotion \nFacilitates realistic character animations using AI:\nTracks body movements without the need for physical markers.\nIdeal for game developers and animators seeking efficient solutions.",
+    "shortDescription": "AI-driven full-body marker tracking technology.",
+    "category": "AI Video & Animation",
+    "comments": [],
+    "upvotes": 0,
+    "name": "DeepMotion",
+    "url": "https://deepmotion.com/",
+    "tags": [
+      "AI",
+      "Animation",
+      "Character Animation",
+      "Game Development"
+    ],
+    "launchDate": "2024-12-17"
+  },
+  "deepmotion-animate": {
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "category": "AI Video & Animation",
+    "longDescription": "# DeepMotion Animate\nRevolutionizes animation with AI-driven mocap:\n\n- Converts videos to 3D animations\n- Perfect for game developers and animators\n- Offers realistic motion tracking.",
+    "name": "DeepMotion Animate",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Animation",
+      "Motion Capture"
+    ],
+    "shortDescription": "AI-powered motion capture and animation tool.",
+    "url": "https://www.deepmotion.com/"
+  },
+  "deoldify-ai": {
+    "longDescription": "# Deoldify AI\nBrings historical photos to life with color:\n\n- Uses AI to colorize and enhance vintage images\n- Supports fine-tuning for artistic control\n- Perfect for archivists, historians, and enthusiasts.",
+    "tags": [
+      "AI",
+      "Photo Colorization",
+      "Heritage",
+      "Art"
+    ],
+    "name": "Deoldify AI",
+    "shortDescription": "AI tool for colorizing old black-and-white photos.",
+    "category": "AI Art & Design",
+    "upvotes": 0,
+    "comments": [],
+    "url": "https://deoldify.ai/",
+    "launchDate": "2024-12-17"
+  },
+  "descript": {
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "shortDescription": "All-in-one audio/video editing software.",
+    "url": "https://www.descript.com/",
+    "upvotes": 0,
+    "longDescription": "# Descript\nCombines transcription with audio/video editing:\nEdit audio by editing text transcripts.\nIdeal for podcasters and video creators.\nIncludes features like screen recording and overdubbing.",
+    "category": "Media",
+    "name": "Descript",
+    "tags": [
+      "AI",
+      "Editing",
+      "Transcription",
+      "Media"
+    ]
+  },
+  "designify-ai": {
+    "shortDescription": "AI-powered graphic design assistant.",
+    "comments": [],
+    "longDescription": "# Designify AI\nSimplifies graphic creation for everyone:\n\n- Generates professional visuals with AI\n- Offers customizable templates and effects\n- Ideal for businesses and creators.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "url": "https://www.designify.com/",
+    "name": "Designify AI",
+    "category": "Graphic Design",
+    "tags": [
+      "AI",
+      "Design",
+      "Graphics"
+    ]
+  },
+  "desygner-ai": {
+    "url": "https://www.desygner.com/",
+    "tags": [
+      "AI",
+      "Graphic Design",
+      "Automation"
+    ],
+    "longDescription": "# Desygner AI\nStreamlines graphic design for businesses:\n\n- AI templates for various industries\n- Customizes designs with ease\n- Suitable for non-designers and professionals alike.",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Graphic Design",
+    "shortDescription": "AI-based design tool for professional graphic creation.",
+    "name": "Desygner AI",
+    "launchDate": "2024-12-17"
+  },
+  "draftwise": {
+    "comments": [],
+    "category": "Legal & Compliance",
+    "name": "DraftWise",
+    "url": "https://www.draftwise.com/",
+    "shortDescription": "AI tool for legal drafting and document review.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Legal Drafting",
+      "Document Review"
+    ],
+    "longDescription": "# DraftWise\nStreamlines legal documentation:\n\n- Automates contract creation and clause analysis\n- Ensures compliance with AI insights\n- Ideal for law firms and in-house legal teams."
+  },
+  "dropbox-dash": {
+    "name": "Dropbox Dash",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Search",
+      "Collaboration",
+      "Productivity"
+    ],
+    "longDescription": "# Dropbox Dash\nEnhances project collaboration through intelligent search:\n\nInteracts with popular work tools like Microsoft Outlook and Notion\nOrganizes content for easy retrieval\nIdeal for teams needing streamlined workflows.",
+    "shortDescription": "AI-powered search tool for organizing and sharing content.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "category": "File Management",
+    "url": "https://www.dropbox.com/dash"
+  },
+  "durable-ai": {
+    "url": "https://www.durable.co/",
+    "tags": [
+      "AI",
+      "Website Building",
+      "Automation"
+    ],
+    "shortDescription": "AI-driven platform for building websites in minutes.",
+    "upvotes": 0,
+    "category": "Web Development",
+    "longDescription": "# Durable AI\nCreates professional websites instantly:\n\n- Uses AI to design and deploy sites\n- Includes built-in CRM and analytics tools\n- Perfect for small businesses and freelancers.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "Durable AI"
+  },
+  "ecoai": {
+    "longDescription": "# EcoAI\nEmpowers sustainability efforts:\n\n- Analyzes environmental impact data\n- Provides actionable insights for green initiatives\n- Perfect for businesses and researchers.",
+    "category": "Environmental Science",
+    "shortDescription": "AI platform for environmental data analysis.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Sustainability",
+      "Data Analysis"
+    ],
+    "name": "EcoAI",
+    "url": "https://eco-ai.ai/",
+    "comments": [],
+    "launchDate": "2024-12-17"
+  },
+  "eduprompt": {
+    "tags": [
+      "AI",
+      "Education",
+      "Learning",
+      "E-Learning"
+    ],
+    "upvotes": 0,
+    "longDescription": "# EduPrompt\nTransforms the e-learning experience:\n\nCustomizes educational materials based on student needs\nGenerates quizzes, lectures, and interactive lessons\nIdeal for teachers and online course creators.",
+    "launchDate": "2024-12-17",
+    "url": "https://eduprompt.tech",
+    "comments": [],
+    "shortDescription": "AI-enhanced e-learning platform with custom content creation.",
+    "name": "EduPrompt",
+    "category": "Education & E-Learning"
+  },
+  "elai.io": {
+    "upvotes": 0,
+    "shortDescription": "AI video generation platform",
+    "url": "https://elai.io",
+    "longDescription": "# Elai.io\n      \n      Advanced AI video creation tool:\n      \n      - Digital human video generation\n      - Multilingual video support\n      - Customizable avatars\n      - Text-to-video conversion",
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Creative"
+    ],
+    "comments": [],
+    "category": "Creative Writing",
+    "name": "Elai.io",
+    "launchDate": "2024-12-17"
+  },
+  "elevenlabs": {
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Voice Generation",
+      "Media",
+      "Content Creation"
+    ],
+    "shortDescription": "AI voice generation platform",
+    "name": "ElevenLabs",
+    "upvotes": 0,
+    "longDescription": "# ElevenLabs\nCreates realistic voiceovers using AI:\nSupports multiple languages and accents\nIdeal for audiobooks, podcasts, and video content\nCustomizable voice options for unique branding",
+    "url": "https://www.elevenlabs.io/",
+    "category": "Media"
+  },
+  "enviroai": {
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI for environmental monitoring and analysis.",
+    "name": "EnviroAI",
+    "url": "https://enviro.ai/",
+    "tags": [
+      "AI",
+      "Environment",
+      "Sustainability",
+      "Analysis"
+    ],
+    "comments": [],
+    "category": "Environmental Science",
+    "longDescription": "# EnviroAI\nPromotes environmental awareness:\n\nMonitors air, water, and soil quality with precision\nOffers data-driven insights for sustainable practices\nA must-have tool for researchers and policymakers.",
+    "upvotes": 0
+  },
+  "eventbrite-ai": {
+    "category": "Productivity & Organization",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "EventBrite AI",
+    "url": "https://www.eventbrite.com/",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Event Planning",
+      "Automation"
+    ],
+    "shortDescription": "AI tool for seamless event planning.",
+    "longDescription": "# EventBrite AI\nSimplifies event management:\n\n- Automates scheduling, invitations, and logistics\n- Provides AI-based vendor recommendations\n- Suitable for corporate and personal events."
+  },
+  "fashion-sketch-ai-by-openart": {
+    "shortDescription": "AI tool for fashion design and sketches.",
+    "launchDate": "2024-12-17",
+    "name": "Fashion Sketch AI by OpenArt",
+    "url": "https://openart.ai/generator/fashion-sketch",
+    "tags": [
+      "AI",
+      "Fashion Design",
+      "Creativity"
+    ],
+    "comments": [],
+    "longDescription": "# Fashion Sketch AI\nBrings designs to life with AI:\n\n- Generates fashion sketches from concepts\n- Supports a variety of styles and fabrics\n- Ideal for designers and boutiques.",
+    "category": "Fashion & Style",
+    "upvotes": 0
+  },
+  "fathom-ai": {
+    "longDescription": "# Fathom AI\nRecords and summarizes meetings automatically:\nIntegrates with video conferencing tools like Zoom.\nProvides searchable transcripts for easy access to information.\nIdeal for professionals needing efficient meeting management.",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://fathom.video/",
+    "category": "Productivity",
+    "tags": [
+      "AI",
+      "Meeting Management",
+      "Transcription",
+      "Efficiency"
+    ],
+    "comments": [],
+    "shortDescription": "Meeting assistant powered by AI technology.",
+    "name": "Fathom AI"
+  },
+  "fathom-health": {
+    "launchDate": "2024-12-17",
+    "name": "Fathom Health",
+    "shortDescription": "Healthcare analytics platform powered by AI.",
+    "tags": [
+      "AI",
+      "Healthcare Analytics",
+      "Insights",
+      "Decision-Making"
+    ],
+    "upvotes": 0,
+    "url": "https://fathomhealth.com/",
+    "longDescription": "# Fathom Health\nAnalyzes healthcare data to provide actionable insights:\nSupports clinical decision-making with predictive analytics.\nIntegrates with EHR systems to streamline workflows.\nIdeal for healthcare professionals looking to improve patient outcomes.",
+    "comments": [],
+    "category": "Healthcare"
+  },
+  "figma-ai": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Design",
+      "Prototyping",
+      "Efficiency"
+    ],
+    "comments": [],
+    "shortDescription": "Design tool enhanced with AI capabilities.",
+    "upvotes": 0,
+    "longDescription": "# Figma AI\nEnhances design workflows using AI:\nAutomates routine design tasks for increased efficiency.\nProvides AI-powered design suggestions and image generation.\nIdeal for designers looking to leverage AI in their projects.",
+    "category": "Design",
+    "name": "Figma AI",
+    "url": "https://www.figma.com/ai/"
+  },
+  "fireflies.ai": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# Fireflies.ai\n  \n  Intelligent meeting documentation platform:\n  \n  - Automatic meeting transcription\n  - Action item tracking\n  - Conversation analysis\n  - Integration with multiple platforms",
+    "comments": [],
+    "upvotes": 0,
+    "url": "https://fireflies.ai",
+    "category": "Productivity",
+    "name": "Fireflies.ai",
+    "tags": [
+      "AI",
+      "Assistant",
+      "Conversation",
+      "Productivity"
+    ],
+    "shortDescription": "AI meeting assistant and transcription tool"
+  },
+  "fliki": {
+    "shortDescription": "AI-powered text-to-video and text-to-speech platform",
+    "category": "Creative Writing",
+    "upvotes": 0,
+    "comments": [],
+    "name": "Fliki",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Fliki\n      \n      Innovative content transformation tool:\n      \n      - Text-to-video generation\n      - Text-to-speech conversion\n      - Multilingual support\n      - Realistic voice synthesis",
+    "url": "https://fliki.ai",
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Creative"
+    ]
+  },
+  "flowrite-ai": {
+    "tags": [
+      "AI",
+      "Writing",
+      "Email",
+      "Productivity"
+    ],
+    "category": "AI Assistants",
+    "upvotes": 0,
+    "url": "https://www.flowrite.com/",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI email and messaging assistant.",
+    "longDescription": "# Flowrite AI\nSpeeds up communication with AI-generated emails:\n\n- Creates professional, clear, and concise messages\n- Integrates with Gmail, Slack, and other platforms\n- Perfect for business professionals and teams.",
+    "comments": [],
+    "name": "Flowrite AI"
+  },
+  "foodai": {
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI-based recipe and meal planner tool.",
+    "url": "https://foodai.org/",
+    "category": "Recipe & Cooking Assistants",
+    "launchDate": "2024-12-17",
+    "name": "FoodAI",
+    "tags": [
+      "AI",
+      "Food",
+      "Meal Planning"
+    ],
+    "longDescription": "# FoodAI\nTransforms the way people approach meal planning:\n\n- Suggests recipes based on dietary needs\n- Generates grocery lists\n- Ideal for health-conscious users."
+  },
+  "framer-ai": {
+    "tags": [
+      "AI",
+      "Web Design",
+      "Automation"
+    ],
+    "upvotes": 0,
+    "longDescription": "# Framer AI\nStreamlines web design:\n\n- Generates fully functional websites from simple inputs\n- Offers customizable templates and layouts\n- Ideal for designers and developers.",
+    "comments": [],
+    "name": "Framer AI",
+    "launchDate": "2024-12-17",
+    "category": "Web Development",
+    "url": "https://www.framer.com/ai/",
+    "shortDescription": "AI-powered website design tool."
+  },
+  "frase": {
+    "longDescription": "# Frase AI\\nEnhances content strategy with AI assistance:\\n\\n- Automates research for relevant keywords and topics\\n- Offers suggestions for optimizing readability and structure\\n- Suitable for SEO experts and content strategists.",
+    "category": "Content Creation",
+    "upvotes": 0,
+    "name": "Frase",
+    "tags": [
+      "AI",
+      "Optimization",
+      "Content Strategy",
+      "SEO"
+    ],
+    "shortDescription": "AI platform for creating SEO-optimized content.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "url": "https://www.frase.io/"
+  },
+  "fullstory": {
+    "tags": [
+      "AI",
+      "UX Design",
+      "Analytics"
+    ],
+    "category": "AI Assistants",
+    "url": "https://www.fullstory.com/",
+    "name": "FullStory",
+    "upvotes": 0,
+    "shortDescription": "AI insights for improving user experiences.",
+    "comments": [],
+    "longDescription": "# FullStory\nAnalyzes digital user experiences:\n\n- Tracks user behavior on websites and apps\n- Provides actionable insights for UX/UI improvements\n- Ideal for developers and designers.",
+    "launchDate": "2024-12-17"
+  },
+  "gamma": {
+    "shortDescription": "AI-powered presentation and document creation",
+    "comments": [],
+    "longDescription": "# Gamma\n      \n      Intelligent content creation platform:\n      \n      - AI-generated presentations\n      - Document design\n      - Interactive content\n      - Minimal editing required",
+    "category": "Productivity",
+    "name": "Gamma",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://gamma.app",
+    "tags": [
+      "AI",
+      "Design",
+      "Productivity"
+    ]
+  },
+  "gemini-advanced": {
+    "name": "Gemini Advanced",
+    "comments": [],
+    "shortDescription": "Google's ultra-sophisticated AI model with comprehensive capabilities",
+    "tags": [
+      "AI",
+      "Multimodal",
+      "Problem-Solving",
+      "Technology"
+    ],
+    "category": "Chatbot",
+    "url": "https://gemini.google.com/app",
+    "upvotes": 0,
+    "longDescription": "# Gemini Advanced\n\nGoogle's most powerful AI model featuring:\n\n- Ultra-level scientific reasoning\n- Comprehensive multimodal processing\n- Deep integration with Google ecosystem\n- Advanced problem-solving across disciplines",
+    "launchDate": "2024-12-17"
+  },
+  "gitguardian-ai": {
+    "longDescription": "# GitGuardian AI\nProtects code repositories from accidental exposure of secrets:\n\n- Automatically detects and alerts on hardcoded secrets\n- Integrates with GitHub, GitLab, and CI/CD pipelines\n- Ideal for development teams focused on security.",
+    "tags": [
+      "AI",
+      "Code Security",
+      "Secrets Detection",
+      "DevSecOps"
+    ],
+    "category": "Cybersecurity",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "comments": [],
+    "name": "GitGuardian AI",
+    "shortDescription": "AI security tool for detecting secrets in codebases.",
+    "url": "https://www.gitguardian.com/"
+  },
+  "github-copilot-x": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Programming",
+      "Productivity",
+      "Development"
+    ],
+    "longDescription": "# GitHub Copilot X\n\nAI-powered software development platform offering:\n\n- Intelligent code generation\n- Contextual programming assistance\n- Pull request analysis\n- Multi-language support",
+    "category": "Code Assistant",
+    "comments": [],
+    "url": "https://github.com/features/copilot",
+    "name": "GitHub Copilot X",
+    "shortDescription": "Advanced AI coding assistant with contextual understanding",
+    "upvotes": 0
+  },
+  "glasp-ai": {
+    "upvotes": 0,
+    "comments": [],
+    "shortDescription": "AI-powered tool for highlighting and saving web content.",
+    "tags": [
+      "AI",
+      "Research",
+      "Highlighting"
+    ],
+    "launchDate": "2024-12-17",
+    "longDescription": "# Glasp AI\nOrganizes web content efficiently:\n\n- Allows highlighting and saving articles\n- AI-generated summaries for quick understanding\n- Ideal for researchers and readers.",
+    "name": "Glasp AI",
+    "url": "https://www.glasp.co/",
+    "category": "Productivity & Organization"
+  },
+  "glean": {
+    "url": "https://glean.co/",
+    "name": "Glean",
+    "tags": [
+      "AI",
+      "Knowledge Management",
+      "Organization",
+      "Retrieval"
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Knowledge Management",
+    "shortDescription": "Knowledge management tool powered by AI.",
+    "longDescription": "# Glean\nOrganizes company knowledge efficiently:\nUses AI to suggest relevant documents based on queries.\nFacilitates easy retrieval of information within organizations.\nIdeal for teams managing large amounts of data.",
+    "comments": [],
+    "upvotes": 0
+  },
+  "google-maps": {
+    "name": "Google Maps",
+    "comments": [],
+    "shortDescription": "Navigation app utilizing AI for real-time traffic data.",
+    "tags": [
+      "AI",
+      "Navigation",
+      "Traffic Data",
+      "Travel"
+    ],
+    "category": "Navigation",
+    "longDescription": "# Google Maps\nAggregates location data to provide optimized routes:\n\nUses machine learning to predict traffic conditions\nIdeal for travelers seeking efficient navigation solutions.",
+    "url": "https://www.google.com/maps/",
+    "upvotes": 0,
+    "launchDate": "2024-12-17"
+  },
+  "google-nest-hub": {
+    "comments": [],
+    "url": "https://store.google.com/us/product/nest_hub_2nd_gen",
+    "category": "IoT & Smart Devices",
+    "name": "Google Nest Hub",
+    "shortDescription": "Smart display for IoT control and home automation.",
+    "tags": [
+      "AI",
+      "Home Automation",
+      "Internet of Things",
+      "Virtual Assistant"
+    ],
+    "longDescription": "# AI Powered Smart Home Control\n- Voice-Activated Control\n- Smart Home Integration\n- Personalized Routines\n- Visual Display and Touch Control\n- Proactive Assistance",
+    "upvotes": 0,
+    "launchDate": "2024-12-22T07:30:58.988Z"
+  },
+  "google-translate": {
+    "url": "https://translate.google.com/",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "name": "Google Translate",
+    "comments": [],
+    "shortDescription": "AI-powered language translation tool ",
+    "longDescription": "# Google Translate\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "google-vertex-ai": {
+    "comments": [],
+    "name": "Google Vertex AI",
+    "category": "Development",
+    "url": "https://cloud.google.com/vertex-ai",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Google Vertex AI\nComprehensive platform for building AI applications:\n\nConversational user interface integration\nEnterprise-grade generative AI applications\nManaged LLM-powered search and recommendation systems\nEasy access for developers of all skill levels",
+    "tags": [
+      "AI",
+      "Natural Language Processing",
+      "Machine Learning",
+      "Productivity"
+    ],
+    "shortDescription": "Natural language understanding platform for developers",
+    "upvotes": 0
+  },
+  "gpt-4o": {
+    "tags": [
+      "AI",
+      "Multimodal",
+      "Conversation",
+      "Technology"
+    ],
+    "category": "Chatbot",
+    "launchDate": "2024-12-17",
+    "shortDescription": "OpenAI's most advanced conversational and multimodal AI",
+    "longDescription": "# GPT-4o\n\nBreakthrough in real-time AI interaction with:\n\n- Native multimodal reasoning\n- Instant voice and video comprehension\n- Enhanced emotional intelligence\n- Rapid, context-aware responses",
+    "comments": [],
+    "upvotes": 0,
+    "url": "https://chatgpt.com",
+    "name": "GPT-4o"
+  },
+  "grammarly-ai": {
+    "launchDate": "2024-12-17",
+    "shortDescription": "Advanced writing and communication assistant",
+    "url": "https://www.grammarly.com",
+    "upvotes": 0,
+    "name": "Grammarly AI",
+    "tags": [
+      "AI",
+      "Writing",
+      "Assistant",
+      "Language Model"
+    ],
+    "category": "Writing",
+    "comments": [],
+    "longDescription": "# Grammarly AI\n  \n  Comprehensive writing improvement platform:\n  \n  - Contextual writing suggestions\n  - Grammar and style corrections\n  - Tone and clarity analysis\n  - Multi-platform writing support"
+  },
+  "graphcast-by-google": {
+    "shortDescription": "AI model for faster and more accurate global weather forecasting",
+    "views": 1,
+    "tags": [
+      "AI",
+      "Automation",
+      "Big Data",
+      "Weather"
+    ],
+    "comments": [],
+    "category": "Weather & Meteorology",
+    "upvotes": 0,
+    "launchDate": "2024-12-17T08:07:09.392Z",
+    "longDescription": "# AI-Driven Weather Forecasting\n- Weather Forecasting with AI\n- Improved Accuracy and Speed\n- Global Weather Coverage\n- Scalable to Long-Term Predictions",
+    "url": "https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/",
+    "name": "GraphCast by Google"
+  },
+  "grok-by-x": {
+    "name": "Grok by X",
+    "comments": [],
+    "category": "AI Chatbots",
+    "url": "https://x.com/i/grok?focus=1",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Grok by X\nAI chatbot inside X:\n\n- Provides answers to common questions\n- Offers upto date news\n- Designed for answer anything",
+    "tags": [
+      "AI",
+      "Chatbot",
+      "X"
+    ],
+    "shortDescription": "AI chatbot inside X.",
+    "upvotes": 0
+  },
+  "groq-ai": {
+    "name": "Groq AI",
+    "longDescription": "# Grok AI\nImproves code quality with advanced debugging tools:\n\n- Detects inefficiencies and vulnerabilities in real-time\n- Offers suggestions for optimizing performance\n- Designed for developers aiming for clean, robust code.",
+    "shortDescription": "AI for debugging and improving code quality.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Debugging",
+      "Code Quality",
+      "Optimization"
+    ],
+    "category": "AI Coding & Development",
+    "comments": [],
+    "url": "https://groq.com",
+    "launchDate": "2024-12-17"
+  },
+  "growthbar-seo": {
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "SEO",
+      "Keyword Research"
+    ],
+    "longDescription": "# GrowthBar SEO\nProvides AI-powered SEO insights for marketers and entrepreneurs:\n\nSupports keyword research and analysis\nIncludes features for backlink analysis and content optimization\nIdeal for SEO professionals and marketers.",
+    "comments": [],
+    "url": "https://www.growthbarseo.com/",
+    "launchDate": "2024-12-17",
+    "name": "GrowthBar SEO",
+    "shortDescription": "AI-powered SEO tool for marketers and entrepreneurs.",
+    "category": "SEO"
+  },
+  "hatchways": {
+    "category": "Education",
+    "longDescription": "# Hatchways\nPrepares candidates for technical interviews using AI:\nOffers personalized coding challenges and feedback.\nTracks progress over time to enhance learning.\nIdeal for job seekers in tech looking to improve skills.",
+    "comments": [],
+    "shortDescription": "Coding interview preparation platform powered by AI.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Interview Preparation",
+      "Education",
+      "Coding Challenges"
+    ],
+    "name": "Hatchways",
+    "url": "https://hatchways.io/"
+  },
+  "hatz-ai-platform": {
+    "launchDate": "2024-12-17",
+    "category": "Business",
+    "name": "Hatz AI Platform",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Custom Solutions",
+      "Productivity",
+      "Assistant"
+    ],
+    "url": "https://www.hatz.ai",
+    "shortDescription": "AI-as-a-Service platform for managed service providers (MSPs)",
+    "longDescription": "# Hatz AI Platform\nEmpowering MSPs with customizable AI solutions:\n\nBuild specialized AI applications and workflows\nMulti-tenant management capabilities\nCustom LLMs and vector storage integration\nEnhanced service offerings for small businesses",
+    "comments": []
+  },
+  "healthsense-ai": {
+    "longDescription": "# Sigma HealthSense AIRevolutionizes personal health management:Monitors vital signs and offers personalized health tipsProvides preliminary diagnostics based on symptomsA trusted companion for a healthier lifestyle.",
+    "shortDescription": "AI health tracker and diagnostic assistant.",
+    "comments": [],
+    "url": "https://sigmahealthsense.com/",
+    "category": "Health & Fitness",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Health",
+      "Diagnostics",
+      "Fitness"
+    ],
+    "launchDate": "2024-12-17",
+    "name": "Sigma HealthSense AI"
+  },
+  "heartsome": {
+    "category": "Translator Tools",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered language translation studio ",
+    "name": "Heartsome",
+    "url": "https://heartsome-translation-studio.software.informer.com/",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "longDescription": "# Heartsome\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "upvotes": 0
+  },
+  "hiver": {
+    "category": "Productivity",
+    "tags": [
+      "AI",
+      "Email Management",
+      "Collaboration",
+      "Productivity"
+    ],
+    "upvotes": 0,
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://hiverhq.com/",
+    "shortDescription": "Email collaboration tool powered by AI.",
+    "longDescription": "# Hiver\nStreamlines team collaboration through shared inboxes:\nAutomates email assignments and follow-ups.\nIntegrates with Gmail for seamless use.\nIdeal for teams looking to improve email management efficiency.",
+    "name": "Hiver"
+  },
+  "hubspot-ai": {
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Marketing",
+      "Sales",
+      "Data Analysis"
+    ],
+    "longDescription": "# HubSpot AI\nTailored for enhancing marketing and sales tasks:\n\nContent drafting and workflow streamlining\nPersonalized email campaigns and engaging copy creation\nData analysis for campaign improvement\nLead qualification and customer churn prediction",
+    "comments": [],
+    "url": "https://www.hubspot.com/products/artificial-intelligence",
+    "launchDate": "2024-12-17",
+    "name": "HubSpot AI",
+    "shortDescription": "AI tool for sales and marketing professionals.",
+    "category": "Business"
+  },
+  "hugging-face-transformers": {
+    "upvotes": 0,
+    "name": "Hugging Face Transformers",
+    "url": "https://huggingface.co/transformers/",
+    "comments": [],
+    "longDescription": "# Hugging Face Transformers\nA comprehensive library for building and deploying state-of-the-art NLP models:\n\nSupports various architectures like BERT, GPT, and T5\nFacilitates easy fine-tuning and model sharing\nIdeal for researchers and developers in the NLP space.",
+    "tags": [
+      "AI",
+      "NLP",
+      "Open Source",
+      "Machine Learning"
+    ],
+    "shortDescription": "Open-source library for natural language processing.",
+    "category": "Language Processing",
+    "launchDate": "2024-12-17"
+  },
+  "hyperwrite": {
+    "longDescription": "# HyperWrite\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "category": "Content Creation",
+    "url": "https://www.hyperwrite.ai/",
+    "launchDate": "2024-12-17",
+    "name": "HyperWrite"
+  },
+  "inkforall": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "longDescription": "# Inkforall\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "category": "Content Creation",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "upvotes": 0,
+    "url": "https://www.inkforall.com/",
+    "name": "Inkforall"
+  },
+  "insight-health-ai": {
+    "name": "Insight Health AI",
+    "url": "https://www.insighthealth.ai/",
+    "shortDescription": "AI-based personal mental health assistant.",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Mental Health & Wellness",
+    "tags": [
+      "AI",
+      "Mental Health",
+      "Self-Care"
+    ],
+    "longDescription": "# Insight Health AI\nSupports mental health and mindfulness:\n\n- Provides guided meditations and self-care tips\n- Tracks emotional well-being over time\n- Perfect for individuals seeking mental balance."
+  },
+  "invideo-ai": {
+    "url": "https://invideo.io",
+    "upvotes": 0,
+    "comments": [],
+    "longDescription": "# Invideo AI\nGenerates high-quality videos from text prompts:\n\nIdeal for creating marketing videos and social media content\nOffers a range of video templates and customization options\nStreamlines the video creation process by automating content generation.",
+    "name": "Invideo AI",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI tool for video creation and editing.",
+    "category": "Video Creation & Editing",
+    "tags": [
+      "AI",
+      "Video Creation",
+      "Editing",
+      "Marketing"
+    ]
+  },
+  "itranslate": {
+    "upvotes": 0,
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "category": "Translator Tools",
+    "url": "https://www.itranslate.com/",
+    "shortDescription": "AI-powered language translation tool ",
+    "launchDate": "2024-12-17",
+    "name": "iTranslate",
+    "longDescription": "# iTranslate\nAI Powered Language Translation\nInstantly speak 100+ languages\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "jadbio": {
+    "shortDescription": "Intuitive machine learning platform for non-coders.",
+    "name": "JADBio",
+    "longDescription": "# JADBio\nA user-friendly AutoML platform designed for everyone:\n\nAllows users to analyze curated data easily\nIdeal for building predictive models in biotech and multi-omics\nProvides a seamless experience for beginners and experienced users alike.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "url": "https://www.jadbio.com/",
+    "tags": [
+      "AI",
+      "AutoML",
+      "Data Analysis",
+      "Biotech"
+    ],
+    "upvotes": 0,
+    "category": "Machine Learning"
+  },
+  "jasper-ai": {
+    "shortDescription": "AI-powered content creation platform for marketing",
+    "longDescription": "# Jasper AI\n      \n      Comprehensive content generation tool for marketers and creators:\n      \n      - AI-driven copywriting\n      - Marketing content templates\n      - Brand voice customization\n      - Multi-format content support",
+    "name": "Jasper AI",
+    "launchDate": "2024-12-17",
+    "category": "Advertising",
+    "upvotes": 0,
+    "comments": [],
+    "url": "https://www.jasper.ai",
+    "tags": [
+      "AI",
+      "Writing",
+      "Productivity"
+    ]
+  },
+  "jasper-art": {
+    "url": "https://www.jasper.ai/art",
+    "longDescription": "# Jasper Art\n        Advanced AI image creation ecosystem:\n        \n        Text-to-image generation\n        Style-based image creation\n        Creative illustration tools\n        Commercial use image generation",
+    "name": "Jasper Art",
+    "upvotes": 0,
+    "shortDescription": "AI-powered digital art and image generation platform",
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Creative",
+      "Design"
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Design",
+    "comments": []
+  },
+  "jasper-chat": {
+    "name": "Jasper Chat",
+    "url": "https://www.jasper.ai/chat",
+    "shortDescription": "AI chatbot for content creation assistance.",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Writing",
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Content Creation",
+      "Marketing"
+    ],
+    "longDescription": "# Jasper Chat\nHelps users generate content ideas and drafts:\nIntegrates with various writing platforms.\nProvides suggestions based on user input.\nIdeal for marketers and content creators."
+  },
+  "jina-ai": {
+    "shortDescription": "AI framework for building neural search applications.",
+    "longDescription": "# Jina AI\nEmpowers developers to create neural search tools:\n\n- Supports text, image, and video search with deep learning\n- Scalable and open-source platform\n- Ideal for companies implementing advanced search systems.",
+    "name": "Jina AI",
+    "comments": [],
+    "category": "Machine Learning",
+    "tags": [
+      "AI",
+      "Search",
+      "Neural Networks",
+      "Open Source"
+    ],
+    "url": "https://jina.ai/",
+    "upvotes": 0,
+    "launchDate": "2024-12-17"
+  },
+  "jina-ai-finetuner": {
+    "tags": [
+      "AI",
+      "Model Optimization",
+      "Open Source"
+    ],
+    "launchDate": "2024-12-17",
+    "name": "Jina AI Finetuner",
+    "url": "https://jina.ai/finetuner/",
+    "longDescription": "# Jina AI Finetuner\nEmpowers developers to optimize AI models:\n\n- Provides tools for fine-tuning neural networks for specific tasks\n- Built on Jina’s core open-source framework\n- Ideal for search and recommendation system enhancements.",
+    "category": "Machine Learning",
+    "comments": [],
+    "shortDescription": "AI tool for customizing neural networks.",
+    "upvotes": 0
+  },
+  "kafkai": {
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "category": "Content Creation",
+    "name": "Kafkai",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Kafkai\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "upvotes": 0,
+    "comments": [],
+    "url": "https://www.kafkai.com/"
+  },
+  "kaiber": {
+    "name": "Kaiber",
+    "shortDescription": "AI tool for transforming ideas into animations.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://www.kaiber.ai/",
+    "category": "AI Video & Animation",
+    "longDescription": "# Kaiber\nTurns concepts into animated videos:\n\n- AI-generated animations from text prompts\n- Ideal for content creators and marketers\n- Offers diverse styles and customization.",
+    "tags": [
+      "AI",
+      "Animation",
+      "Content Creation"
+    ]
+  },
+  "katalon-studio": {
+    "upvotes": 0,
+    "comments": [],
+    "tags": [
+      "AI",
+      "Test Automation",
+      "Quality Assurance",
+      "Development"
+    ],
+    "category": "Development",
+    "url": "https://www.katalon.com/",
+    "shortDescription": "Test automation tool enhanced by AI features.",
+    "launchDate": "2024-12-17",
+    "name": "Katalon Studio",
+    "longDescription": "# Katalon Studio\nAutomates testing processes using AI technology:\nSupports web, API, mobile, and desktop testing.\nIntegrates with CI/CD pipelines for seamless workflows.\nIdeal for QA teams looking to enhance testing efficiency."
+  },
+  "kive-ai": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Visual Search",
+      "Content Management"
+    ],
+    "longDescription": "# Kive AI\nRevolutionizes how creators manage visual content:\n\n- Automatically tags and organizes images and videos\n- Advanced search capabilities using AI-driven insights\n- Perfect for marketers, filmmakers, and designers.",
+    "upvotes": 0,
+    "shortDescription": "Visual media search powered by AI.",
+    "launchDate": "2024-12-17",
+    "url": "https://kive.ai/",
+    "name": "Kive AI",
+    "category": "AI Art & Design"
+  },
+  "krisp": {
+    "upvotes": 0,
+    "url": "https://www.krisp.ai",
+    "category": "Productivity",
+    "comments": [],
+    "shortDescription": "AI noise cancellation and meeting enhancement tool",
+    "tags": [
+      "AI",
+      "Assistant",
+      "Productivity",
+      "Technology"
+    ],
+    "name": "Krisp",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Krisp\n  \n  Advanced AI-powered audio enhancement platform:\n  \n  - Background noise removal\n  - Voice clarity improvement\n  - Meeting audio optimization\n  - Cross-platform support"
+  },
+  "kuki-chatbot": {
+    "url": "https://www.kuki.ai/",
+    "longDescription": "# Kuki Chatbot \nProvides human-like conversations across various platforms:\nLearns from interactions to improve responses.\nIdeal for businesses looking to enhance customer support.",
+    "name": "Kuki Chatbot",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Customer Support",
+      "Engagement"
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Customer Service",
+    "comments": [],
+    "shortDescription": "Conversational AI chatbot designed for engaging interactions."
+  },
+  "lalal.ai": {
+    "name": "Lalal.ai",
+    "longDescription": "# Lalal.ai\nSeparates vocals from music tracks using AI technology:\n\nFacilitates easy editing and remixing of audio files\nIdeal for musicians and content creators working with audio.",
+    "url": "https://www.lalal.ai/",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Audio",
+      "Music",
+      "Editing"
+    ],
+    "category": "Audio Processing",
+    "upvotes": 0,
+    "shortDescription": "AI tool for audio stem splitting.",
+    "comments": []
+  },
+  "language-tool": {
+    "longDescription": "# Language Tool\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "category": "Content Creation",
+    "name": "Language Tool",
+    "launchDate": "2024-12-17",
+    "url": "https://www.languagetool.org/",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI-powered writing assistant for writers and marketers."
+  },
+  "lattice": {
+    "tags": [
+      "AI",
+      "Performance Management",
+      "HR",
+      "Insights"
+    ],
+    "name": "Lattice",
+    "comments": [],
+    "shortDescription": "Performance management tool powered by AI.",
+    "upvotes": 0,
+    "category": "HR Tech",
+    "longDescription": "# Lattice\nEnhances employee performance tracking:\nProvides insights into team dynamics and engagement.\nIntegrates with HR systems for streamlined management.\nIdeal for HR professionals looking to improve performance reviews.",
+    "url": "https://lattice.com/",
+    "launchDate": "2024-12-17"
+  },
+  "lawfyi-ai-legal-guide": {
+    "upvotes": 0,
+    "name": "LAWFYI AI Legal Guide",
+    "longDescription": "# AI Legal Guide\nDemystifies legal jargon:\n\n- Breaks down complex legal terms\n- Generates summaries of contracts and agreements\n- Ideal for small businesses and individuals.",
+    "shortDescription": "AI tool for understanding legal documents.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "category": "Legal & Compliance",
+    "url": "https://lawfyi.io/",
+    "tags": [
+      "AI",
+      "Legal",
+      "Document Analysis"
+    ]
+  },
+  "legaleagle-ai": {
+    "comments": [],
+    "url": "https://www.legaleagle.ai/",
+    "launchDate": "2024-12-17",
+    "name": "LegalEagle AI",
+    "category": "Legal & Compliance",
+    "tags": [
+      "AI",
+      "Legal Research",
+      "Document Analysis",
+      "Contracts"
+    ],
+    "upvotes": 0,
+    "longDescription": "# LegalEagle AI\nStreamlines legal workflows with advanced AI:\n\n- Provides document analysis and case law research\n- Includes tools for contract review and drafting\n- Essential for lawyers and legal professionals.",
+    "shortDescription": "AI assistant for legal research and analysis."
+  },
+  "lexica-art": {
+    "category": "AI Art & Design",
+    "name": "Lexica Art",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "AI tool for generating blog and social media visuals.",
+    "tags": [
+      "AI",
+      "Visual Design",
+      "Content Creation"
+    ],
+    "upvotes": 0,
+    "url": "https://www.lexica.art/",
+    "longDescription": "# Lexica Art\nCreates stunning visuals using AI:\n\n- Ideal for blog thumbnails and social media\n- Features a library of customizable templates\n- Saves time for content creators."
+  },
+  "lingohub": {
+    "longDescription": "# Lingohub\nAI Powered Language Translation\nText in many language in one place.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check.",
+    "category": "Translator Tools",
+    "name": "Lingohub",
+    "launchDate": "2024-12-17",
+    "url": "https://lingohub.com/",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI-powered Translation management for Managers"
+  },
+  "linguafusion": {
+    "upvotes": 0,
+    "shortDescription": "Ultimate Destination for Learning Languages",
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "url": "https://linguasfusion.com/",
+    "longDescription": "# LinguaFusion\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check\n Ideal for language learners and teachers.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "name": "LinguaFusion"
+  },
+  "linguapulse": {
+    "upvotes": 0,
+    "url": "https://www.linguapulsesolution.com/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# LinguaPulse\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "professional translation services for marketplace sellers, agencies, and individuals",
+    "name": "LinguaPulse",
+    "comments": []
+  },
+  "linguasol": {
+    "longDescription": "# LinguaSol\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "url": "https://www.linguasol.net/",
+    "name": "LinguaSol",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Seamless Multipurpose Language Tool",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "category": "Translator Tools",
+    "upvotes": 0,
+    "comments": []
+  },
+  "linguaspark": {
+    "shortDescription": "Language learning that ignites your passion.",
+    "comments": [],
+    "name": "LinguaSpark",
+    "url": "https://linguasparkedu.com/",
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "longDescription": "# LinguaSpark\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check\n Ideal for language learners and teachers.",
+    "launchDate": "2024-12-17"
+  },
+  "linguatrek": {
+    "name": "LinguaTrek",
+    "upvotes": 0,
+    "shortDescription": "AI Journey of language learning ",
+    "longDescription": "# LinguaTrek\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check\n Ideal for language learners and teachers.",
+    "category": "Translator Tools",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "url": "https://www.linguatrek.com/"
+  },
+  "linguavista": {
+    "comments": [],
+    "url": "https://www.linguavista.com/",
+    "category": "Translator Tools",
+    "name": "LinguaVista",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "longDescription": "# LinguaVista\nAI Powered Language Translation\nhelps businesses create a personable, unique and global brand identity in 200 languages. \nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "Language solutions for buisiness"
+  },
+  "linguawave": {
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "upvotes": 0,
+    "shortDescription": " Ride the Wave of Language Mastery",
+    "url": "https://linguawave.pro/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# LinguaWave\nEmpowering Your Communication Through Expert Language Training\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check\n Ideal for language learners and teachers.",
+    "category": "Translator Tools",
+    "comments": [],
+    "name": "LinguaWave"
+  },
+  "linguee": {
+    "category": "Translator Tools",
+    "launchDate": "2024-12-17",
+    "name": "Linguee",
+    "shortDescription": "AI-powered language translation tool ",
+    "upvotes": 0,
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "url": "https://www.linguee.com/",
+    "longDescription": "# Linguee\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "llama": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# Llama\nAI Powered Conversational Assistant\nGenerates human-like responses for various tasks:\n\nSupports conversation in multiple languages\nIncludes features for sentiment analysis and entity recognition\nIdeal for customer support and language translation.",
+    "url": "https://llama.com",
+    "tags": [
+      "AI",
+      "Conversational Assistant",
+      "Language Translation"
+    ],
+    "shortDescription": "AI-powered conversational assistant for various tasks.",
+    "comments": [],
+    "category": "AI Assistants",
+    "name": "Llama",
+    "upvotes": 0
+  },
+  "lokalise": {
+    "url": "https://lokalise.com/",
+    "name": "Lokalise",
+    "launchDate": "2024-12-17",
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "upvotes": 0,
+    "longDescription": "# Lokalise\nReach global, speak local\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "comments": [],
+    "shortDescription": "AI-powered Localization and Translation software."
+  },
+  "longshot": {
+    "name": "LongShot",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "upvotes": 0,
+    "longDescription": "# LongShot\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "url": "https://www.longshot.ai/",
+    "category": "Content Creation"
+  },
+  "loom": {
+    "name": "Loom",
+    "shortDescription": "Video messaging tool enhanced by AI capabilities.",
+    "launchDate": "2024-12-17",
+    "url": "https://www.loom.com/",
+    "longDescription": "# Loom \nFacilitates quick video communication:\nAllows users to record videos directly from their browser.\nIntegrates with various platforms like Slack.\nIdeal for remote teams needing effective communication.",
+    "category": "Communication",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Video Messaging",
+      "Remote Work",
+      "Communication"
+    ],
+    "comments": []
+  },
+  "loomielive": {
+    "url": "https://loomai.com/loomielive",
+    "longDescription": "# LoomieLive\nTransforms virtual interactions with AI-powered avatars:\n\n- Lets users create and use custom avatars during video meetings\n- Integrates with major video conferencing platforms\n- Designed for enhancing remote communication.",
+    "category": "AI Chatbots",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Avatars",
+      "Remote Work"
+    ],
+    "shortDescription": "AI avatars for video calls.",
+    "name": "LoomieLive",
+    "upvotes": 0
+  },
+  "luma-ai": {
+    "shortDescription": "Generative AI platform for artistic video creation.",
+    "comments": [],
+    "category": "AI Video & Animation",
+    "name": "Luma AI",
+    "longDescription": "# Luma AI \nTransforms concepts into visually stunning videos:\nUtilizes advanced algorithms to enhance video quality.\nIdeal for filmmakers and content creators looking to innovate.",
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Artistic",
+      "Filmmaking"
+    ],
+    "upvotes": 0,
+    "url": "https://luma.ai/",
+    "launchDate": "2024-12-17"
+  },
+  "lumen5": {
+    "url": "https://www.lumen5.com/",
+    "shortDescription": "AI-powered video creation platform.",
+    "category": "Video Creation",
+    "name": "Lumen5",
+    "comments": [],
+    "longDescription": "# Lumen5\nTransforms text content into engaging videos:\n\nUtilizes AI to match visuals with written content\nOffers a variety of templates for quick video production\nIdeal for marketers and content creators looking to enhance their storytelling.",
+    "tags": [
+      "AI",
+      "Video",
+      "Content Creation",
+      "Marketing"
+    ],
+    "launchDate": "2024-12-17",
+    "upvotes": 0
+  },
+  "luminar-ai": {
+    "tags": [
+      "AI",
+      "Photo Editing",
+      "Photography",
+      "Creative"
+    ],
+    "url": "https://skylum.com/luminar-ai",
+    "upvotes": 0,
+    "name": "Luminar AI",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-driven photo editor for enhancing images quickly.",
+    "longDescription": "# Luminar AI\nSimplifies photo editing with AI-powered enhancements:\n\n- Offers tools for sky replacement, portrait retouching, and creative effects\n- Automates complex adjustments to save time\n- Perfect for photographers and content creators.",
+    "category": "Photo Editing"
+  },
+  "markcopy": {
+    "shortDescription": "AI-powered copywriting tool for marketers and advertisers.",
+    "url": "https://www.markcopy.ai/",
+    "category": "Copywriting",
+    "upvotes": 0,
+    "longDescription": "# MarkCopy\nGenerates high-quality copy with AI-powered writing assistant:\n\nSupports copywriting for various industries\nIncludes features for grammar and spell check\nIdeal for marketers and advertisers.",
+    "comments": [],
+    "name": "MarkCopy",
+    "tags": [
+      "AI",
+      "Copywriting",
+      "Marketing"
+    ],
+    "launchDate": "2024-12-17"
+  },
+  "marketgenie-ai": {
+    "tags": [
+      "AI",
+      "Market Analysis",
+      "Predictions",
+      "Analytics"
+    ],
+    "name": "MarketGenie AI",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "AI for market trend analysis and prediction.",
+    "upvotes": 0,
+    "longDescription": "# MarketGenie AI\nProvides insights into market trends and customer behavior:\n\nUses advanced analytics and machine learning for predictions\nVisualizes data for easy interpretation\nEssential for businesses aiming to stay ahead in the market.",
+    "url": "https://tradewithmarketgenie.com/",
+    "category": "Big Data Analytics"
+  },
+  "masterpiece-x": {
+    "url": "https://masterpiecex.com/",
+    "category": "AI Art & Design",
+    "name": "Masterpiece X",
+    "comments": [],
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Art",
+      "Creativity"
+    ],
+    "shortDescription": "User-friendly AI tool for creating stunning visuals.",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Masterpiece X \nGenerates high-quality images from text prompts:\nIdeal for artists and designers looking to enhance their creative process.\nSupports various artistic styles and formats."
+  },
+  "melodai": {
+    "longDescription": "# MelodAI\nAssists artists in music creation:\n\n- AI-generated melodies and beats\n- Integrates with music production software\n- Suitable for beginners and professionals.",
+    "category": "AI Music & Audio",
+    "tags": [
+      "AI",
+      "Music",
+      "Composition"
+    ],
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "upvotes": 0,
+    "name": "MelodAI",
+    "shortDescription": "AI tool for music composition and production.",
+    "url": "https://www.melodai.com/"
+  },
+  "mem": {
+    "longDescription": "# Mem\nOrganizes personal knowledge efficiently:\nUses AI to suggest connections between notes.\nFacilitates easy retrieval of information.\nIdeal for students and professionals managing large amounts of data.",
+    "tags": [
+      "AI",
+      "Knowledge",
+      "Organization",
+      "Retrieval"
+    ],
+    "comments": [],
+    "shortDescription": "Knowledge management tool powered by AI.",
+    "url": "https://get.mem.ai/",
+    "upvotes": 0,
+    "name": "Mem",
+    "launchDate": "2024-12-17",
+    "category": "Knowledge Management"
+  },
+  "memoq": {
+    "url": "https://www.memoq.com/",
+    "category": "Translator Tools",
+    "longDescription": "# MemoQ\nAI Powered Language Translation\nTranslate up to 1,000,000 characters at no cost!\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "AI-powered language translation tool ",
+    "name": "MemoQ",
+    "upvotes": 0
+  },
+  "memsource-(-acquired-by-phrase-)": {
+    "url": "https://www.memsource.com/",
+    "shortDescription": "AI-powered language translation tool ",
+    "category": "Translator Tools",
+    "name": "Memsource ( Acquired by Phrase )",
+    "comments": [],
+    "longDescription": "# Memsource\nAI Powered Language Translation\nA world leader in translation technology\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "launchDate": "2024-12-17",
+    "upvotes": 0
+  },
+  "merlin": {
+    "upvotes": 0,
+    "category": "Productivity",
+    "launchDate": "2024-12-17",
+    "url": "https://getmerlin.xyz",
+    "tags": [
+      "AI",
+      "Productivity",
+      "Assistant"
+    ],
+    "longDescription": "# Merlin\n      \n      Versatile AI assistant browser extension:\n      \n      - Web search enhancement\n      - Content summarization\n      - Writing assistance\n      - Cross-platform support",
+    "shortDescription": "AI browser extension for comprehensive assistance",
+    "comments": [],
+    "name": "Merlin"
+  },
+  "meshy": {
+    "tags": [
+      "AI",
+      "Image to 3D",
+      "Text to 3D",
+      "Model Generation"
+    ],
+    "comments": [],
+    "longDescription": "# Meshy\nEmpowers users to create stunning 3D models quickly:\n\nSupports both image and text inputs for model generation\nIdeal for artists, game developers, and 3D printing enthusiasts.\nOffers a seamless experience for creating complex designs.",
+    "shortDescription": "AI tool that transforms images and text into 3D models.",
+    "launchDate": 1995,
+    "upvotes": 0,
+    "name": "Meshy",
+    "url": "https://www.meshy.ai/",
+    "category": "3D Modeling & Design"
+  },
+  "metamorph-ai": {
+    "upvotes": 0,
+    "name": "MetaMorph AI",
+    "launchDate": "2024-12-17",
+    "category": "AI Art & Design",
+    "tags": [
+      "AI",
+      "Morphing",
+      "Creativity"
+    ],
+    "comments": [],
+    "shortDescription": "AI-based face and body morphing tool.",
+    "longDescription": "# MetaMorph AI\nRedefines virtual morphing:\n\n- Creates realistic transformations\n- Perfect for film and advertising\n- Offers high-definition rendering.",
+    "url": "https://www.morphai.io/"
+  },
+  "microsoft-bing-translator": {
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "url": "https://www.bing.com/Translator",
+    "category": "Translator Tools",
+    "upvotes": 0,
+    "comments": [],
+    "shortDescription": "AI-powered language translation tool ",
+    "longDescription": "# Microsoft Bing Translator\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "launchDate": "2024-12-17",
+    "name": "Microsoft Bing Translator"
+  },
+  "midjourney-v6": {
+    "url": "https://www.midjourney.com/home/",
+    "launchDate": "2024-12-17",
+    "category": "Creative Writing",
+    "comments": [],
+    "longDescription": "# Midjourney V6\n\nNext-generation image creation platform with:\n\n- Unprecedented photorealistic rendering\n- Precise prompt interpretation\n- Advanced artistic style generation\n- Complex scene composition capabilities",
+    "shortDescription": "Revolutionary AI image generation with photorealistic precision",
+    "upvotes": 0,
+    "name": "Midjourney V6",
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Art",
+      "Creativity"
+    ]
+  },
+  "miro": {
+    "name": "Miro",
+    "upvotes": 0,
+    "url": "https://miro.com/",
+    "tags": [
+      "AI",
+      "Collaboration",
+      "Whiteboard",
+      "Productivity"
+    ],
+    "comments": [],
+    "shortDescription": "Collaborative whiteboard platform enhanced by AI.",
+    "category": "Collaboration",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Miro\nFacilitates brainstorming and collaboration:\nOffers AI-generated templates and suggestions.\nIdeal for remote teams working on projects together.\nIntegrates with various productivity tools."
+  },
+  "modulate-voice-ai": {
+    "url": "https://www.modulate.ai/",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Voice Modulation",
+      "Gaming",
+      "Communication"
+    ],
+    "name": "Modulate Voice AI",
+    "category": "AI Voice Generation",
+    "shortDescription": "Real-time voice modulation and synthesis AI.",
+    "longDescription": "# Modulate Voice AI\nEnhances voice experiences with AI:\n\n- Provides real-time voice modulation for gaming and communication\n- Includes features for privacy and anonymity\n- Ideal for streamers and online gamers.",
+    "comments": [],
+    "launchDate": "2024-12-17"
+  },
+  "moodmix-live": {
+    "views": 18,
+    "upvotes": 2,
+    "category": "ai music & audio",
+    "shortDescription": "AI-Powered Playlist curator and player",
+    "name": "MoodMix Live",
+    "tags": [
+      "AI",
+      "Spotify",
+      "Music",
+      "Playlist Generator"
+    ],
+    "url": "https://moodmix.live",
+    "launchDate": "2024-12-21T13:14:02.719Z",
+    "longDescription": "# Generate Music Playlists based on your mood\n- Listen to your mood\n- Connect with your Spotify account and save your generated playlists\n- Listen to the music that your mind currently requires\n- Completely for free",
+    "comments": [
+      {
+        "date": "2024-12-21T17:08:36.818Z",
+        "id": "1734800916818",
+        "replies": [
+          {
+            "text": "**hello**",
+            "date": "2024-12-21T17:25:49.166Z",
+            "id": "1734801949166",
+            "author": "Anonymous",
+            "upvotes": 1
+          }
+        ],
+        "text": "HI",
+        "replyCount": 1,
+        "isFounder": true,
+        "upvotes": 6,
+        "author": "User"
+      }
+    ]
+  },
+  "murf-ai": {
+    "tags": [
+      "AI",
+      "Voiceover",
+      "Speech",
+      "Audio"
+    ],
+    "name": "Murf AI",
+    "comments": [],
+    "shortDescription": "AI-powered voiceover creation tool.",
+    "longDescription": "# Murf AI\nSimplifies professional voiceover production:\n\n- Converts text to natural-sounding speech in multiple languages\n- Includes voice customization and intonation controls\n- Perfect for video producers, educators, and marketers.",
+    "upvotes": 0,
+    "category": "AI Voice Generation",
+    "launchDate": "2024-12-17",
+    "url": "https://murf.ai/"
+  },
+  "musenet": {
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI music composition tool.",
+    "url": "https://openai.com/index/musenet/",
+    "category": "AI Music & Audio",
+    "tags": [
+      "AI",
+      "Music Composition",
+      "Creativity"
+    ],
+    "name": "MuseNet",
+    "upvotes": 0,
+    "longDescription": "# MuseNet\nGenerates music in various styles and genres:\n\n- Composes original music tracks\n- Adapts to user preferences and instruments\n- Ideal for musicians and producers.",
+    "comments": []
+  },
+  "myheritage-deep-nostalgia": {
+    "upvotes": 0,
+    "url": "https://www.myheritage.com/deep-nostalgia",
+    "longDescription": "# MyHeritage Deep Nostalgia\nBrings old photos to life with animations:\n\n- Animates faces in still photographs using AI\n- Perfect for genealogy and family history enthusiasts\n- Creates a nostalgic connection with historical images.",
+    "shortDescription": "AI-powered photo animation tool for heritage.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "name": "MyHeritage Deep Nostalgia",
+    "category": "AI Art & Design",
+    "tags": [
+      "AI",
+      "Photo Animation",
+      "Genealogy",
+      "Heritage"
+    ]
+  },
+  "narrato-ai": {
+    "longDescription": "# Narrato AI\nStreamlines content creation workflows:\n\n- Provides AI-assisted writing and editing\n- Offers tools for content planning and publishing\n- Perfect for content teams and agencies.",
+    "tags": [
+      "AI",
+      "Content Creation",
+      "Workflow"
+    ],
+    "shortDescription": "AI-powered platform for content operations.",
+    "comments": [],
+    "url": "https://narrato.io/",
+    "launchDate": "2024-12-17",
+    "name": "Narrato AI",
+    "upvotes": 0,
+    "category": "Content Generation"
+  },
+  "neroic": {
+    "longDescription": "# NeROIC \nGenerates detailed geometric models from various inputs:\nSupports both images and videos as sources.\nIdeal for professionals in architecture and design fields.",
+    "category": "AI Art & Design",
+    "name": "NeROIC",
+    "comments": [],
+    "url": "https://github.com/snap-research/NeROIC",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Geometry Capture",
+      "Architecture",
+      "Design"
+    ],
+    "shortDescription": "High-quality geometry capturing with AI technology.",
+    "upvotes": 0
+  },
+  "neuraltext": {
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "url": "https://neuraltext.com/",
+    "category": "Content Creation",
+    "name": "NeuralText",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "longDescription": "# NeuralText\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators."
+  },
+  "nicereply": {
+    "url": "https://www.nicereply.com/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Nicereply\nProvides AI-powered customer service insights for businesses and entrepreneurs:\n\nSupports customer service for various industries\nIncludes features for sentiment analysis and response generation\nIdeal for customer service professionals and entrepreneurs.",
+    "tags": [
+      "AI",
+      "Customer Service",
+      "Sentiment Analysis"
+    ],
+    "shortDescription": "AI-powered customer service tool for businesses and entrepreneurs.",
+    "name": "Nicereply",
+    "comments": [],
+    "upvotes": 0,
+    "category": "Customer Service"
+  },
+  "notion-ai": {
+    "category": "Productivity",
+    "name": "Notion AI",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered workspace and productivity tool",
+    "longDescription": "# Notion AI\n      \n      Integrated AI assistant within Notion's workspace:\n      \n      - Content generation\n      - Note summarization\n      - Task management\n      - Writing assistance",
+    "url": "https://www.notion.so/product/ai",
+    "upvotes": 0,
+    "comments": [],
+    "tags": [
+      "AI",
+      "Productivity",
+      "Writing"
+    ]
+  },
+  "nova-ai": {
+    "tags": [
+      "AI",
+      "Video Editing",
+      "Content Creation",
+      "Collaboration"
+    ],
+    "name": "Nova AI",
+    "comments": [],
+    "shortDescription": "AI platform for creating and editing videos easily.",
+    "longDescription": "# Nova AI\nSimplifies video creation and editing with AI tools:\n\n- Offers automatic subtitles, translations, and trimming\n- Ideal for content creators and marketers\n- Supports collaborative editing and project management.",
+    "upvotes": 0,
+    "category": "AI Video & Animation",
+    "launchDate": "2024-12-17",
+    "url": "https://wearenova.ai/"
+  },
+  "novel-ai": {
+    "category": "Creative Writing",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Storytelling",
+      "Writing Assistance"
+    ],
+    "comments": [],
+    "shortDescription": "AI tool for generating plot ideas and character profiles.",
+    "url": "https://novelai.net/",
+    "launchDate": "2024-12-17",
+    "name": "Novel AI",
+    "longDescription": "# Novel AI\nStreamlines the creative writing process:\n\n- Suggests plot outlines, character backstories, and world-building ideas\n- Helps writers refine their storytelling\n- Ideal for novelists, screenwriters, and game designers."
+  },
+  "nvidia-ace-generative-ai": {
+    "comments": [],
+    "longDescription": "# Nvidia ACE Generative AI\nNext-generation digital human creation technology:\n\nIndustry-specific applications of digital humans\nIntegration of generative AI microservices\nEnhanced user engagement through realistic interactions\nPioneering advancements in virtual environments",
+    "shortDescription": "Microservices for creating digital humans in various industries",
+    "launchDate": "2024-12-17",
+    "category": "Entertainment",
+    "tags": [
+      "AI",
+      "Creative",
+      "Virtual Reality",
+      "Augmented Reality"
+    ],
+    "name": "Nvidia ACE Generative AI",
+    "url": "https://developer.nvidia.com/ace",
+    "upvotes": 0
+  },
+  "octopus-ai": {
+    "tags": [
+      "AI",
+      "Financial Planning",
+      "Data Analysis",
+      "Forecasting"
+    ],
+    "url": "https://www.myoctopus.ai/",
+    "category": "Finance",
+    "upvotes": 0,
+    "name": "Octopus AI",
+    "shortDescription": "AI Platform for financial planning and analysis.",
+    "longDescription": "# Octopus AI\nAdvanced financial planning and analysis platform:\n\nAutomates financial data analysis and reporting\nProvides AI-driven financial insights and forecasting\nStreamlines budgeting and planning processes\nIdeal for finance teams and business analysts",
+    "launchDate": "2024-12-17"
+  },
+  "okapi-framework": {
+    "upvotes": 0,
+    "comments": [],
+    "url": "https://okapi.opentag.com/",
+    "category": "Translator Tools",
+    "name": "Okapi Framework",
+    "shortDescription": "AI-powered localizing and translating documentation and software ",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "launchDate": "2024-12-17",
+    "longDescription": "# Okapi\nAI Powered Language Translation\nWhenever possible, the project uses and promotes open standards.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "omegat": {
+    "shortDescription": "AI-powered free translation memory tool ",
+    "category": "Translator Tools",
+    "upvotes": 0,
+    "comments": [],
+    "name": "OmegaT",
+    "longDescription": "# OmegaT\nAI Powered Language Translation\n translation memory application that works on Windows, macOS, Linux…\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "url": "https://www.omegat.org/",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ]
+  },
+  "omegat+": {
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "Computer-Assisted Translation ",
+    "name": "OmegaT+",
+    "url": "https://omegatplus.sourceforge.io/",
+    "upvotes": 0,
+    "longDescription": "# OmegaT+\nAI Powered Language Translation\nComputer-Assisted Translation tools for use by translators, localization engineers, and other language professionals.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "openai-whisper": {
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "shortDescription": "AI tool for accurate transcription and translation.",
+    "tags": [
+      "AI",
+      "Transcription",
+      "Translation",
+      "Audio Processing"
+    ],
+    "longDescription": "# OpenAI Whisper\nProvides highly accurate transcription and translation:\n\n- Converts audio to text in multiple languages\n- Handles complex accents and noisy audio environments\n- Ideal for researchers, journalists, and multilingual projects.",
+    "category": "AI Voice Generation",
+    "url": "https://openai.com/index/whisper/",
+    "comments": [],
+    "name": "OpenAI Whisper"
+  },
+  "originality-ai": {
+    "shortDescription": "Detects AI-generated and plagiarized content.",
+    "name": "Originality AI",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Plagiarism Detection",
+      "Content Verification"
+    ],
+    "comments": [],
+    "url": "https://www.originality.ai/",
+    "longDescription": "# Originality AI\nEnsures content authenticity:\n\n- Detects AI-generated text\n- Offers plagiarism checks for written material\n- Suitable for content creators and educators.",
+    "category": "AI Writing & Editing",
+    "launchDate": "2024-12-17"
+  },
+  "otter.ai": {
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://otter.ai",
+    "category": "Productivity",
+    "tags": [
+      "AI",
+      "Assistant",
+      "Conversation",
+      "Information"
+    ],
+    "longDescription": "# Otter.ai\n  \n  Intelligent transcription and note-taking platform:\n  \n  - Real-time speech-to-text\n  - Meeting transcription\n  - Conversation analysis\n  - Collaborative note sharing",
+    "shortDescription": "AI-powered transcription and meeting assistant",
+    "comments": [],
+    "name": "Otter.ai"
+  },
+  "oura-ring-4": {
+    "views": 1,
+    "tags": [
+      "AI",
+      "Fitness Tracking",
+      "Health",
+      "Wearable Technology"
+    ],
+    "url": "https://ouraring.com/product/rings",
+    "shortDescription": "The most personal smart ring ever",
+    "launchDate": "2024-12-17T07:38:57.099Z",
+    "comments": [],
+    "upvotes": 0,
+    "name": "Oura Ring 4",
+    "category": "Fitness Tracking",
+    "longDescription": "# AI Powered Wearable fits into your finger\n- Comprehensive Health Metrics\n- AI-Driven Insights\n- Discreet and Comfortable Design\n- Long Battery Life\n- Seamless App Integration"
+  },
+  "palette": {
+    "shortDescription": "AI tool for colorizing black-and-white photos.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "longDescription": "# Palette\nBrings photos to life with color:\n\n- Converts black-and-white images into full color\n- Offers customizable color tones\n- Ideal for photographers and historians.",
+    "category": "Photo Editing",
+    "name": "Palette",
+    "url": "https://palette.fm/",
+    "tags": [
+      "AI",
+      "Colorization",
+      "Photography"
+    ],
+    "upvotes": 0
+  },
+  "pandadoc": {
+    "category": "Business",
+    "launchDate": "2024-12-17",
+    "longDescription": "# PandaDoc \nStreamlines document creation processes:\nAutomates proposals, contracts, and quotes.\nIntegrates with CRM systems for seamless workflows.\nIdeal for sales teams looking to improve efficiency.",
+    "url": "https://www.pandadoc.com/",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Document Automation",
+      "Sales",
+      "Efficiency"
+    ],
+    "comments": [],
+    "name": "PandaDoc",
+    "shortDescription": "Document automation software powered by AI."
+  },
+  "papercup-ai": {
+    "category": "AI Video & Animation",
+    "tags": [
+      "AI",
+      "Translation",
+      "Voice Generation"
+    ],
+    "name": "Papercup AI",
+    "shortDescription": "AI-driven platform for translating and dubbing videos.",
+    "longDescription": "# Papercup AI\nSimplifies multilingual video content creation:\n\n- Translates and dubs videos with natural AI voices\n- Supports multiple languages\n- Ideal for media and education sectors.",
+    "comments": [],
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "url": "https://www.papercup.com/"
+  },
+  "paradox-olivia": {
+    "comments": [],
+    "name": "Paradox Olivia",
+    "tags": [
+      "AI",
+      "Recruitment",
+      "HR",
+      "Automation"
+    ],
+    "upvotes": 0,
+    "category": "Human Resources & Recruitment",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI assistant for recruitment automation.",
+    "url": "https://www.paradox.ai/",
+    "longDescription": "# Paradox Olivia\nSimplifies hiring with conversational AI:\n\n- Automates candidate screening, scheduling, and engagement\n- Provides multilingual support for global recruitment\n- Perfect for HR teams and staffing agencies."
+  },
+  "pathai": {
+    "comments": [],
+    "url": "https://www.pathai.com/",
+    "category": "Healthcare",
+    "launchDate": "2024-12-17",
+    "longDescription": "# PathAI\nInnovative tool for pathologists using machine learning:\nAnalyzes pathology images for disease detection\nReduces human error in diagnostic processes\nSupports oncology with precise diagnosis capabilities\nContributes to advancements in personalized medicine",
+    "name": "PathAI",
+    "tags": [
+      "AI",
+      "Healthcare",
+      "Diagnostics",
+      "Machine Learning"
+    ],
+    "upvotes": 0,
+    "shortDescription": "AI platform enhancing pathology diagnostics accuracy"
+  },
+  "peppertype": {
+    "upvotes": 0,
+    "category": "Content Creation",
+    "url": "https://www.peppertype.ai/",
+    "longDescription": "# Peppertype\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "name": "Peppertype",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "AI-powered content generation tool for writers and marketers."
+  },
+  "perplexity-ai": {
+    "comments": [],
+    "upvotes": 0,
+    "name": "Perplexity AI",
+    "category": "News Aggregation",
+    "views": 1,
+    "longDescription": "# Perplexity AI\nDelivers direct answers to user queries:\n\n- Utilizes large language models for information retrieval\n- Provides concise and accurate responses\n- Enhances search efficiency.",
+    "url": "https://www.perplexity.ai/",
+    "tags": [
+      "AI",
+      "Search Engine",
+      "Information Retrieval"
+    ],
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered search engine providing concise answers."
+  },
+  "phrase": {
+    "shortDescription": "AI-powered language translation tool ",
+    "url": "https://phrase.com/",
+    "longDescription": "# Phrase\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "category": "Translator Tools",
+    "upvotes": 0,
+    "comments": [],
+    "name": "Phrase",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "launchDate": "2024-12-17"
+  },
+  "pictory-ai": {
+    "name": "Pictory AI",
+    "category": "AI Video & Animation",
+    "longDescription": "# Pictory AI\nSimplifies video creation from written content:\n\n- Converts blogs, articles, or scripts into professional videos\n- Includes templates for faster production\n- Ideal for marketers and content creators.",
+    "shortDescription": "AI tool for transforming text into engaging videos.",
+    "url": "https://pictory.ai/",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Content Creation",
+      "Marketing"
+    ],
+    "launchDate": "2024-12-17",
+    "upvotes": 0
+  },
+  "pimeyes": {
+    "shortDescription": "AI-powered facial recognition search engine.",
+    "longDescription": "# PimEyes\nAllows users to search for faces across the internet:\nUtilizes advanced facial recognition technology.\nHelps track personal images online.\nIdeal for privacy-conscious individuals.",
+    "category": "Privacy",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Facial Recognition",
+      "Search Engine",
+      "Privacy"
+    ],
+    "upvotes": 0,
+    "name": "PimEyes",
+    "url": "https://pimeyes.com/"
+  },
+  "planimoai-scheduler": {
+    "tags": [
+      "AI",
+      "Scheduling",
+      "Task Management"
+    ],
+    "name": "PlanimoAI Scheduler",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Productivity & Organization",
+    "upvotes": 0,
+    "url": "https://planimo.ai/",
+    "longDescription": "# PlanimoAI Scheduler\nOptimizes daily workflows:\n\n- Automatically schedules tasks and meetings\n- Provides productivity insights\n- Integrates with calendar apps.",
+    "shortDescription": "AI tool for efficient scheduling and task management."
+  },
+  "playbookux": {
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://www.playbookux.com/",
+    "name": "PlaybookUX",
+    "category": "Research",
+    "longDescription": "# PlaybookUX\nAutomates the analysis of user feedback:\n\nAnalyzes qualitative and quantitative data\nGenerates insights and visual reports\nHelps make data-driven design decisions quickly\nIdeal for UX researchers and designers.",
+    "tags": [
+      "AI",
+      "User Research",
+      "Data Analysis",
+      "Design"
+    ],
+    "shortDescription": "Research assistant for automating user research.",
+    "comments": []
+  },
+  "plunet": {
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "category": "Translator Tools",
+    "shortDescription": "Translation management system",
+    "name": "Plunet",
+    "url": "https://www.plunet.com/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Plunet\nAI Powered Language Translation\nAdds efficiency to the management of your translation and business processes.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "upvotes": 0,
+    "comments": []
+  },
+  "poeditor": {
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "url": "https://poeditor.com/",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "longDescription": "# POEditor\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "name": "POEditor",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "shortDescription": "AI-powered Translation management system."
+  },
+  "polyai": {
+    "url": "https://www.polyai.com/",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Customer Support",
+    "tags": [
+      "AI",
+      "Customer Support",
+      "Chatbot",
+      "Multilingual"
+    ],
+    "shortDescription": "Conversational AI for customer service automation.",
+    "name": "PolyAI",
+    "longDescription": "# PolyAI\nAutomates customer service with advanced conversational AI:\n\n- Handles customer queries with natural language understanding\n- Multilingual support for global businesses\n- Reduces wait times and improves customer satisfaction."
+  },
+  "polyhive": {
+    "url": "https://polyhive.com/",
+    "comments": [],
+    "name": "Polyhive",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Collaboration",
+      "3D Design"
+    ],
+    "shortDescription": "AI platform for collaborative 3D design.",
+    "category": "3D Modeling & Design",
+    "longDescription": "# Polyhive\nEnhances collaborative 3D modeling and design:\n\n- Offers cloud-based 3D design tools\n- Supports real-time collaboration across teams\n- Simplifies design processes for gaming and architecture."
+  },
+  "ponzu": {
+    "category": "AI Art & Design",
+    "longDescription": "# Ponzu \nCreates realistic textures based on user-defined parameters:\nIdeal for game developers needing high-quality assets.\nStreamlines the texturing process in 3D modeling.",
+    "tags": [
+      "AI",
+      "Texture Generation",
+      "3D Models",
+      "Game Development"
+    ],
+    "name": "Ponzu",
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI tool focused on texture generation for 3D models.",
+    "url": "https://youtu.be/Dgu4NkJATjI?si=3X8abB7nzu3b-fNT",
+    "launchDate": "2024-12-17"
+  },
+  "postpace": {
+    "name": "Postpace",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "longDescription": "# Postpace\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "url": "https://www.postpace.com/",
+    "comments": [],
+    "category": "Content Creation"
+  },
+  "prism": {
+    "upvotes": 0,
+    "shortDescription": "AI Driven Game Builder.",
+    "category": "Gaming Tools",
+    "name": "Prism",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://prism.ai/",
+    "tags": [
+      "AI",
+      "Gaming",
+      "Graphic Design"
+    ],
+    "longDescription": "# Prism\nAI Powered Game Builder\nBUILD YOUR OWN GAMES WITH GameGPT\nArcade, play AI games, with 1 click\nTHE GOOGLE SUITE OF BLOCKCHAIN GAMES."
+  },
+  "prisma": {
+    "longDescription": "# Prisma\nTransforms photos into artworks with various filters:\nUses neural networks to mimic famous art styles.\nIdeal for social media enthusiasts wanting unique images.",
+    "tags": [
+      "AI",
+      "Photo Editing",
+      "Art Filters",
+      "Creativity"
+    ],
+    "name": "Prisma",
+    "upvotes": 0,
+    "url": "https://prisma-ai.com/",
+    "shortDescription": "Photo editing app using AI to apply art filters.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Image Editing"
+  },
+  "promptperfect": {
+    "shortDescription": "AI tool to optimize text prompts for better results.",
+    "category": "AI Assistants",
+    "url": "https://www.promptperfect.com/",
+    "upvotes": 0,
+    "comments": [],
+    "longDescription": "# PromptPerfect\nRefines and optimizes prompts for AI models:\n\n- Improves text prompts for better AI outputs\n- Supports popular AI platforms\n- Ideal for developers and creators using AI tools.",
+    "name": "PromptPerfect",
+    "tags": [
+      "AI",
+      "Prompt Engineering",
+      "Optimization"
+    ],
+    "launchDate": "2024-12-17"
+  },
+  "prowritingaid": {
+    "longDescription": "# ProWritingAid\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "name": "ProWritingAid",
+    "url": "https://www.prowritingaid.com/",
+    "comments": [],
+    "category": "Content Creation"
+  },
+  "quillbot": {
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "comments": [],
+    "url": "https://www.quillbot.com/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# QuillBot\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "category": "Content Creation",
+    "upvotes": 0,
+    "name": "QuillBot",
+    "shortDescription": "AI-powered writing assistant for writers and marketers."
+  },
+  "rationale-ai": {
+    "shortDescription": "Decision-making assistant using AI insights.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Decision-Making",
+      "Analytics"
+    ],
+    "category": "Business Intelligence",
+    "url": "https://rationale.jina.ai/",
+    "launchDate": "2024-12-17",
+    "name": "Rationale AI",
+    "comments": [],
+    "longDescription": "# Rationale AI\nSimplifies complex decisions:\n\n- Analyzes options and predicts outcomes\n- Provides risk assessment and cost analysis\n- Perfect for businesses and individuals."
+  },
+  "reclaim": {
+    "longDescription": "# Reclaim\nOptimizes calendar management by automating scheduling:\n\nIntegrates with various calendar apps to find the best meeting times\nIdeal for professionals seeking efficient time management.",
+    "url": "https://reclaim.ai/",
+    "category": "Productivity",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Scheduling",
+      "Time Management",
+      "Productivity"
+    ],
+    "name": "Reclaim",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Smart scheduling tool powered by AI.",
+    "upvotes": 0
+  },
+  "reelgen-ai-by-veed": {
+    "name": "ReelGen AI by Veed",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Video Marketing",
+      "Social Media"
+    ],
+    "longDescription": "# ReelGen AI\nSimplifies video content creation:\n\n- Generates short reels from images and text\n- Includes AI-driven templates and effects\n- Ideal for social media marketing.",
+    "category": "AI Video & Animation",
+    "upvotes": 0,
+    "url": "https://www.veed.io/tools/ai-video/ai-reel-generator",
+    "shortDescription": "AI platform for creating short promotional videos.",
+    "comments": []
+  },
+  "renderai": {
+    "tags": [
+      "AI",
+      "Rendering",
+      "3D Models"
+    ],
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI-based 3D rendering and modeling platform.",
+    "longDescription": "# RenderAI\nSpeeds up 3D rendering processes:\n\n- AI-driven rendering engine for complex models\n- Enhances texture and lighting effects\n- Ideal for game developers and architects.",
+    "name": "RenderAI",
+    "launchDate": "2024-12-17",
+    "category": "3D Modeling & Design",
+    "url": "https://www.renderai.com/"
+  },
+  "renderbot-ai": {
+    "upvotes": 0,
+    "category": "3D Modeling & Design",
+    "url": "https://renderbot.com/",
+    "tags": [
+      "AI",
+      "Game Design",
+      "3D Models"
+    ],
+    "comments": [],
+    "longDescription": "# RenderBot AI\nAccelerates 3D asset production:\n\n- Generates game-ready 3D models\n- Includes pre-designed textures and materials\n- Suitable for indie developers and studios.",
+    "shortDescription": "AI for creating 3D assets for game development.",
+    "launchDate": "2024-12-17",
+    "name": "RenderBot AI"
+  },
+  "replika": {
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI companion designed for emotional support.",
+    "name": "Replika",
+    "longDescription": "# Replika\nOffers companionship and emotional support:\nEngages users in conversation to foster connection.\nCustomizable personality traits enhance user experience.\nIdeal for individuals seeking companionship or mental wellness.",
+    "tags": [
+      "AI",
+      "Companionship",
+      "Mental Health",
+      "Support"
+    ],
+    "category": "Mental Health",
+    "upvotes": 0,
+    "url": "https://replika.ai/"
+  },
+  "rev.com-ai-transcription": {
+    "tags": [
+      "AI",
+      "Transcription",
+      "Audio",
+      "Video"
+    ],
+    "shortDescription": "AI-based transcription service for audio and video files.",
+    "comments": [],
+    "name": "Rev.com AI Transcription",
+    "upvotes": 0,
+    "url": "https://www.rev.com",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Rev.com AI Transcription\nSimplifies content transcription with high accuracy:\n\n- Supports multiple languages and audio formats\n- Includes editing tools for review and refinement\n- Ideal for journalists, podcasters, and researchers.",
+    "category": "AI Voice Generation"
+  },
+  "reverso": {
+    "shortDescription": "AI-powered language translation tool ",
+    "category": "Translator Tools",
+    "comments": [],
+    "name": "Reverso",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "upvotes": 0,
+    "url": "https://www.reverso.net/",
+    "longDescription": "# Reverso\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "rewind-ai": {
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI tool for capturing and searching your screen activity.",
+    "category": "Productivity & Organization",
+    "tags": [
+      "AI",
+      "Productivity",
+      "Task Management"
+    ],
+    "url": "https://rewind.ai/",
+    "name": "Rewind AI",
+    "longDescription": "# Rewind AI\nRecords and organizes screen activity for easy recall:\n\n- Lets users search through past activities visually\n- Helps with productivity and task management\n- Includes advanced privacy controls to secure data.",
+    "launchDate": "2024-12-17"
+  },
+  "rewordly-ai": {
+    "name": "Rewordly AI",
+    "tags": [
+      "AI",
+      "Text Summarization",
+      "Rephrasing",
+      "Writing"
+    ],
+    "shortDescription": "AI for summarizing and rephrasing text.",
+    "longDescription": "# Rewordly AI\nSimplifies content with text summarization and rephrasing tools:\n\n- Supports academic, professional, and creative use cases\n- Ensures clarity and conciseness in written content\n- Ideal for researchers and content creators.",
+    "url": "https://www.rewordly.com/",
+    "category": "AI Writing & Editing",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "comments": []
+  },
+  "rokoko-vision": {
+    "comments": [],
+    "name": "Rokoko Vision",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Motion Capture",
+      "Animation",
+      "Game Development"
+    ],
+    "category": "AI Video & Animation",
+    "longDescription": "# Rokoko Vision \nEnables users to capture motion data using AI:\nIdeal for animators and game developers needing accurate motion tracking.\nOffers a user-friendly interface for quick setup and use.",
+    "url": "https://rokoko.com",
+    "shortDescription": "Real-time full-body motion capture solution."
+  },
+  "run.ai": {
+    "shortDescription": "AI platform for optimizing compute resources in machine learning.",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "longDescription": "# Run.ai\nEmpowers organizations to fully utilize AI infrastructure:\n\n- Provides dynamic resource management for machine learning workloads\n- Optimizes GPU usage across multiple teams and projects\n- Ideal for companies aiming to maximize AI infrastructure efficiency.",
+    "url": "https://www.run.ai/",
+    "name": "Run.ai",
+    "category": "AI Coding & Development",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Infrastructure",
+      "Optimization"
+    ]
+  },
+  "runway-ai": {
+    "category": "AI Art & Design",
+    "url": "https://runwayml.com/",
+    "tags": [
+      "AI",
+      "Video Editing",
+      "Image Generation",
+      "Design"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "shortDescription": "Creative AI suite for video and image editing.",
+    "upvotes": 0,
+    "name": "Runway AI",
+    "longDescription": "# Runway AI\nEmpowers creators with cutting-edge editing tools:\n\n- Supports AI-based video editing, image generation, and animation\n- Includes real-time collaboration features\n- Ideal for filmmakers, designers, and artists."
+  },
+  "runway-gen-3": {
+    "longDescription": "# Runway Gen-3\n\nCutting-edge video creation technology with:\n\n- Text-to-video generation\n- Advanced editing capabilities\n- Photorealistic rendering\n- Complex motion understanding",
+    "category": "Creative Writing",
+    "upvotes": 0,
+    "shortDescription": "Advanced AI video generation and manipulation platform",
+    "launchDate": "2024-12-17",
+    "name": "Runway Gen-3",
+    "url": "https://runwayml.com/ai-tools/",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Creativity",
+      "Editing"
+    ]
+  },
+  "rytr": {
+    "upvotes": 0,
+    "shortDescription": "AI writing assistant for content creation.",
+    "category": "Writing",
+    "longDescription": "# Rytr\nHelps users generate high-quality content quickly:\nSupports various writing styles and tones\nIdeal for blog posts, emails, and social media content\nUser-friendly interface with easy editing features.",
+    "launchDate": "2024-12-17",
+    "name": "Rytr",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Writing",
+      "Content Creation",
+      "Blogging"
+    ],
+    "url": "https://rytr.me/"
+  },
+  "salesai": {
+    "url": "https://www.salesai.com/",
+    "category": "Sales Enablement",
+    "shortDescription": "AI platform for sales forecasting and optimization.",
+    "upvotes": 0,
+    "longDescription": "# SalesAI\nEmpowers sales teams with AI insights:\n\n- Predicts sales trends and customer behavior\n- Automates lead generation and follow-ups\n- Perfect for sales managers and representatives.",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Sales Forecasting",
+      "Optimization"
+    ],
+    "name": "SalesAI",
+    "comments": []
+  },
+  "scribe": {
+    "shortDescription": "AI tool that automates documentation processes.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Documentation",
+      "Automation",
+      "Workflows"
+    ],
+    "category": "Productivity",
+    "upvotes": 0,
+    "url": "https://scribehow.com/",
+    "launchDate": "2024-12-17",
+    "name": "Scribe",
+    "longDescription": "# Scribe\nCreates detailed documentation automatically:\nCaptures workflows in real-time.\nIdeal for teams needing efficient documentation solutions.\nIntegrates with various applications."
+  },
+  "scribeup": {
+    "category": "Finance",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Subscription Management",
+      "Finance",
+      "Insights"
+    ],
+    "upvotes": 0,
+    "url": "https://www.scribeup.io/",
+    "longDescription": "# ScribeUp\nHelps users manage subscriptions effectively:\nUses AI to track spending on subscriptions.\nProvides insights into usage patterns.\nIdeal for individuals looking to optimize their spending.",
+    "shortDescription": "Subscription management tool powered by AI.",
+    "comments": [],
+    "name": "ScribeUp"
+  },
+  "scripai": {
+    "longDescription": "# ScripAI\nEnhances screenplay writing with AI:\n\n- Suggests dialogue, plot points, and pacing\n- Collaborates with writers on scripts\n- Ideal for filmmakers and writers.",
+    "url": "https://scripai.com/",
+    "launchDate": "2024-12-17",
+    "category": "Script Writing",
+    "tags": [
+      "AI",
+      "Screenwriting",
+      "Creativity"
+    ],
+    "name": "ScripAI",
+    "shortDescription": "AI-powered screenwriting assistant.",
+    "upvotes": 0,
+    "comments": []
+  },
+  "sdl": {
+    "comments": [],
+    "name": "SDL",
+    "url": "https://www.sdl.com/",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "longDescription": "# SDL\nAI Powered Language Translation\nBe understood anywhere, in any language\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "shortDescription": "AI-powered language translation tool ",
+    "launchDate": "2024-12-17"
+  },
+  "sentinelone-purple-ai": {
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Cybersecurity",
+    "tags": [
+      "AI",
+      "Analysis",
+      "Problem-Solving",
+      "Information"
+    ],
+    "name": "SentinelOne Purple AI",
+    "shortDescription": "AI-powered security tool for threat detection and response",
+    "longDescription": "# SentinelOne Purple AI\nAdvanced AI for cybersecurity operations:\n\nSimplified threat hunting with LLM integration\nAutonomous investigations and deep log analysis\nEnhanced productivity for security teams\nReal-time detection and response capabilities",
+    "url": "https://www.sentinelone.com/platform/purple/"
+  },
+  "sketchai-by-openart": {
+    "url": "https://openart.ai/generator/sketch",
+    "shortDescription": "AI tool for converting sketches to digital designs.",
+    "upvotes": 0,
+    "category": "Graphic Design",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# SketchAI\nTransforms hand-drawn sketches into polished digital designs:\n\n- Ideal for architects, designers, and illustrators\n- Offers integration with CAD and 3D modeling tools\n- Saves time in the conceptual design process.",
+    "name": "SketchAI by OpenArt",
+    "tags": [
+      "AI",
+      "Sketching",
+      "Design",
+      "Creative"
+    ]
+  },
+  "slack-gpt": {
+    "name": "Slack GPT",
+    "url": "https://slack.com/features/gpt",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Communication",
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Collaboration",
+      "Efficiency"
+    ],
+    "shortDescription": "Chatbot integrated within Slack powered by GPT technology.",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Slack GPT \nEnhances team communication through smart replies:\nProvides instant answers to common queries within Slack channels.\nFacilitates efficient collaboration among team members.\nIdeal for organizations using Slack as their primary communication tool."
+  },
+  "sloyd": {
+    "tags": [
+      "AI",
+      "Customization",
+      "Game Development",
+      "Prototyping"
+    ],
+    "longDescription": "# Sloyd\nGenerates 3D models based on user-defined parameters:\n\nOffers a library of components for quick assembly\nIdeal for game developers and designers needing rapid prototyping capabilities.\nUser-friendly interface makes it accessible for beginners.",
+    "category": "3D Modeling & Design",
+    "launchDate": "2024-12-17",
+    "url": "https://www.sloyd.ai/",
+    "shortDescription": "AI-powered platform for creating customizable 3D models.",
+    "name": "Sloyd",
+    "upvotes": 0,
+    "comments": []
+  },
+  "smart-write-by-neo": {
+    "shortDescription": "AI-powered writing assistant for content creation.",
+    "comments": [],
+    "url": "https://neo.space/ai-email-writer",
+    "launchDate": "2024-12-17",
+    "category": "Writing & Content Creation",
+    "upvotes": 0,
+    "longDescription": "# Smart Write by Neo\nAssists in generating high-quality written content efficiently:\n\nIdeal for blog posts, articles, and marketing copy\nOffers suggestions for improving writing style and grammar\nStreamlines the content creation process.",
+    "tags": [
+      "AI",
+      "Writing",
+      "Content Creation",
+      "Marketing"
+    ],
+    "name": "Smart Write by Neo"
+  },
+  "smartcat": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "name": "Smartcat",
+    "url": "https://www.smartcat.ai/",
+    "comments": [],
+    "shortDescription": "AI-powered language translation tool ",
+    "category": "Translator Tools",
+    "longDescription": "# Smartcat\nAI Powered Language Translation\nOne AI translation platform for content in any language\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "upvotes": 0
+  },
+  "smartly": {
+    "category": "Marketing",
+    "name": "Smartly",
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "url": "https://smartly.io/",
+    "tags": [
+      "AI",
+      "Advertising",
+      "Marketing",
+      "Creativity"
+    ],
+    "longDescription": "# Smartly\nFacilitates creative production, campaign management, and performance measurement:\n\nGenerates dynamic ads optimized across languages and dialects\nIdeal for marketers looking to enhance their advertising strategies.",
+    "shortDescription": "AI-powered advertising platform for digital marketing.",
+    "comments": []
+  },
+  "snap": {
+    "name": "Snap",
+    "shortDescription": "Chatbot integrated into Snapchat based on OpenAI’s technology.",
+    "upvotes": 0,
+    "comments": [],
+    "category": "Social Media",
+    "longDescription": "# Snap\nAllows users to interact with an AI chatbot within the Snapchat app:\n\nEngages in conversations and learns from user feedback\nIdeal for enhancing social media interactions.",
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Social Media",
+      "Engagement"
+    ],
+    "launchDate": "2024-12-17",
+    "url": "https://newsroom.snap.com/say-hi-to-my-ai"
+  },
+  "soundraw": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Music Generation",
+      "Royalty-Free",
+      "Content Creation"
+    ],
+    "name": "Soundraw",
+    "comments": [],
+    "url": "https://soundraw.io/",
+    "shortDescription": "AI music generator for creating royalty-free tracks.",
+    "longDescription": "# Soundraw\nGenerates unique music tracks based on user preferences:\nAllows customization of genres, moods, and lengths.\nIdeal for content creators needing original music without licensing issues.",
+    "upvotes": 0,
+    "category": "Music"
+  },
+  "soundtrap-ai-studio": {
+    "shortDescription": "AI-driven music creation and editing software.",
+    "tags": [
+      "AI",
+      "Music Production",
+      "Audio Editing",
+      "Collaboration"
+    ],
+    "name": "Soundtrap AI Studio",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "upvotes": 0,
+    "longDescription": "# Soundtrap AI Studio\nRevolutionizes music production with AI:\n\n- Offers AI-generated music suggestions and sound mixing\n- Includes tools for collaborative online editing\n- Suitable for musicians, podcasters, and producers.",
+    "category": "AI Music & Audio",
+    "url": "https://www.soundtrap.com/"
+  },
+  "speechify-ai": {
+    "tags": [
+      "AI",
+      "Text-to-Speech",
+      "Accessibility",
+      "Audio"
+    ],
+    "name": "Speechify AI",
+    "longDescription": "# Speechify AI\nConverts text to natural-sounding speech for accessibility:\n\n- Supports multiple voices and languages\n- Ideal for audiobooks, articles, and presentations\n- Suitable for individuals with reading challenges.",
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI-powered text-to-speech platform.",
+    "category": "Accessibility Tools",
+    "url": "https://www.speechify.com/",
+    "launchDate": "2024-12-17"
+  },
+  "spiketrap-ai": {
+    "launchDate": "2024-12-17",
+    "longDescription": "# Spiketrap AI\nProvides insights into audience sentiment and engagement:\n\n- Monitors social media, forums, and other online platforms\n- Delivers real-time analysis for better decision-making\n- Ideal for marketers and community managers.",
+    "comments": [],
+    "upvotes": 0,
+    "name": "Spiketrap AI",
+    "shortDescription": "AI platform for sentiment and audience analysis.",
+    "category": "Big Data Analytics",
+    "tags": [
+      "AI",
+      "Sentiment Analysis",
+      "Social Media",
+      "Marketing"
+    ],
+    "url": "https://www.spiketrap.io/"
+  },
+  "spline": {
+    "url": "https://spline.design/",
+    "longDescription": "# Spline\nAllows users to create and edit 3D objects in real-time:\n\nSupports collaborative projects with team members\nIncludes interactive elements for web integration\nIdeal for designers looking to enhance their 3D modeling workflow.",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Collaboration",
+      "3D Design",
+      "Interactive"
+    ],
+    "name": "Spline",
+    "shortDescription": "Web-based 3D design tool with collaborative features.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "3D Modeling & Design"
+  },
+  "sportify-ai-coach": {
+    "comments": [],
+    "tags": [
+      "AI",
+      "Athletics",
+      "Training"
+    ],
+    "url": "https://www.sportifai.app/",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "longDescription": "# Sportify AI Coach\nOptimizes athletic performance:\n\n- Tracks player metrics and fitness levels\n- Suggests training routines based on data\n- Perfect for athletes and coaches.",
+    "category": "Sports Analysis",
+    "shortDescription": "Ultimate AI coach for athletes and trainers.",
+    "name": "Sportify AI Coach"
+  },
+  "squibler-ai-content-generator": {
+    "url": "https://www.squibler.io/ai-content-generator",
+    "category": "Content Creation",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "name": "Squibler AI Content Generator",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "longDescription": "# AI Content Generator\nAI Powered Content Generation\nGenerates high-quality content from text prompts:\n\nSupports content creation in various formats and styles\nIncludes features for content optimization and analysis\nIdeal for writers and content creators.",
+    "tags": [
+      "AI",
+      "Content Generation",
+      "Content Creation"
+    ]
+  },
+  "stable-diffusion-xl-turbo": {
+    "upvotes": 0,
+    "longDescription": "# Stable Diffusion XL Turbo\n\nOpen-source image generation platform featuring:\n\n- Ultra-fast image creation\n- Exceptional visual detail\n- Diverse artistic styles\n- Community-driven development",
+    "tags": [
+      "AI",
+      "Image Generation",
+      "Open Source",
+      "Creativity"
+    ],
+    "url": "https://stability.ai/stable-diffusion",
+    "category": "Creative Writing",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Open-source AI image generation with rapid, high-quality rendering",
+    "name": "Stable Diffusion XL Turbo",
+    "comments": []
+  },
+  "stealthgpt": {
+    "name": "StealthGPT",
+    "longDescription": "# StealthGPT\nCreates content that bypasses AI detection systems:\n\n- Designed for secure and private text generation\n- Produces human-like text for sensitive applications\n- Useful for individuals concerned about AI bias or detection.",
+    "tags": [
+      "AI",
+      "Writing",
+      "Privacy"
+    ],
+    "launchDate": "2024-12-17",
+    "url": "https://www.stealthgpt.ai/",
+    "comments": [],
+    "shortDescription": "Generates content undetectable as AI-written.",
+    "category": "AI Writing & Editing",
+    "upvotes": 0
+  },
+  "stockai": {
+    "url": "https://stockai.ai/",
+    "name": "StockAI",
+    "category": "Finance & Investing",
+    "longDescription": "# StockAI\nEmpowers investors with data-driven insights:\n\n- Analyzes market trends and patterns\n- Predicts stock movements with AI models\n- Ideal for traders and financial analysts.",
+    "comments": [],
+    "shortDescription": "AI-driven stock analysis and market predictions.",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Finance",
+      "Market Analysis"
+    ],
+    "upvotes": 0
+  },
+  "storycraft-ai": {
+    "longDescription": "# StoryCrafter AI Unleashes creativity for storytellers:Generates engaging storylines and character profilesHelps refine plots and enhance narrativesPerfect for authors, screenwriters, and game designers.",
+    "launchDate": "2024-12-17",
+    "url": "https://storycrafter.ai",
+    "name": "StoryCrafter AI",
+    "upvotes": 0,
+    "category": "Creative Writing",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Storytelling",
+      "Creative",
+      "Writing"
+    ],
+    "shortDescription": "AI for generating and enhancing creative stories."
+  },
+  "strongrfastr-healthy-eating-ai": {
+    "url": "https://www.strongrfastr.com/",
+    "tags": [
+      "AI",
+      "Nutrition",
+      "Meal Planning"
+    ],
+    "shortDescription": "AI for personalized meal and diet planning.",
+    "longDescription": "# Healthy Eating AI\nImproves nutrition planning:\n\n- Suggests meals based on dietary goals\n- Generates shopping lists with nutritional values\n- Ideal for health-conscious users.",
+    "category": "Health & Fitness",
+    "upvotes": 0,
+    "name": "StrongrFastr Healthy Eating AI",
+    "launchDate": "2024-12-17",
+    "comments": []
+  },
+  "sudowrite": {
+    "upvotes": 0,
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "url": "https://www.sudowrite.com/",
+    "category": "Content Creation",
+    "name": "Sudowrite",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# Sudowrite\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators."
+  },
+  "suno": {
+    "upvotes": 0,
+    "name": "Suno",
+    "longDescription": "# Suno\nCreates unique music compositions based on user input:\nSupports various genres and styles.\nIdeal for content creators looking to enhance their projects.\nUser-friendly interface with customization options.",
+    "tags": [
+      "AI",
+      "Music Generation",
+      "Creative",
+      "Composition"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://suno.ai/",
+    "shortDescription": "Generates music tracks using AI technology.",
+    "category": "Music"
+  },
+  "superannotate": {
+    "shortDescription": "AI-powered data annotation and labeling tool.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# SuperAnnotate\nSimplifies data preparation for AI models:\n\n- Automates labeling for large datasets\n- Supports text, image, and video data\n- Ideal for machine learning teams.",
+    "name": "SuperAnnotate",
+    "category": "Big Data Analytics",
+    "url": "https://www.superannotate.com/",
+    "tags": [
+      "AI",
+      "Data Annotation",
+      "Machine Learning"
+    ],
+    "upvotes": 0
+  },
+  "supernormal": {
+    "upvotes": 0,
+    "longDescription": "# Supernormal\nAutomates meeting documentation:\n\n- Captures and transcribes meetings in real-time\n- Generates actionable summaries\n- Integrates with major video conferencing platforms.",
+    "tags": [
+      "AI",
+      "Note-Taking",
+      "Meetings"
+    ],
+    "name": "Supernormal",
+    "shortDescription": "AI-powered meeting note taker and summarizer.",
+    "url": "https://www.supernormal.com/",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Productivity & Organization"
+  },
+  "surfer-seo": {
+    "upvotes": 0,
+    "longDescription": "# Surfer SEO\nEnhances content for higher search engine rankings:\n\n- Analyzes keywords and competitor data\n- Provides AI suggestions for content improvements\n- Ideal for digital marketers and bloggers.",
+    "name": "Surfer SEO",
+    "tags": [
+      "AI",
+      "SEO",
+      "Content Creation"
+    ],
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://www.surferseo.com/",
+    "shortDescription": "AI-powered SEO content optimization tool.",
+    "category": "Advertising & Marketing"
+  },
+  "surge-ai": {
+    "name": "Surge AI",
+    "longDescription": "# Surge AI\nEnhances machine learning with high-quality labeled datasets:\n\n- Enables custom data annotation for various use cases\n- Supports text, image, and audio labeling\n- Designed for companies building complex AI models.",
+    "upvotes": 0,
+    "shortDescription": "Data labeling platform for training AI models.",
+    "tags": [
+      "AI",
+      "Data Labeling",
+      "Machine Learning",
+      "Training Data"
+    ],
+    "url": "https://www.surge.ai/",
+    "launchDate": "2024-12-17",
+    "category": "Machine Learning",
+    "comments": []
+  },
+  "synthesia": {
+    "shortDescription": "AI video generation platform",
+    "tags": [
+      "AI",
+      "Video Generation",
+      "Content Creation",
+      "Marketing"
+    ],
+    "name": "Synthesia",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "category": "Media",
+    "longDescription": "# Synthesia\nEnables users to create videos from text:\nOffers a library of avatars and languages\nIdeal for corporate training and marketing videos\nUser-friendly interface with no video editing skills required",
+    "upvotes": 0,
+    "url": "https://www.synthesia.io/",
+    "views": 1
+  },
+  "systran": {
+    "name": "Systran",
+    "shortDescription": "AI-powered language translation tool ",
+    "launchDate": "2024-12-17",
+    "url": "https://www.systran.net/",
+    "longDescription": "# Systran\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "category": "Translator Tools",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "comments": []
+  },
+  "tallyfy": {
+    "shortDescription": "Process management software enhanced by AI features.",
+    "comments": [],
+    "longDescription": "# Tallyfy\nStreamlines business processes through automation:\nOffers templates for common workflows.\nIdeal for teams looking to improve efficiency in operations.\nIntegrates with various productivity tools.",
+    "launchDate": "2024-12-17",
+    "name": "Tallyfy",
+    "url": "https://tallyfy.com/",
+    "category": "Business Management",
+    "tags": [
+      "AI",
+      "Process Management",
+      "Automation",
+      "Efficiency"
+    ],
+    "upvotes": 0
+  },
+  "tempus": {
+    "comments": [],
+    "url": "https://www.tempus.com/",
+    "tags": [
+      "AI",
+      "Precision Medicine",
+      "Oncology",
+      "Data Analysis"
+    ],
+    "name": "Tempus",
+    "longDescription": "# Tempus\nProvides AI-driven insights for personalized cancer treatment:\nAnalyzes clinical and molecular data to tailor treatment options.\nSupports clinical decision-making with detailed reports.\nIdeal for oncologists seeking to improve patient outcomes.",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI platform specializing in precision medicine.",
+    "category": "Healthcare"
+  },
+  "tendiai-financial-planner": {
+    "longDescription": "# TendiAI Financial Planner\nStreamlines financial decision-making:\n\n- Tracks expenses and income trends\n- Suggests budgeting strategies\n- Ideal for individuals and small businesses.",
+    "tags": [
+      "AI",
+      "Finance",
+      "Budgeting"
+    ],
+    "url": "https://tendi.ai/",
+    "comments": [],
+    "upvotes": 0,
+    "shortDescription": "AI assistant for personal finance management.",
+    "name": "TendiAI Financial Planner",
+    "category": "Finance & Investing",
+    "launchDate": "2024-12-17"
+  },
+  "text-cortex": {
+    "category": "Content Creation",
+    "upvotes": 0,
+    "comments": [],
+    "name": "Text Cortex",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "longDescription": "# Text Cortex\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "url": "https://textcortex.com/",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "launchDate": "2024-12-17"
+  },
+  "text-united": {
+    "longDescription": "# Text United\nAI Powered Language Translation\nSupervised AI Translation,Refined by Humans\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered Tranlation platform.",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "category": "Translator Tools",
+    "url": "https://textunited.com/",
+    "comments": [],
+    "name": "Text United"
+  },
+  "texta": {
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "longDescription": "# Texta\nOne Click Blog Post Generator\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "name": "Texta",
+    "category": "Content Creation",
+    "url": "https://www.texta.ai/",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "upvotes": 0
+  },
+  "tidio-ai": {
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Customer Support",
+      "E-commerce"
+    ],
+    "shortDescription": "Chatbot platform powered by AI technology.",
+    "url": "https://www.tidio.com/",
+    "name": "Tidio AI",
+    "longDescription": "# Tidio AI\nEnhances customer service through automated responses:\nIntegrates with websites to provide real-time support.\nCustomizable chatbot options available.\nIdeal for e-commerce businesses looking to improve customer engagement.",
+    "category": "Customer Service",
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "upvotes": 0
+  },
+  "tome": {
+    "longDescription": "# Tome\n      \n      Narrative-driven content and presentation generator:\n      \n      - AI-powered storytelling\n      - Interactive presentations\n      - Multimedia content creation\n      - Intelligent design assistance",
+    "tags": [
+      "AI",
+      "Creative",
+      "Writing"
+    ],
+    "launchDate": "2024-12-17",
+    "category": "Productivity",
+    "url": "https://tome.app",
+    "name": "Tome",
+    "shortDescription": "AI-generated storytelling and presentation tool",
+    "comments": [],
+    "upvotes": 0
+  },
+  "transifex": {
+    "url": "https://www.transifex.com/",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "AI-powered language translation tool ",
+    "upvotes": 0,
+    "name": "Transifex",
+    "category": "Translator Tools",
+    "comments": [],
+    "longDescription": "# Transifex\nScale globally with fit-for-purpose, on-brand translations that drive business growth.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "translatorscafé": {
+    "upvotes": 0,
+    "shortDescription": "Directory of Translators, Interpreters and Translation Agencies! ",
+    "url": "https://translatorscafe.com/",
+    "category": "Translator Tools",
+    "longDescription": "# TranslatorsCafé\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "name": "TranslatorsCafé",
+    "launchDate": "2024-12-17",
+    "comments": []
+  },
+  "travelmate-ai": {
+    "category": "Travel Planning",
+    "launchDate": "2024-12-17",
+    "url": "https://travelmate.ai/",
+    "comments": [],
+    "shortDescription": "AI travel assistant for planning and recommendations.",
+    "tags": [
+      "AI",
+      "Travel",
+      "Assistant",
+      "Itinerary"
+    ],
+    "longDescription": "# TravelMate AI\nSimplifies trip planning:\n\nSuggests personalized travel itineraries and experiences\nHandles bookings, budgeting, and real-time assistance\nIdeal for adventurers and frequent travelers.",
+    "upvotes": 0,
+    "name": "TravelMate AI"
+  },
+  "trello": {
+    "upvotes": 0,
+    "shortDescription": "Project management tool enhanced by AI features.",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Task Management",
+      "Collaboration",
+      "Productivity"
+    ],
+    "category": "Project Management",
+    "url": "https://trello.com/",
+    "longDescription": "# Trello \nOrganizes tasks visually using boards:\nAutomated task assignments based on team workload.\nIntegrates with various apps to streamline workflows.\nIdeal for teams looking to enhance collaboration.",
+    "name": "Trello",
+    "launchDate": "2024-12-17"
+  },
+  "tripai-planner": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Travel",
+      "Personalization"
+    ],
+    "upvotes": 0,
+    "url": "https://trip-ai.com/",
+    "shortDescription": "AI tool for trip and itinerary planning.",
+    "longDescription": "# TripAI Planner\nSimplifies travel planning with AI:\n\n- Suggests personalized itineraries\n- Optimizes travel schedules and budgets\n- Perfect for frequent travelers and vacationers.",
+    "category": "Travel Planning",
+    "name": "TripAI Planner",
+    "comments": []
+  },
+  "turing-ai": {
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Recruitment",
+      "Software Development"
+    ],
+    "url": "https://www.turing.com/",
+    "name": "Turing AI",
+    "comments": [],
+    "longDescription": "# Turing AI\nEmpowers developers with AI solutions:\n\n- Matches companies with pre-vetted software developers\n- Uses AI to optimize the hiring process\n- Ideal for scaling tech teams.",
+    "shortDescription": "AI-driven IT and software development tools.",
+    "launchDate": "2024-12-17",
+    "category": "AI Coding & Development"
+  },
+  "typli-ai": {
+    "category": "Content Creation",
+    "upvotes": 0,
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://typli.ai/ai-content-generator",
+    "longDescription": "# Typli AI\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "name": "Typli AI",
+    "shortDescription": "AI-powered content generation tool for writers and marketers.",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ]
+  },
+  "uizard": {
+    "category": "Design",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Prototyping",
+      "Collaboration",
+      "Design"
+    ],
+    "comments": [],
+    "url": "https://uizard.io/",
+    "shortDescription": "AI-powered design tool for rapid prototyping",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Uizard\nTransforms sketches into digital prototypes:\nEasy-to-use interface for non-designers\nSupports collaboration among team members\nAccelerates the design process from concept to prototype",
+    "name": "Uizard"
+  },
+  "undetectable-ai": {
+    "upvotes": 0,
+    "category": "AI Writing & Editing",
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "url": "https://www.undetectable.ai/",
+    "longDescription": "# Undetectable AI\nRefines AI-generated text to appear natural:\n\n- Bypasses AI detection tools\n- Optimizes content for human-like readability\n- Ideal for sensitive or regulated industries.",
+    "name": "Undetectable AI",
+    "shortDescription": "Transforms AI content to appear human-written.",
+    "tags": [
+      "AI",
+      "Text Optimization",
+      "Privacy"
+    ]
+  },
+  "upword-ai": {
+    "tags": [
+      "AI",
+      "Summarization",
+      "Collaboration",
+      "Document Analysis"
+    ],
+    "shortDescription": "AI tool for summarizing and annotating documents.",
+    "url": "https://www.upword.ai/",
+    "category": "AI Writing & Editing",
+    "upvotes": 0,
+    "comments": [],
+    "launchDate": "2024-12-17",
+    "name": "UpWord AI",
+    "longDescription": "# UpWord AI\nStreamlines document analysis and summarization:\n\n- Extracts key insights from lengthy reports\n- Includes annotation tools for easy collaboration\n- Perfect for students, researchers, and business professionals."
+  },
+  "vast-data's-insightengine": {
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "category": "Data Management",
+    "url": "https://vastdata.com/",
+    "shortDescription": "AI tool for data management and insights.",
+    "name": "Vast Data's InsightEngine",
+    "comments": [],
+    "longDescription": "# Vast Data's InsightEngine\nRevolutionizes data storage and retrieval:\n\nUses AI to analyze large datasets for actionable insights\nOptimizes data management processes for enterprises\nFacilitates faster decision-making through advanced analytics\nIdeal for organizations managing vast amounts of data.",
+    "tags": [
+      "AI",
+      "Data Analysis",
+      "Insights",
+      "Management"
+    ]
+  },
+  "verifika": {
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "url": "https://e-verifika.com/",
+    "shortDescription": "AI-powered QA Terminology",
+    "name": "Verifika",
+    "longDescription": "# Verifika\nAI Powered Language Translation\nride the wave of exponentially growing volume of translations.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "category": "Translator Tools",
+    "upvotes": 0
+  },
+  "vidify-ai": {
+    "tags": [
+      "AI",
+      "Video Editing",
+      "Automation"
+    ],
+    "shortDescription": "AI-powered video editing tool.",
+    "comments": [],
+    "name": "Vidify AI",
+    "upvotes": 0,
+    "url": "https://www.letsvidify.com/",
+    "launchDate": "2024-12-17",
+    "category": "Video Editing",
+    "longDescription": "# Vidify AI\nSimplifies video editing with AI:\n\n- Automates clip selection and transitions\n- Enhances videos with AI effects\n- Perfect for marketers and creators."
+  },
+  "vista-social": {
+    "comments": [],
+    "longDescription": "# Vista Social\nEnhances social media strategies:\n\n- Schedules posts and tracks engagement\n- Uses AI for content recommendations\n- Perfect for social media managers.",
+    "upvotes": 0,
+    "category": "Social Media Management",
+    "launchDate": "2024-12-17",
+    "url": "https://www.vistasocial.com/",
+    "tags": [
+      "AI",
+      "Social Media",
+      "Analytics"
+    ],
+    "shortDescription": "AI social media management tool with analytics.",
+    "name": "Vista Social"
+  },
+  "visualforge": {
+    "tags": [
+      "AI",
+      "Art Creation",
+      "Design",
+      "Visuals"
+    ],
+    "url": "https://visionforgeai.com/",
+    "name": "VisualForge",
+    "views": 2,
+    "comments": [],
+    "longDescription": "# VisualForge\nEmpowers artists with AI-generated visuals:\n\nCreates intricate and original artwork from text prompts\nOffers tools for refinement and customization\nPerfect for artists, designers, and marketers.",
+    "shortDescription": "AI tool for creating unique visual art pieces.",
+    "upvotes": 0,
+    "category": "AI Art & Design",
+    "launchDate": "2024-12-17"
+  },
+  "viz.ai": {
+    "comments": [],
+    "longDescription": "# Viz.ai\nRevolutionizing stroke diagnosis and treatment:\nReal-time imaging analysis for stroke detection.\nStreamlined communication between healthcare providers.\nEnhances patient outcomes through timely interventions.\nIntegrates with existing hospital systems.",
+    "upvotes": 0,
+    "category": "Healthcare",
+    "launchDate": "2024-12-17",
+    "url": "https://www.viz.ai/",
+    "tags": [
+      "AI",
+      "Healthcare",
+      "Imaging",
+      "Stroke Care"
+    ],
+    "name": "Viz.ai",
+    "shortDescription": "AI tool optimizing stroke care through imaging analysis."
+  },
+  "voicehub": {
+    "tags": [
+      "AI",
+      "Voice Cloning",
+      "Audio"
+    ],
+    "longDescription": "# VoiceHub\nCreates unique voice profiles with AI:\n\n- Clones voices for content creation\n- Offers customizable tones and accents\n- Suitable for podcasts and media production.",
+    "comments": [],
+    "shortDescription": "AI tool for voice cloning and customization.",
+    "category": "AI Voice Generation",
+    "upvotes": 0,
+    "name": "VoiceHub",
+    "launchDate": "2024-12-17",
+    "url": "https://aivoicehub.com/"
+  },
+  "voicemaker": {
+    "url": "https://www.voicemaker.in/",
+    "shortDescription": "Text-to-speech tool with customizable AI voices.",
+    "category": "AI Voice Generation",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Voicemaker\nConverts text to natural-sounding audio:\n\n- Offers multiple voice styles and tones\n- Supports over 50 languages\n- Ideal for audiobooks, e-learning, and more.",
+    "comments": [],
+    "name": "Voicemaker",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Text-to-Speech",
+      "Audio"
+    ]
+  },
+  "vologram-ai": {
+    "launchDate": "2024-12-17",
+    "comments": [],
+    "category": "Augmented Reality (AR)",
+    "name": "Vologram AI",
+    "url": "https://www.volograms.com/",
+    "longDescription": "# Vologram AI\nTransforms 2D images into holographic experiences:\n\n- Ideal for marketing and events\n- AI-powered rendering for real-time interaction\n- Integrates with AR/VR systems.",
+    "upvotes": 0,
+    "shortDescription": "AI tool for creating virtual holograms.",
+    "tags": [
+      "AI",
+      "Holograms",
+      "Marketing"
+    ]
+  },
+  "webtranslateit": {
+    "launchDate": "2024-12-17",
+    "url": "https://webtranslateit.com/",
+    "upvotes": 0,
+    "name": "WebTranslateIt",
+    "longDescription": "# WebTranslateIt\nAll-in-one translation management system for smart localization teams.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check\nIdeal for business and softwares.",
+    "comments": [],
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "AI-powered Software translation and localization."
+  },
+  "wolfram-alpha": {
+    "comments": [],
+    "upvotes": 0,
+    "longDescription": "# Wolfram Alpha\n  \n  Sophisticated computational intelligence platform:\n  \n  - Scientific computation\n  - Mathematical problem-solving\n  - Data analysis\n  - Cross-domain knowledge integration",
+    "views": 1,
+    "url": "https://www.wolframalpha.com",
+    "name": "Wolfram Alpha",
+    "launchDate": "2024-12-17",
+    "shortDescription": "Computational knowledge engine with advanced AI capabilities",
+    "category": "Information",
+    "tags": [
+      "AI",
+      "Analysis",
+      "Problem-Solving",
+      "Information"
+    ]
+  },
+  "wordfast": {
+    "name": "Wordfast",
+    "url": "https://www.wordfast.com/",
+    "comments": [],
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "shortDescription": "AI-powered language Independent translation tool",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Wordfast\nAI Powered Language Translation\nGenerates high-quality translations from text prompts:\n\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check"
+  },
+  "wordlift": {
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "category": "Content Creation",
+    "url": "https://wordlift.io/",
+    "upvotes": 0,
+    "comments": [],
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "longDescription": "# WordLift\nAI Powered SEO\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "name": "WordLift"
+  },
+  "wordtune": {
+    "tags": [
+      "AI",
+      "Writing Assistant",
+      "Content Creation"
+    ],
+    "url": "https://www.wordtune.com/",
+    "launchDate": "2024-12-17",
+    "longDescription": "# Wordtune\nGenerates high-quality content with AI-powered writing assistant:\n\nSupports content creation for various industries\nIncludes features for grammar and spell check\nIdeal for writers and content creators.",
+    "shortDescription": "AI-powered writing assistant for writers and marketers.",
+    "comments": [],
+    "upvotes": 0,
+    "name": "Wordtune",
+    "category": "Content Creation"
+  },
+  "writer.com": {
+    "tags": [
+      "AI",
+      "Content Creation",
+      "Collaboration"
+    ],
+    "category": "AI Writing & Editing",
+    "url": "https://www.writer.com/",
+    "name": "Writer.com",
+    "longDescription": "# Writer.com\nStreamlines collaborative content creation:\n\n- AI-assisted writing tailored for teams\n- Features include grammar checks and style optimization\n- Integrates with major work tools.",
+    "launchDate": "2024-12-17",
+    "shortDescription": "AI-powered content generation for teams.",
+    "comments": [],
+    "upvotes": 0
+  },
+  "writesonic": {
+    "name": "Writesonic",
+    "shortDescription": "AI content writing and generation platform",
+    "tags": [
+      "AI",
+      "Writing",
+      "Productivity"
+    ],
+    "launchDate": "2024-12-17",
+    "url": "https://writesonic.com",
+    "upvotes": 0,
+    "comments": [],
+    "longDescription": "# Writesonic\n      \n      Comprehensive AI writing tool for various content needs:\n      \n      - Article and blog generation\n      - Product description writing\n      - Ad copy creation\n      - Multilingual content support",
+    "category": "Writing"
+  },
+  "xembly": {
+    "url": "https://www.youtube.com/@TeamXembly",
+    "longDescription": "# Xembly\nStreamlines meeting workflows with AI assistance:\n\n- Automates meeting notes, follow-ups, and scheduling\n- Integrates with calendars and collaboration tools\n- Ideal for teams aiming to enhance productivity.",
+    "launchDate": "2024-12-17",
+    "category": "AI Assistants",
+    "tags": [
+      "AI",
+      "Meetings",
+      "Scheduling",
+      "Productivity"
+    ],
+    "upvotes": 0,
+    "comments": [],
+    "name": "Xembly",
+    "shortDescription": "AI executive assistant for meeting management."
+  },
+  "xtm": {
+    "upvotes": 0,
+    "category": "Translator Tools",
+    "name": "XTM",
+    "url": "https://www.xtm.cloud/",
+    "longDescription": "# XTM\nAI Powered Language Translation\nPut an end to manual, disconnected, and inefficient translation processes.\nSupports language translation in various formats and styles\nIncludes features for grammar and spell check",
+    "shortDescription": "AI-powered Localization software.",
+    "launchDate": "2024-12-17",
+    "tags": [
+      "AI",
+      "Language Translation",
+      "Translator Tools"
+    ],
+    "comments": []
+  },
+  "youper": {
+    "comments": [],
+    "url": "https://youper.ai/",
+    "upvotes": 0,
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Mental Health",
+      "Wellness"
+    ],
+    "shortDescription": "Mental health-focused AI chatbot.",
+    "longDescription": "# Youper\nEngages users in conversations about emotional struggles:\n\nOffers personalized advice and coping techniques\nIncludes mood tracking and mindfulness exercises\nIdeal for individuals seeking mental wellness support.",
+    "launchDate": "2024-12-17",
+    "category": "Mental Health",
+    "name": "Youper"
+  },
+  "zapier-central": {
+    "shortDescription": "AI workspace for creating custom assistants.",
+    "launchDate": "2024-12-17",
+    "url": "https://zapier.com/central",
+    "longDescription": "# Zapier Central\nExperimental AI workspace to teach assistants across apps:\n\nIntegrates with thousands of apps like HubSpot and Notion\nAutomates tasks without writing code\nAnalyzes data and drafts responses to customers\nMini-teammates for specific tasks like spreadsheet analysis",
+    "tags": [
+      "AI",
+      "Automation",
+      "Data Analysis",
+      "Productivity"
+    ],
+    "name": "Zapier Central",
+    "comments": [],
+    "category": "Productivity",
+    "upvotes": 0
+  },
+  "zappi-ai": {
+    "tags": [
+      "AI",
+      "Market Research",
+      "Insights",
+      "Advertising"
+    ],
+    "shortDescription": "AI platform for consumer insights and market research.",
+    "category": "Advertising & Marketing",
+    "name": "Zappi AI",
+    "url": "https://www.zappi.io/",
+    "comments": [],
+    "upvotes": 0,
+    "launchDate": "2024-12-17",
+    "longDescription": "# Zappi AI\nDelivers actionable consumer insights powered by AI:\n\n- Automates survey analysis and data collection\n- Provides predictions for marketing success\n- Suitable for businesses optimizing campaigns."
+  },
+  "zendiary-ai": {
+    "launchDate": "2024-12-17",
+    "upvotes": 0,
+    "longDescription": "# ZenDiary AI\nCombines AI with mindfulness practices:\n\n- Suggests prompts for journaling\n- Tracks mental health trends\n- Ideal for personal growth enthusiasts.",
+    "name": "ZenDiary AI",
+    "category": "Mental Health & Wellness",
+    "comments": [],
+    "url": "https://zendiary.in/",
+    "tags": [
+      "AI",
+      "Mindfulness",
+      "Self-Improvement"
+    ],
+    "shortDescription": "AI-driven mindfulness and journaling assistant."
+  }
+}
