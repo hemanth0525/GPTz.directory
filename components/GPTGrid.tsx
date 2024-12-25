@@ -121,9 +121,9 @@ export default function GPTGrid() {
   )
 
   return (
-    <div className="space-y-4 sm:space-y-8">
-      <div className="flex flex-col items-center gap-4 mb-4 sm:mb-8">
-        <div className="w-full max-w-[300px] sm:max-w-none">
+    <div className="space-y-8">
+      <div className="flex flex-col items-center mb-8">
+        <div className="flex items-center mb-4">
           <div className="relative">
             <Search id='explore' className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
             <Input
@@ -131,7 +131,7 @@ export default function GPTGrid() {
               placeholder={`Search in ${gptCount} GPTs...`}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 w-full"
+              className="pl-10 w-[300px]"
             />
           </div>
         </div>
