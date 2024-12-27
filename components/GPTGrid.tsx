@@ -37,26 +37,33 @@ export default function GPTGrid() {
       }))
       const categoriesSet = new Set<string>(['All'])
 
-      gptsData.forEach(async (gpt) => {
+      const updatedGptsData = await Promise.all(
+        gptsData.map(async (gpt) => {
+          try {
+            const docRef = doc(db, 'gpts_live', gpt.id)
+            const docSnap = await getDoc(docRef)
+            if (docSnap.exists()) {
+              const document = docSnap.data()
+              return { ...gpt, upvotes: document.upvotes }
+            }
+            return gpt
+          } catch (e) {
+            console.error('Error getting document:', e)
+            return gpt
+          }
+        })
+      )
+
+      gptsData.forEach(gpt => {
         if (gpt.category && typeof gpt.category === 'string') {
           categoriesSet.add(gpt.category)
-        }
-        try {
-          const docRef = doc(db, 'gpts_live', gpt.id)
-          const docSnap = await getDoc(docRef)
-          if (docSnap.exists()) {
-            const document = docSnap.data()
-            gpt.upvotes = document.upvotes
-          }
-        } catch (e) {
-          console.error('Error getting document:', e)
         }
       })
 
       const roundedCount = `${Math.floor(gptsData.length / 50) * 50}+`
       setGptCount(roundedCount)
 
-      setGpts(gptsData)
+      setGpts(updatedGptsData)
       setCategories(Array.from(categoriesSet))
     } catch (error) {
       console.error("Error fetching GPTs:", error)
