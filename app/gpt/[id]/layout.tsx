@@ -12,14 +12,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!gpt) {
         return {
-            title: 'GPT Not Found | GPTz.directory'
+            title: 'GPT Not Found | GPTz.directory',
+            description: 'The requested GPT tool could not be found on GPTz.directory.'
         }
     }
 
     return {
         title: `${gpt.name} - ${gpt.shortDescription} | GPTz.directory`,
+        description: gpt.shortDescription || 'Explore the latest GPT tools on GPTz.directory.',
+        keywords: gpt.keywords?.join(', ') || 'AI, GPT, tools, AI tools, GPTz.directory',
+        openGraph: {
+            title: gpt.name,
+            description: gpt.shortDescription || 'Explore the latest GPT tools on GPTz.directory.',
+            url: `https://gptz.directory/gpt/${params.id}`
+        },
     }
 }
+
 
 export default function GPTLayout({
     children,
