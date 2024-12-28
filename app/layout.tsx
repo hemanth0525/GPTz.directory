@@ -38,6 +38,7 @@ export default function RootLayout({
         </Script>
         <script async data-cfasync="false" src="//pl25354561.profitablecpmrate.com/9fa17e65afd06a9c8b61c435fc6b42cb/invoke.js"></script>
         <meta name="google-adsense-account" content="ca-pub-3773415798595784"></meta>
+        <meta name="google-site-verification" content="Z1dhAXlv25IGTL35PzUSP4DKBBggoVJu4WR-43qPpGs" />
       </head>
       <body className={spaceGrotesk.className}>
         <AuthProvider>
