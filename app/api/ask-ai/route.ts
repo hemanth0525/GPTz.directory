@@ -88,6 +88,7 @@ Requirements:
 - Understand the user query and provide relevant recommendations even if they are not exact matches or have typos or synonyms or related terms or concepts or ideas
 - Confidence should be between 0 and 1
 - Ensure each recommendation has all required fields
+- If you dont find any related GPTs on our list just provide empty json
 - Ensure you don't address the user as user just say your ( for eg: instead of saying "Based on the user query" say "Based on your query", so you are directly interacting with the user )
 `;
 
