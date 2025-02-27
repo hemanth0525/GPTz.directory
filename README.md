@@ -576,6 +576,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 ## Productivity & Organization 
 
 - [Bardeen AI](https://gptz.directory/gpt/bardeen-ai)
+- [ChatGPT Chain Prompts - Free Automated Message Queue](https://gptz.directory/gpt/chatgpt-chain-prompts-free-automated-message-queue)
 - [EventBrite AI](https://gptz.directory/gpt/eventbrite-ai)
 - [Glasp AI](https://gptz.directory/gpt/glasp-ai)
 - [PlanimoAI Scheduler](https://gptz.directory/gpt/planimoai-scheduler)
