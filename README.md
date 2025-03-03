@@ -620,6 +620,7 @@ A curated directory of AI tools and GPTs, helping you discover and explore the l
 
 ## Social Media Management 
 
+- [CapshunIt](https://gptz.directory/gpt/capshunit)
 - [Vista Social](https://gptz.directory/gpt/vista-social)
 
 ## Sports Analysis 
