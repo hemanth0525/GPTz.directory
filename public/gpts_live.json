@@ -684,6 +684,22 @@
     "url": "https://openai.com/api/",
     "comments": []
   },
+  "chatgpt-chain-prompts-free-automated-message-queue": {
+    "upvotes": 0,
+    "tags": [
+      "Assistant",
+      "Automation",
+      "Chat",
+      "Productivity"
+    ],
+    "comments": [],
+    "category": "Productivity & Organization",
+    "name": "ChatGPT Chain Prompts - Free Automated Message Queue",
+    "shortDescription": "Free and unlimited prompt chains / chat queues for ChatGPT",
+    "url": "https://chromewebstore.google.com/detail/chatgpt-chain-prompts-fre/hodfgcibobkhglakhbjfobhhjdliojio",
+    "launchDate": "2025-02-27T20:44:55.572Z",
+    "longDescription": "🌟 ChatGPT Chain Prompts: Revolutionize Your AI Conversations 🚀 Streamline your ChatGPT experience with automatic sequential prompts that save time and boost productivity! ✨ Key Features ✅ 100% Free – No hidden costs or premium restrictions ✅ Unlimited Prompt Chains – Save and reuse as many sequences as you need ✅ Custom Separators – Organize prompts with newlines, dashes, or any format you prefer ✅ Unlimited Storage – Never lose your favorite prompt chains ✅ Smart Automation – Automatically detects when ChatGPT is ready for the next prompt ✅ Edit & Customize – Effortlessly modify saved chains ✅ User-Friendly Interface – Clean, intuitive design for smooth workflows 🎯 Perfect For 📚 Complex multi-step queries 🎓 Educational tutorials 🔍 Research workflows ✍️ Content creation 💻 Programming assistance 📝 Story development ⚡ Save Time, Boost Productivity Transform your ChatGPT interactions with automated prompt chaining! Install now and supercharge your workflow!"
+  },
   "chatpdf": {
     "tags": [
       "AI",

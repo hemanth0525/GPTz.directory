@@ -143,6 +143,12 @@ export default function AdminDashboard() {
             gptName: submission.name,
             gptId: submission.id,
             category: submission.category,
+            tags: submission.tags,
+            shortDescription: submission.shortDescription,
+            longDescription: submission.longDescription,
+            url: submission.url,
+            launchDate: new Date().toISOString(),
+            upvotes: 0,
           }),
         });
 
