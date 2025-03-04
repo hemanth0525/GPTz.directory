@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     return {
-        title: `${gpt.name} - ${gpt.shortDescription} | GPTz.directory`,
+        title: `${gpt.name} | GPTz.directory`,
         description: gpt.shortDescription || 'Explore the latest GPT tools on GPTz.directory.',
         keywords: gpt.keywords?.join(', ') || 'AI, GPT, tools, AI tools, GPTz.directory',
         openGraph: {
